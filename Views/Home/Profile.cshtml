@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "Profile";
+}
+
+@model HairCareStore.Models.User
+
+
+<section class="books-detail">
+    <h3 class="section-title  fw-bold text-center">
+        Profile Information
+    </h3>
+    <div class="container">
+        <div class="row">
+            <div class="col-5 image-profile">
+
+                <img class="img-fluid" src="@Url.Content("~/img/Users/"+Model.Avatar)">
+            </div>
+            <div class="col-7 image-profile">
+                <div class="book-info">
+                    <p><span>Full Name: </span>@Model.Fullname</p>
+                    <p><span>Description: </span>@Model.Description</p>
+                    <p><span>Email: </span>@Model.Email</p>
+                    <p><span>Phone: </span>@Model.Phone</p>
+                    <p><span>Adress: </span>@Model.Address</p>
+                    <a href="@Url.Action("EditProfile","Home", new { id = Model.UserId })" class="btn btn-primary">Edit Detail</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
