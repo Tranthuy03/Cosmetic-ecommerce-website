@@ -297,6 +297,10 @@
       "PackagePath": "staticwebassets\\img\\vegetable-item-6.jpg"
     },
     {
+      "Id": "D:\\Project B\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.HairCareStore.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },

@@ -6069,6 +6069,88 @@
           "Value": "sha256-CO+OjTs33aAXqILYPqS7+I/G52S+zPg+47Km3kPb7x4="
         }
       ]
+    },
+    {
+      "Route": "js/main.js",
+      "AssetFile": "js/main.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3767"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VHltInGAi4lGKWosTKRMyj7LuXYH7moxwHZsjpkM9IQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Jun 2025 14:06:17 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VHltInGAi4lGKWosTKRMyj7LuXYH7moxwHZsjpkM9IQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/main.kgkrxe6v73.js",
+      "AssetFile": "js/main.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3767"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VHltInGAi4lGKWosTKRMyj7LuXYH7moxwHZsjpkM9IQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Jun 2025 14:06:17 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kgkrxe6v73"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VHltInGAi4lGKWosTKRMyj7LuXYH7moxwHZsjpkM9IQ="
+        },
+        {
+          "Name": "label",
+          "Value": "js/main.js"
+        }
+      ]
     }
   ]
 }

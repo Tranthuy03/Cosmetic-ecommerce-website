@@ -71,3 +71,4 @@ wwwroot\img\vegetable-item-3.png
 wwwroot\img\vegetable-item-4.jpg
 wwwroot\img\vegetable-item-5.jpg
 wwwroot\img\vegetable-item-6.jpg
+wwwroot\js\main.js

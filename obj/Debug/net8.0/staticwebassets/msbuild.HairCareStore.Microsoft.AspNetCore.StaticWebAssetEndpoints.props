@@ -888,5 +888,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-CO\u002BOjTs33aAXqILYPqS7\u002BI/G52S\u002BzPg\u002B47Km3kPb7x4="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"35535"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022CO\u002BOjTs33aAXqILYPqS7\u002BI/G52S\u002BzPg\u002B47Km3kPb7x4=\u0022"},{"Name":"Last-Modified","Value":"Wed, 22 Oct 2025 05:59:07 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/js/main.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\main.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-VHltInGAi4lGKWosTKRMyj7LuXYH7moxwHZsjpkM9IQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3767"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022VHltInGAi4lGKWosTKRMyj7LuXYH7moxwHZsjpkM9IQ=\u0022"},{"Name":"Last-Modified","Value":"Fri, 13 Jun 2025 14:06:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/js/main.kgkrxe6v73.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\main.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kgkrxe6v73"},{"Name":"integrity","Value":"sha256-VHltInGAi4lGKWosTKRMyj7LuXYH7moxwHZsjpkM9IQ="},{"Name":"label","Value":"_content/HairCareStore/js/main.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3767"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022VHltInGAi4lGKWosTKRMyj7LuXYH7moxwHZsjpkM9IQ=\u0022"},{"Name":"Last-Modified","Value":"Fri, 13 Jun 2025 14:06:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>
