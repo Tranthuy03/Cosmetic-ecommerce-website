@@ -13,9 +13,7 @@ namespace HairCareStore.Controllers
         {
             _context = context;
         }
-        const string CART_KEY = "MYCART";
-
-        public List<CartItem> Cart => HttpContext.Session.Get<List<CartItem>>(CART_KEY) ?? new List<CartItem>();
+        public List<CartItem> Cart => HttpContext.Session.Get<List<CartItem>>(MySetting.CART_KEY) ?? new List<CartItem>();
 
         public IActionResult Index()
         {
@@ -47,8 +45,19 @@ namespace HairCareStore.Controllers
             else {
                 item.Quantity += quantity;
             }
-            HttpContext.Session.Set(CART_KEY, tempCart);
+            HttpContext.Session.Set(MySetting.CART_KEY, tempCart);
 
+                return RedirectToAction("Index");
+        }
+        public IActionResult RemoveCart(int id)
+        {
+            var tempCart = Cart;
+            var item = tempCart.SingleOrDefault(p => p.ProductId == id);
+            if (item != null)
+            {
+                tempCart.Remove(item);
+                HttpContext.Session.Set(MySetting.CART_KEY, tempCart);
+            }
                 return RedirectToAction("Index");
         }
     }

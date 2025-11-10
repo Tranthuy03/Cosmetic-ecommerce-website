@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+dEHfqgeVRmUUOiKNnXPHs7u97cUQrLov4fMS/g5zgE=",
+  "Hash": "xJRTKRWpCZP/9OMvvaQpyuOUkbfRX4jaabVnHzRxDcQ=",
   "Source": "HairCareStore",
   "BasePath": "_content/HairCareStore",
   "Mode": "Default",
@@ -1590,6 +1590,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\vegetable-item-6.jpg"
+    },
+    {
+      "Identity": "D:\\Project B\\wwwroot\\js\\main.js",
+      "SourceId": "HairCareStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Project B\\wwwroot\\",
+      "BasePath": "_content/HairCareStore",
+      "RelativePath": "js/main#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kgkrxe6v73",
+      "Integrity": "VHltInGAi4lGKWosTKRMyj7LuXYH7moxwHZsjpkM9IQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\main.js"
     }
   ],
   "Endpoints": [
@@ -7740,6 +7761,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-CO+OjTs33aAXqILYPqS7+I/G52S+zPg+47Km3kPb7x4="
+        }
+      ]
+    },
+    {
+      "Route": "js/main.js",
+      "AssetFile": "D:\\Project B\\wwwroot\\js\\main.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3767"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VHltInGAi4lGKWosTKRMyj7LuXYH7moxwHZsjpkM9IQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Jun 2025 14:06:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VHltInGAi4lGKWosTKRMyj7LuXYH7moxwHZsjpkM9IQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/main.kgkrxe6v73.js",
+      "AssetFile": "D:\\Project B\\wwwroot\\js\\main.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3767"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VHltInGAi4lGKWosTKRMyj7LuXYH7moxwHZsjpkM9IQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Jun 2025 14:06:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kgkrxe6v73"
+        },
+        {
+          "Name": "label",
+          "Value": "js/main.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VHltInGAi4lGKWosTKRMyj7LuXYH7moxwHZsjpkM9IQ="
         }
       ]
     }
