@@ -3,6 +3,8 @@ using HairCareStore.Models;
 using HairCareStore.Helper;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
+using HairCareStore.ViewModels;
 
 namespace HairCareStore.Controllers
 {
@@ -17,6 +19,8 @@ namespace HairCareStore.Controllers
 
         public IActionResult Index()
         {
+            var cartJson = HttpContext.Session.GetString(MySetting.CART_KEY);
+            Console.WriteLine(cartJson);
             return View(Cart);
         }
         public IActionResult AddToCart(int id, int quantity=1)
@@ -60,5 +64,26 @@ namespace HairCareStore.Controllers
             }
                 return RedirectToAction("Index");
         }
+
+
+        [Authorize]
+        public IActionResult Checkout()
+        {
+            int? userId = HttpContext.Session.GetInt32("UserId");
+            if (userId == null) return RedirectToAction("Login", "Account");
+
+            var user = _context.Users.FirstOrDefault(u => u.UserId == userId);
+            if (Cart.Count == 0) return Redirect("/");
+
+            var viewModel = new CheckoutViewModel
+            {
+                CartItems = Cart,
+                User = user
+            };
+
+            return View(viewModel);
+        }
+
+
     }
 }
