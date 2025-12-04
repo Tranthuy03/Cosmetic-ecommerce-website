@@ -1,4 +1,4 @@
-html {
+﻿html {
   font-size: 14px;
 }
 
@@ -19,4 +19,15 @@ html {
 
 body {
   margin-bottom: 60px;
+}
+/*Name of product*/
+.product-name {
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Giới hạn 2 dòng */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+h4.product-name {
+    height: 57.58px;
 }

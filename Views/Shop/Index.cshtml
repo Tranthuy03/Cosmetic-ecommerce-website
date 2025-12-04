@@ -130,23 +130,25 @@
                             @foreach (var item in ViewBag.Products)
                             {
                                 <div class="col-md-6 col-lg-6 col-xl-4">
-                                    <div class="rounded position-relative fruite-item">
-                                        <a href="@Url.Action("Index","Shop",new {id= item.CategoryId})">
-                                            <div class="fruite-img">
-                                                <img src="@Url.Content("~/img/Products/"+item.ImageUrl)" class="img-fluid w-100 rounded-top" alt="">
-                                            </div>
-                                            <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">@item.Category.Name</div>
-                                            <div class="p-4 border border-secondary border-top-0 rounded-bottom">
-                                                <h4>@item.Name</h4>
-                                                <p>@item.Description</p>
-                                                <div class="d-flex justify-content-between flex-lg-wrap">
-                                                    <p class="text-dark fs-5 fw-bold mb-0">@item.Price $</p>
-                                                    <a asp-action="AddToCart" asp-controller="Cart" asp-route-id="@item.ProductId" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
-                                                    <a href="@Url.Action("Detail","Product",new {id= item.ProductId})" class="btn border border-secondary rounded-pill px-3 text-success"><i class="fa fa-eye me-2 text-success"></i></a>
+                                    <a href="@Url.Action("Detail", "Product", new { id = item.ProductId })">
+                                        <div class="rounded position-relative fruite-item">
+                                            @* <a href="@Url.Action("Index","Shop",new {id= item.CategoryId})"> *@
+                                                <div class="fruite-img">
+                                                    <img src="@Url.Content("~/img/Products/"+item.ImageUrl)" class="img-fluid w-100 rounded-top" alt="">
                                                 </div>
-                                            </div>
-                                        </a>
-                                    </div>
+                                                <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">@item.Category.Name</div>
+                                                <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                                                    <h4 class="product-name">@item.Name</h4>
+                                                    @* <p>@item.Description</p> *@
+                                                    <div class="d-flex justify-content-between flex-lg-wrap">
+                                                        <p class="text-dark fs-5 fw-bold mb-0">@item.Price $</p>
+                                                        <a asp-action="AddToCart" asp-controller="Cart" asp-route-id="@item.ProductId" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Buy</a>
+                                                        @* <a href="@Url.Action("Detail","Product",new {id= item.ProductId})" class="btn border border-secondary rounded-pill px-3 text-success"><i class="fa fa-eye me-2 text-success"></i></a> *@
+                                                    </div>
+                                                </div>
+                                            @* </a> *@
+                                        </div>
+                                    </a>
                                 </div>
                             }
 
