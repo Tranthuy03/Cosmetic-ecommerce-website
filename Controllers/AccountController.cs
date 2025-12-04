@@ -20,15 +20,16 @@ namespace HairCareStore.Controllers
             _context = context;
         }
 
-        // GET: /Account/Login
+        [HttpGet]
+        [Route("Account/Login")]
         public IActionResult Login()
         {
             return View();
         }
 
-        // POST: /Account/Login
         [HttpPost]
-        public IActionResult Login(string email, string password)
+        [Route("Account/Login")]
+        public async Task<IActionResult> Login(string email, string password)
         {
             var user = _context.Users
                 .Include(u => u.UserRole)
@@ -50,7 +51,8 @@ namespace HairCareStore.Controllers
             claims.AddRange(user.UserRole.Select(ur => new Claim(ClaimTypes.Role, ur.Role.Name)));
             var claimsIdentity = new ClaimsIdentity(claims, "CookieAuth");
             var claimsPrincipal = new ClaimsPrincipal(claimsIdentity);
-            HttpContext.SignInAsync("CookieAuth", claimsPrincipal);
+            await HttpContext.SignInAsync("CookieAuth", claimsPrincipal);
+            HttpContext.Session.SetInt32("UserId", user.UserId);
             return RedirectToAction("Index", "Home");
         }
 

@@ -16,17 +16,20 @@ namespace HairCareStore.Controllers
             _context = context;
         }
 
-        public IActionResult Index(int? id, string searchString)
+
+        [HttpGet("/Shop/Index")]
+        public IActionResult Index(int? id, string searchString, int page = 1, int pageSize = 12)
         {
-            IQueryable<Product>
-    productsQuery = _context.Products
-    .Include(p => p.Category)
-    .Include(p => p.Brand);
+            IQueryable<Product> productsQuery = _context.Products
+                .Include(p => p.Category)
+                .Include(p => p.Brand);
+
             if (id.HasValue)
             {
                 productsQuery = productsQuery.Where(p => p.CategoryId == id);
                 ViewBag.CurrentCategory = _context.Categories.Find(id);
             }
+
             if (!string.IsNullOrEmpty(searchString))
             {
                 productsQuery = productsQuery.Where(p =>
@@ -34,12 +37,25 @@ namespace HairCareStore.Controllers
                     p.Description.Contains(searchString));
             }
 
-            ViewBag.Products = productsQuery.ToList();
-            ViewBag.Categories = _context.Categories.ToList();
+            int totalProducts = productsQuery.Count();
+
+            var products = productsQuery
+                .OrderBy(p => p.ProductId)
+                .Skip((page - 1) * pageSize)
+                .Take(pageSize)
+                .ToList();
+
+            ViewBag.Products = products;
+            ViewBag.Page = page;
+            ViewBag.PageSize = pageSize;
+            ViewBag.TotalProducts = totalProducts;
+            ViewBag.TotalPages = (int)Math.Ceiling((double)totalProducts / pageSize);
             ViewBag.CurrentSearch = searchString;
+            ViewBag.Categories = _context.Categories.ToList();
 
             return View();
         }
+
 
 
 

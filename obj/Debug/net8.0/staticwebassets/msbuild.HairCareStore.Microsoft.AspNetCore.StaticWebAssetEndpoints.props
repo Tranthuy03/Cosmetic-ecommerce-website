@@ -660,6 +660,582 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-2K4rT/nerQZHU3t4FDK3Q5h4g4T6wCKG8D0mc8iUSa0="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"47928"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00222K4rT/nerQZHU3t4FDK3Q5h4g4T6wCKG8D0mc8iUSa0=\u0022"},{"Name":"Last-Modified","Value":"Wed, 22 Oct 2025 05:59:07 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Blush_1.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Blush_1.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-jmKA7mu8uCPgGji4plG33xGnIbnGeyPsTcJtWONvfvU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"207991"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022jmKA7mu8uCPgGji4plG33xGnIbnGeyPsTcJtWONvfvU=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 16:40:04 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Blush_1.yghcef505g.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Blush_1.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"yghcef505g"},{"Name":"integrity","Value":"sha256-jmKA7mu8uCPgGji4plG33xGnIbnGeyPsTcJtWONvfvU="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Blush_1.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"207991"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022jmKA7mu8uCPgGji4plG33xGnIbnGeyPsTcJtWONvfvU=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 16:40:04 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Blush_10.96kbc5e9pi.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Blush_10.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"96kbc5e9pi"},{"Name":"integrity","Value":"sha256-4RoF/5RhIOwm3IFzJl70sJY5Ust7wJjLE7gheZDegyk="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Blush_10.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"371972"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00224RoF/5RhIOwm3IFzJl70sJY5Ust7wJjLE7gheZDegyk=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 16:40:44 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Blush_10.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Blush_10.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-4RoF/5RhIOwm3IFzJl70sJY5Ust7wJjLE7gheZDegyk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"371972"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00224RoF/5RhIOwm3IFzJl70sJY5Ust7wJjLE7gheZDegyk=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 16:40:44 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Blush_2.0oebdhbf6e.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Blush_2.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"0oebdhbf6e"},{"Name":"integrity","Value":"sha256-AGCMnBIIOt7C836ntHk1Dk8tMKU96TMlhBtOK9kfYwg="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Blush_2.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"170413"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022AGCMnBIIOt7C836ntHk1Dk8tMKU96TMlhBtOK9kfYwg=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 16:40:10 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Blush_2.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Blush_2.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-AGCMnBIIOt7C836ntHk1Dk8tMKU96TMlhBtOK9kfYwg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"170413"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022AGCMnBIIOt7C836ntHk1Dk8tMKU96TMlhBtOK9kfYwg=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 16:40:10 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Blush_3.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Blush_3.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-GZmJ/vRTvgPp7MEPKlHk3k1fFwjFpDQ24jpOU1sZqoc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"819870"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022GZmJ/vRTvgPp7MEPKlHk3k1fFwjFpDQ24jpOU1sZqoc=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 16:40:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Blush_3.z55v3qnxm6.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Blush_3.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"z55v3qnxm6"},{"Name":"integrity","Value":"sha256-GZmJ/vRTvgPp7MEPKlHk3k1fFwjFpDQ24jpOU1sZqoc="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Blush_3.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"819870"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022GZmJ/vRTvgPp7MEPKlHk3k1fFwjFpDQ24jpOU1sZqoc=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 16:40:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Blush_4.83c6o3ig4n.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Blush_4.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"83c6o3ig4n"},{"Name":"integrity","Value":"sha256-TFmBN5ftKAvYwDUQCKyBJytUOc8YLVU/71LG52fthqk="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Blush_4.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"293236"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022TFmBN5ftKAvYwDUQCKyBJytUOc8YLVU/71LG52fthqk=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 16:40:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Blush_4.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Blush_4.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-TFmBN5ftKAvYwDUQCKyBJytUOc8YLVU/71LG52fthqk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"293236"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022TFmBN5ftKAvYwDUQCKyBJytUOc8YLVU/71LG52fthqk=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 16:40:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Blush_5.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Blush_5.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-yMDWHvBugp9z6\u002BAY4h6JfxJ2Hn4i5NjX9WyhsR1R0rg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"326682"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022yMDWHvBugp9z6\u002BAY4h6JfxJ2Hn4i5NjX9WyhsR1R0rg=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 16:40:30 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Blush_5.szs0my9oji.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Blush_5.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"szs0my9oji"},{"Name":"integrity","Value":"sha256-yMDWHvBugp9z6\u002BAY4h6JfxJ2Hn4i5NjX9WyhsR1R0rg="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Blush_5.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"326682"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022yMDWHvBugp9z6\u002BAY4h6JfxJ2Hn4i5NjX9WyhsR1R0rg=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 16:40:30 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Blush_6.nkatmutvub.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Blush_6.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"nkatmutvub"},{"Name":"integrity","Value":"sha256-x3gw8WENbkpye2qYGoSKldrpKOJLxhhg16KHGbz\u002BSN8="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Blush_6.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"281185"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022x3gw8WENbkpye2qYGoSKldrpKOJLxhhg16KHGbz\u002BSN8=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 16:40:32 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Blush_6.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Blush_6.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-x3gw8WENbkpye2qYGoSKldrpKOJLxhhg16KHGbz\u002BSN8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"281185"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022x3gw8WENbkpye2qYGoSKldrpKOJLxhhg16KHGbz\u002BSN8=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 16:40:32 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Blush_7.4sxqgy60bu.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Blush_7.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"4sxqgy60bu"},{"Name":"integrity","Value":"sha256-fJrLbfu9GV2\u002BHuWkElDAqWVtRlNArtJWyLmy8mzP9v8="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Blush_7.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"293404"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022fJrLbfu9GV2\u002BHuWkElDAqWVtRlNArtJWyLmy8mzP9v8=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 16:40:36 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Blush_7.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Blush_7.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-fJrLbfu9GV2\u002BHuWkElDAqWVtRlNArtJWyLmy8mzP9v8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"293404"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022fJrLbfu9GV2\u002BHuWkElDAqWVtRlNArtJWyLmy8mzP9v8=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 16:40:36 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Blush_8.of7lplufo3.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Blush_8.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"of7lplufo3"},{"Name":"integrity","Value":"sha256-HBpTdNR/OSHkPu4Q6iJ2nhnLv4XKAmJr6jyL1kOjxe8="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Blush_8.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"469852"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022HBpTdNR/OSHkPu4Q6iJ2nhnLv4XKAmJr6jyL1kOjxe8=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 16:40:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Blush_8.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Blush_8.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-HBpTdNR/OSHkPu4Q6iJ2nhnLv4XKAmJr6jyL1kOjxe8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"469852"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022HBpTdNR/OSHkPu4Q6iJ2nhnLv4XKAmJr6jyL1kOjxe8=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 16:40:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Blush_9.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Blush_9.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Xw3yNedGDiVzuHUenYAUKxsOJAx04vZo5ERSinGJ0Z0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"296108"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022Xw3yNedGDiVzuHUenYAUKxsOJAx04vZo5ERSinGJ0Z0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 16:40:42 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Blush_9.rhibz64fn4.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Blush_9.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"rhibz64fn4"},{"Name":"integrity","Value":"sha256-Xw3yNedGDiVzuHUenYAUKxsOJAx04vZo5ERSinGJ0Z0="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Blush_9.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"296108"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022Xw3yNedGDiVzuHUenYAUKxsOJAx04vZo5ERSinGJ0Z0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 16:40:42 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Concealer_1.nhd9kiqjna.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Concealer_1.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"nhd9kiqjna"},{"Name":"integrity","Value":"sha256-ddej\u002Bul1bGulYJgWhIKb04uNq1NHhleNaLkWYjatkJc="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Concealer_1.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"77611"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022ddej\u002Bul1bGulYJgWhIKb04uNq1NHhleNaLkWYjatkJc=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 16:48:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Concealer_1.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Concealer_1.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ddej\u002Bul1bGulYJgWhIKb04uNq1NHhleNaLkWYjatkJc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"77611"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022ddej\u002Bul1bGulYJgWhIKb04uNq1NHhleNaLkWYjatkJc=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 16:48:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Concealer_2.i07p4u1ip3.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Concealer_2.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"i07p4u1ip3"},{"Name":"integrity","Value":"sha256-wjvc29MD7IQTeYDMHy3xaN9kha/m5mZSkIpHZydlgZE="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Concealer_2.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"249716"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022wjvc29MD7IQTeYDMHy3xaN9kha/m5mZSkIpHZydlgZE=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 16:48:10 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Concealer_2.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Concealer_2.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-wjvc29MD7IQTeYDMHy3xaN9kha/m5mZSkIpHZydlgZE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"249716"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022wjvc29MD7IQTeYDMHy3xaN9kha/m5mZSkIpHZydlgZE=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 16:48:10 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Concealer_3.9uvaiyk55z.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Concealer_3.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"9uvaiyk55z"},{"Name":"integrity","Value":"sha256-T6b7KRh87q7vmz410F8A7L5Z4CzOmCQc3k7Gv/0Twls="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Concealer_3.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"242622"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022T6b7KRh87q7vmz410F8A7L5Z4CzOmCQc3k7Gv/0Twls=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 16:48:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Concealer_3.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Concealer_3.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-T6b7KRh87q7vmz410F8A7L5Z4CzOmCQc3k7Gv/0Twls="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"242622"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022T6b7KRh87q7vmz410F8A7L5Z4CzOmCQc3k7Gv/0Twls=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 16:48:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Concealer_4.ay82oozgdk.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Concealer_4.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ay82oozgdk"},{"Name":"integrity","Value":"sha256-0kHolu6zHnZ1l7CBfKj9X9XxT2glhNdzMabxvtck0cA="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Concealer_4.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"269130"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00220kHolu6zHnZ1l7CBfKj9X9XxT2glhNdzMabxvtck0cA=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 16:48:12 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Concealer_4.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Concealer_4.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-0kHolu6zHnZ1l7CBfKj9X9XxT2glhNdzMabxvtck0cA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"269130"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00220kHolu6zHnZ1l7CBfKj9X9XxT2glhNdzMabxvtck0cA=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 16:48:12 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Concealer_5.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Concealer_5.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-IH21V9u/BYziNKDs99kVhXRDV3l7gtZpeNmXFsywszk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"112105"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022IH21V9u/BYziNKDs99kVhXRDV3l7gtZpeNmXFsywszk=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 16:48:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Concealer_5.s1yyqupat1.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Concealer_5.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"s1yyqupat1"},{"Name":"integrity","Value":"sha256-IH21V9u/BYziNKDs99kVhXRDV3l7gtZpeNmXFsywszk="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Concealer_5.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"112105"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022IH21V9u/BYziNKDs99kVhXRDV3l7gtZpeNmXFsywszk=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 16:48:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Cushion_1.cdwio3397s.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Cushion_1.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"cdwio3397s"},{"Name":"integrity","Value":"sha256-YOgIiBH/mTtVzTWNUl/hhuFT9HeGoRVQOL0xbw//0FA="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Cushion_1.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"462351"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022YOgIiBH/mTtVzTWNUl/hhuFT9HeGoRVQOL0xbw//0FA=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 18:25:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Cushion_1.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Cushion_1.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-YOgIiBH/mTtVzTWNUl/hhuFT9HeGoRVQOL0xbw//0FA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"462351"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022YOgIiBH/mTtVzTWNUl/hhuFT9HeGoRVQOL0xbw//0FA=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 18:25:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Cushion_2.apjtd0zka0.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Cushion_2.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"apjtd0zka0"},{"Name":"integrity","Value":"sha256-/mWYjyZOam9QgQOGO0dENkamI/TQyWpSGKQgulhCfXk="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Cushion_2.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"114768"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022/mWYjyZOam9QgQOGO0dENkamI/TQyWpSGKQgulhCfXk=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 18:25:44 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Cushion_2.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Cushion_2.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-/mWYjyZOam9QgQOGO0dENkamI/TQyWpSGKQgulhCfXk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"114768"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022/mWYjyZOam9QgQOGO0dENkamI/TQyWpSGKQgulhCfXk=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 18:25:44 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Cushion_3.50lc7iwuso.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Cushion_3.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"50lc7iwuso"},{"Name":"integrity","Value":"sha256-VWT1Wjxgi30B3aT32VIY9HeFbjOChdieFtJBQutt5uM="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Cushion_3.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"326507"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022VWT1Wjxgi30B3aT32VIY9HeFbjOChdieFtJBQutt5uM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 18:25:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Cushion_3.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Cushion_3.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-VWT1Wjxgi30B3aT32VIY9HeFbjOChdieFtJBQutt5uM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"326507"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022VWT1Wjxgi30B3aT32VIY9HeFbjOChdieFtJBQutt5uM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 18:25:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Cushion_4.6vs4f384ld.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Cushion_4.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"6vs4f384ld"},{"Name":"integrity","Value":"sha256-IkYOhth2a5gTeFZLfVXQObclfeZbTpWdRdL3fSY3zr0="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Cushion_4.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"275301"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022IkYOhth2a5gTeFZLfVXQObclfeZbTpWdRdL3fSY3zr0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 18:25:32 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Cushion_4.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Cushion_4.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-IkYOhth2a5gTeFZLfVXQObclfeZbTpWdRdL3fSY3zr0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"275301"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022IkYOhth2a5gTeFZLfVXQObclfeZbTpWdRdL3fSY3zr0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 18:25:32 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Eyebrown_1.4gwura9p22.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Eyebrown_1.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"4gwura9p22"},{"Name":"integrity","Value":"sha256-xDKapifWShozY\u002BaYN/utjrOMaQIyAM2vSzz5/vScTyY="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Eyebrown_1.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"126028"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022xDKapifWShozY\u002BaYN/utjrOMaQIyAM2vSzz5/vScTyY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 17:06:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Eyebrown_1.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Eyebrown_1.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-xDKapifWShozY\u002BaYN/utjrOMaQIyAM2vSzz5/vScTyY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"126028"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022xDKapifWShozY\u002BaYN/utjrOMaQIyAM2vSzz5/vScTyY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 17:06:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Eyebrown_2.beu8h8dx2b.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Eyebrown_2.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"beu8h8dx2b"},{"Name":"integrity","Value":"sha256-4yzHzIHs4exrkOJd0tWPlKqOWvKnRyygkKuRJkWyisU="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Eyebrown_2.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"166759"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00224yzHzIHs4exrkOJd0tWPlKqOWvKnRyygkKuRJkWyisU=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 17:06:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Eyebrown_2.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Eyebrown_2.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-4yzHzIHs4exrkOJd0tWPlKqOWvKnRyygkKuRJkWyisU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"166759"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00224yzHzIHs4exrkOJd0tWPlKqOWvKnRyygkKuRJkWyisU=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 17:06:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Eyebrown_3.87yuld2yfu.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Eyebrown_3.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"87yuld2yfu"},{"Name":"integrity","Value":"sha256-XM6LUnnRY4z5HTUIQUUE3T661L\u002B367wp1FUziJ7cd2M="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Eyebrown_3.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"148802"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022XM6LUnnRY4z5HTUIQUUE3T661L\u002B367wp1FUziJ7cd2M=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 17:06:22 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Eyebrown_3.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Eyebrown_3.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-XM6LUnnRY4z5HTUIQUUE3T661L\u002B367wp1FUziJ7cd2M="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"148802"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022XM6LUnnRY4z5HTUIQUUE3T661L\u002B367wp1FUziJ7cd2M=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 17:06:22 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Eyebrown_4.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Eyebrown_4.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-xopdBvwGp1wwVIe0vU2fXFbAeMS9DloBPQ\u002BtzS1SsZ4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"122273"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022xopdBvwGp1wwVIe0vU2fXFbAeMS9DloBPQ\u002BtzS1SsZ4=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 17:06:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Eyebrown_4.yput6dbq0r.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Eyebrown_4.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"yput6dbq0r"},{"Name":"integrity","Value":"sha256-xopdBvwGp1wwVIe0vU2fXFbAeMS9DloBPQ\u002BtzS1SsZ4="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Eyebrown_4.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"122273"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022xopdBvwGp1wwVIe0vU2fXFbAeMS9DloBPQ\u002BtzS1SsZ4=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 17:06:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Eyebrown_5.44ee9j8x2a.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Eyebrown_5.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"44ee9j8x2a"},{"Name":"integrity","Value":"sha256-DCysFmM1WH\u002B4//hLEiMIQUCaOC6QMy7LdVme3tPFHyE="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Eyebrown_5.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"174573"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022DCysFmM1WH\u002B4//hLEiMIQUCaOC6QMy7LdVme3tPFHyE=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 17:06:24 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Eyebrown_5.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Eyebrown_5.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-DCysFmM1WH\u002B4//hLEiMIQUCaOC6QMy7LdVme3tPFHyE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"174573"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022DCysFmM1WH\u002B4//hLEiMIQUCaOC6QMy7LdVme3tPFHyE=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 17:06:24 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Eyebrown_6.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Eyebrown_6.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-3528yqy430Tc0vjZYwu43yJYmu5WWA3ILlHbEX0FUhw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"77984"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00223528yqy430Tc0vjZYwu43yJYmu5WWA3ILlHbEX0FUhw=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 17:06:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Eyebrown_6.ttzzy4lyfm.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Eyebrown_6.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ttzzy4lyfm"},{"Name":"integrity","Value":"sha256-3528yqy430Tc0vjZYwu43yJYmu5WWA3ILlHbEX0FUhw="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Eyebrown_6.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"77984"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00223528yqy430Tc0vjZYwu43yJYmu5WWA3ILlHbEX0FUhw=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 17:06:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Eyeliner_1.lc32ck3rtl.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Eyeliner_1.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"lc32ck3rtl"},{"Name":"integrity","Value":"sha256-izbXtJKMbCa72tCOADyj0\u002BUVUeTzk\u002BtAIuDiKilfD6c="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Eyeliner_1.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"111025"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022izbXtJKMbCa72tCOADyj0\u002BUVUeTzk\u002BtAIuDiKilfD6c=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 17:50:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Eyeliner_1.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Eyeliner_1.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-izbXtJKMbCa72tCOADyj0\u002BUVUeTzk\u002BtAIuDiKilfD6c="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"111025"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022izbXtJKMbCa72tCOADyj0\u002BUVUeTzk\u002BtAIuDiKilfD6c=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 17:50:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Eyeliner_2.nxh73gxxvo.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Eyeliner_2.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"nxh73gxxvo"},{"Name":"integrity","Value":"sha256-dTb9IyAU6zPSAXcjyDDUYhSZGusLr0SpiAfgjdWfqZo="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Eyeliner_2.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"71739"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022dTb9IyAU6zPSAXcjyDDUYhSZGusLr0SpiAfgjdWfqZo=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 17:50:22 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Eyeliner_2.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Eyeliner_2.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-dTb9IyAU6zPSAXcjyDDUYhSZGusLr0SpiAfgjdWfqZo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"71739"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022dTb9IyAU6zPSAXcjyDDUYhSZGusLr0SpiAfgjdWfqZo=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 17:50:22 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Eyeliner_3.ddytd1gu1j.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Eyeliner_3.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ddytd1gu1j"},{"Name":"integrity","Value":"sha256-v1sZ9\u002BTd2L/8vnG38kUyJ0SJajPhxwZmXmO5wR4AVvU="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Eyeliner_3.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"221144"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022v1sZ9\u002BTd2L/8vnG38kUyJ0SJajPhxwZmXmO5wR4AVvU=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 17:50:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Eyeliner_3.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Eyeliner_3.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-v1sZ9\u002BTd2L/8vnG38kUyJ0SJajPhxwZmXmO5wR4AVvU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"221144"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022v1sZ9\u002BTd2L/8vnG38kUyJ0SJajPhxwZmXmO5wR4AVvU=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 17:50:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Eyeliner_4.lo1hcfazet.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Eyeliner_4.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"lo1hcfazet"},{"Name":"integrity","Value":"sha256-O1UVvqWPKmOjL1apAWANeJ6CUbnFuT\u002BqZBuqKx9uPxE="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Eyeliner_4.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"45319"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022O1UVvqWPKmOjL1apAWANeJ6CUbnFuT\u002BqZBuqKx9uPxE=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 17:50:24 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Eyeliner_4.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Eyeliner_4.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-O1UVvqWPKmOjL1apAWANeJ6CUbnFuT\u002BqZBuqKx9uPxE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"45319"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022O1UVvqWPKmOjL1apAWANeJ6CUbnFuT\u002BqZBuqKx9uPxE=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 17:50:24 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Eyeliner_5.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Eyeliner_5.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-z/KSWawvmgglBDs85w2Lwvy6xbJoCk8ZHDAUcrfolBU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"371981"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022z/KSWawvmgglBDs85w2Lwvy6xbJoCk8ZHDAUcrfolBU=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 17:50:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Eyeliner_5.v89wgbe8gy.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Eyeliner_5.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"v89wgbe8gy"},{"Name":"integrity","Value":"sha256-z/KSWawvmgglBDs85w2Lwvy6xbJoCk8ZHDAUcrfolBU="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Eyeliner_5.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"371981"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022z/KSWawvmgglBDs85w2Lwvy6xbJoCk8ZHDAUcrfolBU=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 17:50:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Eyeshadow_1.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Eyeshadow_1.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-XumFN4QX5X4aIOhAcMy2GoM2H53ceRRfz/cZ1vOg6RQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"520122"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022XumFN4QX5X4aIOhAcMy2GoM2H53ceRRfz/cZ1vOg6RQ=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Nov 2025 16:36:42 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Eyeshadow_1.yvif42x8o1.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Eyeshadow_1.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"yvif42x8o1"},{"Name":"integrity","Value":"sha256-XumFN4QX5X4aIOhAcMy2GoM2H53ceRRfz/cZ1vOg6RQ="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Eyeshadow_1.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"520122"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022XumFN4QX5X4aIOhAcMy2GoM2H53ceRRfz/cZ1vOg6RQ=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Nov 2025 16:36:42 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Eyeshadow_10.4c8cy5tr58.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Eyeshadow_10.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"4c8cy5tr58"},{"Name":"integrity","Value":"sha256-NNuPxv\u002B8ybIWe7A3CQZtzscwdbRcB6ilp7u7C6MTCGw="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Eyeshadow_10.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"575878"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022NNuPxv\u002B8ybIWe7A3CQZtzscwdbRcB6ilp7u7C6MTCGw=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 18:11:56 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Eyeshadow_10.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Eyeshadow_10.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-NNuPxv\u002B8ybIWe7A3CQZtzscwdbRcB6ilp7u7C6MTCGw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"575878"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022NNuPxv\u002B8ybIWe7A3CQZtzscwdbRcB6ilp7u7C6MTCGw=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 18:11:56 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Eyeshadow_2.m7c2y1lunn.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Eyeshadow_2.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"m7c2y1lunn"},{"Name":"integrity","Value":"sha256-UoB\u002B7LASoYQHW363k4ezwFF0GR9EewhS8cNpSuEtglc="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Eyeshadow_2.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"125779"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022UoB\u002B7LASoYQHW363k4ezwFF0GR9EewhS8cNpSuEtglc=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Nov 2025 16:37:12 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Eyeshadow_2.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Eyeshadow_2.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-UoB\u002B7LASoYQHW363k4ezwFF0GR9EewhS8cNpSuEtglc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"125779"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022UoB\u002B7LASoYQHW363k4ezwFF0GR9EewhS8cNpSuEtglc=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Nov 2025 16:37:12 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Eyeshadow_3.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Eyeshadow_3.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-CQQcxJuS1aqCZnrcAmyiQlX5XhMz\u002BbeyqXcfuTt6Hmw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"128685"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022CQQcxJuS1aqCZnrcAmyiQlX5XhMz\u002BbeyqXcfuTt6Hmw=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Nov 2025 16:37:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Eyeshadow_3.rb9fvsf3c7.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Eyeshadow_3.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"rb9fvsf3c7"},{"Name":"integrity","Value":"sha256-CQQcxJuS1aqCZnrcAmyiQlX5XhMz\u002BbeyqXcfuTt6Hmw="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Eyeshadow_3.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"128685"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022CQQcxJuS1aqCZnrcAmyiQlX5XhMz\u002BbeyqXcfuTt6Hmw=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Nov 2025 16:37:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Eyeshadow_4.c3zb3w1fm3.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Eyeshadow_4.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"c3zb3w1fm3"},{"Name":"integrity","Value":"sha256-aLlQA83ovqtdEHp8Rep6d8q7bKeIh7EG3D5bKaaXC5I="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Eyeshadow_4.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"553907"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022aLlQA83ovqtdEHp8Rep6d8q7bKeIh7EG3D5bKaaXC5I=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Nov 2025 16:36:50 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Eyeshadow_4.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Eyeshadow_4.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-aLlQA83ovqtdEHp8Rep6d8q7bKeIh7EG3D5bKaaXC5I="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"553907"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022aLlQA83ovqtdEHp8Rep6d8q7bKeIh7EG3D5bKaaXC5I=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Nov 2025 16:36:50 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Eyeshadow_5.ee9uf265br.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Eyeshadow_5.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ee9uf265br"},{"Name":"integrity","Value":"sha256-FuLDE7x/6r4feLEvWfpBg4vuYQboyug9eYyjIlSG/Rg="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Eyeshadow_5.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"482182"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022FuLDE7x/6r4feLEvWfpBg4vuYQboyug9eYyjIlSG/Rg=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Nov 2025 16:36:58 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Eyeshadow_5.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Eyeshadow_5.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-FuLDE7x/6r4feLEvWfpBg4vuYQboyug9eYyjIlSG/Rg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"482182"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022FuLDE7x/6r4feLEvWfpBg4vuYQboyug9eYyjIlSG/Rg=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Nov 2025 16:36:58 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Eyeshadow_6.3dzan3f9zy.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Eyeshadow_6.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3dzan3f9zy"},{"Name":"integrity","Value":"sha256-h2QyNk8kXbx1JOg3BhO9ty6nlm9bIU87nTFl64FtQMs="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Eyeshadow_6.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"444827"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022h2QyNk8kXbx1JOg3BhO9ty6nlm9bIU87nTFl64FtQMs=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 18:11:44 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Eyeshadow_6.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Eyeshadow_6.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-h2QyNk8kXbx1JOg3BhO9ty6nlm9bIU87nTFl64FtQMs="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"444827"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022h2QyNk8kXbx1JOg3BhO9ty6nlm9bIU87nTFl64FtQMs=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 18:11:44 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Eyeshadow_7.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Eyeshadow_7.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-JT4a8sQHF7mJfRnNS2/f3HFOzTgntFtwj5\u002BBMSkoNIQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"399438"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022JT4a8sQHF7mJfRnNS2/f3HFOzTgntFtwj5\u002BBMSkoNIQ=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 18:11:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Eyeshadow_7.v3pnnfxvli.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Eyeshadow_7.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"v3pnnfxvli"},{"Name":"integrity","Value":"sha256-JT4a8sQHF7mJfRnNS2/f3HFOzTgntFtwj5\u002BBMSkoNIQ="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Eyeshadow_7.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"399438"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022JT4a8sQHF7mJfRnNS2/f3HFOzTgntFtwj5\u002BBMSkoNIQ=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 18:11:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Eyeshadow_8.ibqy4igr7a.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Eyeshadow_8.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ibqy4igr7a"},{"Name":"integrity","Value":"sha256-QnqAgr\u002BNzwiFipzHxztea\u002BHz7dl9I5lURKKW/TYTx5w="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Eyeshadow_8.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"139609"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022QnqAgr\u002BNzwiFipzHxztea\u002BHz7dl9I5lURKKW/TYTx5w=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 18:11:50 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Eyeshadow_8.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Eyeshadow_8.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-QnqAgr\u002BNzwiFipzHxztea\u002BHz7dl9I5lURKKW/TYTx5w="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"139609"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022QnqAgr\u002BNzwiFipzHxztea\u002BHz7dl9I5lURKKW/TYTx5w=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 18:11:50 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Eyeshadow_9.m49r08kavq.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Eyeshadow_9.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"m49r08kavq"},{"Name":"integrity","Value":"sha256-9kY7hMakCylhj5tbdl7d/SZ8wxupL8\u002BgXWZCLBuHsBk="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Eyeshadow_9.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"596846"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00229kY7hMakCylhj5tbdl7d/SZ8wxupL8\u002BgXWZCLBuHsBk=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 18:11:54 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Eyeshadow_9.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Eyeshadow_9.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-9kY7hMakCylhj5tbdl7d/SZ8wxupL8\u002BgXWZCLBuHsBk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"596846"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00229kY7hMakCylhj5tbdl7d/SZ8wxupL8\u002BgXWZCLBuHsBk=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 18:11:54 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/FoundationLockSpray_1.bfmxb8pcb0.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\FoundationLockSpray_1.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"bfmxb8pcb0"},{"Name":"integrity","Value":"sha256-OXV6q6neWx76fIiuxI8Dsr\u002BGLXFxwsRT7duP1B8dXo8="},{"Name":"label","Value":"_content/HairCareStore/img/Products/FoundationLockSpray_1.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"230429"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022OXV6q6neWx76fIiuxI8Dsr\u002BGLXFxwsRT7duP1B8dXo8=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 19:12:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/FoundationLockSpray_1.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\FoundationLockSpray_1.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-OXV6q6neWx76fIiuxI8Dsr\u002BGLXFxwsRT7duP1B8dXo8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"230429"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022OXV6q6neWx76fIiuxI8Dsr\u002BGLXFxwsRT7duP1B8dXo8=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 19:12:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/FoundationLockSpray_2.blvgr68ctd.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\FoundationLockSpray_2.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"blvgr68ctd"},{"Name":"integrity","Value":"sha256-71a0aOVExCVI4KyJWjMr2yshglThFVlf9aLTxDIXxMg="},{"Name":"label","Value":"_content/HairCareStore/img/Products/FoundationLockSpray_2.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"394866"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u002271a0aOVExCVI4KyJWjMr2yshglThFVlf9aLTxDIXxMg=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 19:11:32 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/FoundationLockSpray_2.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\FoundationLockSpray_2.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-71a0aOVExCVI4KyJWjMr2yshglThFVlf9aLTxDIXxMg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"394866"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u002271a0aOVExCVI4KyJWjMr2yshglThFVlf9aLTxDIXxMg=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 19:11:32 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/FoundationLockSpray_3.hfus3rg391.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\FoundationLockSpray_3.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"hfus3rg391"},{"Name":"integrity","Value":"sha256-DXh5IEHQb6gBY6wslyguIwsqK2xPo8hi\u002BBssnfVLTog="},{"Name":"label","Value":"_content/HairCareStore/img/Products/FoundationLockSpray_3.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"165079"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022DXh5IEHQb6gBY6wslyguIwsqK2xPo8hi\u002BBssnfVLTog=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 19:14:10 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/FoundationLockSpray_3.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\FoundationLockSpray_3.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-DXh5IEHQb6gBY6wslyguIwsqK2xPo8hi\u002BBssnfVLTog="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"165079"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022DXh5IEHQb6gBY6wslyguIwsqK2xPo8hi\u002BBssnfVLTog=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 19:14:10 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/FoundationLockSpray_4.oll5psrnja.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\FoundationLockSpray_4.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"oll5psrnja"},{"Name":"integrity","Value":"sha256-nBXIC\u002B\u002B\u002BQ4lND2t5m173IKRGvb29GO/BcIVD2UAqCeg="},{"Name":"label","Value":"_content/HairCareStore/img/Products/FoundationLockSpray_4.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"120467"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022nBXIC\u002B\u002B\u002BQ4lND2t5m173IKRGvb29GO/BcIVD2UAqCeg=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 19:11:50 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/FoundationLockSpray_4.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\FoundationLockSpray_4.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-nBXIC\u002B\u002B\u002BQ4lND2t5m173IKRGvb29GO/BcIVD2UAqCeg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"120467"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022nBXIC\u002B\u002B\u002BQ4lND2t5m173IKRGvb29GO/BcIVD2UAqCeg=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 19:11:50 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/FoundationLockSpray_5.kp6evg332b.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\FoundationLockSpray_5.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kp6evg332b"},{"Name":"integrity","Value":"sha256-eMg0N5SXaOQwRo5Cztiz7QgYzo7Z1\u002BchBCDY3OoNjwI="},{"Name":"label","Value":"_content/HairCareStore/img/Products/FoundationLockSpray_5.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"214371"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022eMg0N5SXaOQwRo5Cztiz7QgYzo7Z1\u002BchBCDY3OoNjwI=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 19:11:54 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/FoundationLockSpray_5.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\FoundationLockSpray_5.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-eMg0N5SXaOQwRo5Cztiz7QgYzo7Z1\u002BchBCDY3OoNjwI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"214371"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022eMg0N5SXaOQwRo5Cztiz7QgYzo7Z1\u002BchBCDY3OoNjwI=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 19:11:54 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Foundation_1.950niqhlep.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Foundation_1.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"950niqhlep"},{"Name":"integrity","Value":"sha256-far/DGJRYQlKWNj4JVFBSW\u002BU7t3L6w3dGVidVP7hUY4="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Foundation_1.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"276394"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022far/DGJRYQlKWNj4JVFBSW\u002BU7t3L6w3dGVidVP7hUY4=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 18:25:34 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Foundation_1.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Foundation_1.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-far/DGJRYQlKWNj4JVFBSW\u002BU7t3L6w3dGVidVP7hUY4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"276394"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022far/DGJRYQlKWNj4JVFBSW\u002BU7t3L6w3dGVidVP7hUY4=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 18:25:34 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Foundation_2.3q9mpo1a4t.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Foundation_2.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3q9mpo1a4t"},{"Name":"integrity","Value":"sha256-u4NFUbvwEcJkUAyzVvY9gxab7/UTxT7O3OP7QaF8QZo="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Foundation_2.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"382438"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022u4NFUbvwEcJkUAyzVvY9gxab7/UTxT7O3OP7QaF8QZo=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 18:25:40 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Foundation_2.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Foundation_2.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-u4NFUbvwEcJkUAyzVvY9gxab7/UTxT7O3OP7QaF8QZo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"382438"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022u4NFUbvwEcJkUAyzVvY9gxab7/UTxT7O3OP7QaF8QZo=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 18:25:40 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Foundation_3.faahjxjohq.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Foundation_3.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"faahjxjohq"},{"Name":"integrity","Value":"sha256-qWqgeTKN71fIrMiKHpwOSQfx/3T5VkBCAsEvocT109g="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Foundation_3.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"259400"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022qWqgeTKN71fIrMiKHpwOSQfx/3T5VkBCAsEvocT109g=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 18:25:42 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Foundation_3.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Foundation_3.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-qWqgeTKN71fIrMiKHpwOSQfx/3T5VkBCAsEvocT109g="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"259400"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022qWqgeTKN71fIrMiKHpwOSQfx/3T5VkBCAsEvocT109g=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 18:25:42 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/funny-cartoon-monster-character-illustration-of-cute-and-happy-mythical-alien-creature-halloween-design-700-264462907.7v4ura9spa.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\funny-cartoon-monster-character-illustration-of-cute-and-happy-mythical-alien-creature-halloween-design-700-264462907.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -744,6 +1320,222 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"s2yec4dzb2"},{"Name":"integrity","Value":"sha256-/K/9YqvVKYrzVAUFrc\u002BI0\u002B\u002BDnIS6aCtTgH5HLuR8buA="},{"Name":"label","Value":"_content/HairCareStore/img/Products/hydrating_mask.jpg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"143465"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022/K/9YqvVKYrzVAUFrc\u002BI0\u002B\u002BDnIS6aCtTgH5HLuR8buA=\u0022"},{"Name":"Last-Modified","Value":"Wed, 22 Oct 2025 05:59:07 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Lipstick_1.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Lipstick_1.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Qj2rAXiPYnSj3kszm\u002B0pNws0tKCyY9Tm9\u002B3MboFS1kU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"137928"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022Qj2rAXiPYnSj3kszm\u002B0pNws0tKCyY9Tm9\u002B3MboFS1kU=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 19:04:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Lipstick_1.yb9a1pptkg.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Lipstick_1.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"yb9a1pptkg"},{"Name":"integrity","Value":"sha256-Qj2rAXiPYnSj3kszm\u002B0pNws0tKCyY9Tm9\u002B3MboFS1kU="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Lipstick_1.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"137928"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022Qj2rAXiPYnSj3kszm\u002B0pNws0tKCyY9Tm9\u002B3MboFS1kU=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 19:04:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Lipstick_10.a8q49qq8a0.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Lipstick_10.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"a8q49qq8a0"},{"Name":"integrity","Value":"sha256-yk6CBcf7Swh/ksXQ/DFxbjLcCIEaX6jaeJSVe/H5IUE="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Lipstick_10.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"142749"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022yk6CBcf7Swh/ksXQ/DFxbjLcCIEaX6jaeJSVe/H5IUE=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 19:04:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Lipstick_10.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Lipstick_10.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-yk6CBcf7Swh/ksXQ/DFxbjLcCIEaX6jaeJSVe/H5IUE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"142749"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022yk6CBcf7Swh/ksXQ/DFxbjLcCIEaX6jaeJSVe/H5IUE=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 19:04:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Lipstick_11.d5cx0f8nmd.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Lipstick_11.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"d5cx0f8nmd"},{"Name":"integrity","Value":"sha256-wZdBjelDcb0Z4TFaaxo8oPgJFiLQNinCOfogqVpvbJ4="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Lipstick_11.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"148584"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022wZdBjelDcb0Z4TFaaxo8oPgJFiLQNinCOfogqVpvbJ4=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 19:04:04 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Lipstick_11.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Lipstick_11.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-wZdBjelDcb0Z4TFaaxo8oPgJFiLQNinCOfogqVpvbJ4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"148584"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022wZdBjelDcb0Z4TFaaxo8oPgJFiLQNinCOfogqVpvbJ4=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 19:04:04 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Lipstick_12.7miz5zzq7g.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Lipstick_12.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"7miz5zzq7g"},{"Name":"integrity","Value":"sha256-/4mGVVR1zYVOIu4AD343oG08YjrQ5eVOlGb/2vucyLI="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Lipstick_12.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"195509"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022/4mGVVR1zYVOIu4AD343oG08YjrQ5eVOlGb/2vucyLI=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 19:04:02 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Lipstick_12.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Lipstick_12.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-/4mGVVR1zYVOIu4AD343oG08YjrQ5eVOlGb/2vucyLI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"195509"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022/4mGVVR1zYVOIu4AD343oG08YjrQ5eVOlGb/2vucyLI=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 19:04:02 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Lipstick_13.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Lipstick_13.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-YP8yAlNtPu3IlYPc8lZw6e74MFXudsUuQ0PpW4mvjtg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"585131"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022YP8yAlNtPu3IlYPc8lZw6e74MFXudsUuQ0PpW4mvjtg=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 19:04:32 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Lipstick_13.wwch1hqe73.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Lipstick_13.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"wwch1hqe73"},{"Name":"integrity","Value":"sha256-YP8yAlNtPu3IlYPc8lZw6e74MFXudsUuQ0PpW4mvjtg="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Lipstick_13.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"585131"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022YP8yAlNtPu3IlYPc8lZw6e74MFXudsUuQ0PpW4mvjtg=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 19:04:32 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Lipstick_14.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Lipstick_14.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-YglHjmlzsI7I1jJeqoGcML1TWpd1FetK8RuS94MAfz0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"172951"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022YglHjmlzsI7I1jJeqoGcML1TWpd1FetK8RuS94MAfz0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 19:03:32 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Lipstick_14.qpkjrj6ufm.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Lipstick_14.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"qpkjrj6ufm"},{"Name":"integrity","Value":"sha256-YglHjmlzsI7I1jJeqoGcML1TWpd1FetK8RuS94MAfz0="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Lipstick_14.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"172951"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022YglHjmlzsI7I1jJeqoGcML1TWpd1FetK8RuS94MAfz0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 19:03:32 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Lipstick_15.3mll0ixd8l.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Lipstick_15.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3mll0ixd8l"},{"Name":"integrity","Value":"sha256-Vcea5gQZWpi1rOnETIaG\u002BXfIfdAdFRauKosTmY5drBY="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Lipstick_15.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"110104"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022Vcea5gQZWpi1rOnETIaG\u002BXfIfdAdFRauKosTmY5drBY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 19:03:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Lipstick_15.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Lipstick_15.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Vcea5gQZWpi1rOnETIaG\u002BXfIfdAdFRauKosTmY5drBY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"110104"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022Vcea5gQZWpi1rOnETIaG\u002BXfIfdAdFRauKosTmY5drBY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 19:03:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Lipstick_16.czb90p4lrw.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Lipstick_16.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"czb90p4lrw"},{"Name":"integrity","Value":"sha256-GNdMEoy3JJahQCYqnfOG5PaZm19CNjpMM8yNndnpx6k="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Lipstick_16.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"73314"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022GNdMEoy3JJahQCYqnfOG5PaZm19CNjpMM8yNndnpx6k=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 19:04:30 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Lipstick_16.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Lipstick_16.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-GNdMEoy3JJahQCYqnfOG5PaZm19CNjpMM8yNndnpx6k="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"73314"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022GNdMEoy3JJahQCYqnfOG5PaZm19CNjpMM8yNndnpx6k=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 19:04:30 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Lipstick_17.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Lipstick_17.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-4Tt/sADP4f1iMgWkY7mYp52n9bqveMsmZu30O0jDlso="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"65887"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00224Tt/sADP4f1iMgWkY7mYp52n9bqveMsmZu30O0jDlso=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 19:03:34 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Lipstick_17.txuxhwf05u.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Lipstick_17.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"txuxhwf05u"},{"Name":"integrity","Value":"sha256-4Tt/sADP4f1iMgWkY7mYp52n9bqveMsmZu30O0jDlso="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Lipstick_17.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"65887"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00224Tt/sADP4f1iMgWkY7mYp52n9bqveMsmZu30O0jDlso=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 19:03:34 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Lipstick_18.nco0u32icg.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Lipstick_18.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"nco0u32icg"},{"Name":"integrity","Value":"sha256-uRpETHFW662HgKJI0XVYXrlbpdLTeN8za9mTjKR3N3E="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Lipstick_18.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"127626"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022uRpETHFW662HgKJI0XVYXrlbpdLTeN8za9mTjKR3N3E=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 19:03:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Lipstick_18.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Lipstick_18.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-uRpETHFW662HgKJI0XVYXrlbpdLTeN8za9mTjKR3N3E="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"127626"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022uRpETHFW662HgKJI0XVYXrlbpdLTeN8za9mTjKR3N3E=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 19:03:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Lipstick_2.4tg7326v93.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Lipstick_2.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"4tg7326v93"},{"Name":"integrity","Value":"sha256-KGTP/fyJw/DZjVoK4\u002B8Myv5hJ1v0Y3dEmRlS/vdP33w="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Lipstick_2.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"218368"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022KGTP/fyJw/DZjVoK4\u002B8Myv5hJ1v0Y3dEmRlS/vdP33w=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 19:04:36 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Lipstick_2.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Lipstick_2.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-KGTP/fyJw/DZjVoK4\u002B8Myv5hJ1v0Y3dEmRlS/vdP33w="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"218368"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022KGTP/fyJw/DZjVoK4\u002B8Myv5hJ1v0Y3dEmRlS/vdP33w=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 19:04:36 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Lipstick_3.383w5myk92.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Lipstick_3.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"383w5myk92"},{"Name":"integrity","Value":"sha256-rcpgKsNJ4vKugfUQMhuFDrGsWtyatDKqSQ1zMO0h5Z8="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Lipstick_3.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"157219"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022rcpgKsNJ4vKugfUQMhuFDrGsWtyatDKqSQ1zMO0h5Z8=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 19:04:24 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Lipstick_3.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Lipstick_3.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-rcpgKsNJ4vKugfUQMhuFDrGsWtyatDKqSQ1zMO0h5Z8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"157219"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022rcpgKsNJ4vKugfUQMhuFDrGsWtyatDKqSQ1zMO0h5Z8=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 19:04:24 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Lipstick_4.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Lipstick_4.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-56ZPZuShkc78i8IbaxgOCQFdmwgCMo/NDeTkEBjs4Vg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"449849"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u002256ZPZuShkc78i8IbaxgOCQFdmwgCMo/NDeTkEBjs4Vg=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 19:04:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Lipstick_4.xi3tu51yud.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Lipstick_4.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xi3tu51yud"},{"Name":"integrity","Value":"sha256-56ZPZuShkc78i8IbaxgOCQFdmwgCMo/NDeTkEBjs4Vg="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Lipstick_4.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"449849"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u002256ZPZuShkc78i8IbaxgOCQFdmwgCMo/NDeTkEBjs4Vg=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 19:04:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Lipstick_5.f6bl4ubtpj.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Lipstick_5.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"f6bl4ubtpj"},{"Name":"integrity","Value":"sha256-19fszAJOXDVFF8sRBjSIM5J4Ble4MybFdOKJXNeLvDM="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Lipstick_5.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"464082"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u002219fszAJOXDVFF8sRBjSIM5J4Ble4MybFdOKJXNeLvDM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 19:04:22 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Lipstick_5.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Lipstick_5.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-19fszAJOXDVFF8sRBjSIM5J4Ble4MybFdOKJXNeLvDM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"464082"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u002219fszAJOXDVFF8sRBjSIM5J4Ble4MybFdOKJXNeLvDM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 19:04:22 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Lipstick_6.kxti47ot1c.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Lipstick_6.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kxti47ot1c"},{"Name":"integrity","Value":"sha256-\u002BNdZDuRo\u002BEnrgBFG44o4ag6HQquxjLnVvGb0sXwXWns="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Lipstick_6.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"108142"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022\u002BNdZDuRo\u002BEnrgBFG44o4ag6HQquxjLnVvGb0sXwXWns=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 19:04:10 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Lipstick_6.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Lipstick_6.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-\u002BNdZDuRo\u002BEnrgBFG44o4ag6HQquxjLnVvGb0sXwXWns="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"108142"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022\u002BNdZDuRo\u002BEnrgBFG44o4ag6HQquxjLnVvGb0sXwXWns=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 19:04:10 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Lipstick_7.2bsal83q8w.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Lipstick_7.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"2bsal83q8w"},{"Name":"integrity","Value":"sha256-zrJuaL2neGU2cp6Etr4J5Z//yntKuS8rgMTQdtKfc54="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Lipstick_7.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"239278"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022zrJuaL2neGU2cp6Etr4J5Z//yntKuS8rgMTQdtKfc54=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 19:04:40 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Lipstick_7.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Lipstick_7.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-zrJuaL2neGU2cp6Etr4J5Z//yntKuS8rgMTQdtKfc54="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"239278"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022zrJuaL2neGU2cp6Etr4J5Z//yntKuS8rgMTQdtKfc54=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 19:04:40 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Lipstick_8.kztrzp82sy.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Lipstick_8.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kztrzp82sy"},{"Name":"integrity","Value":"sha256-kNc3tYZCSQpds5NBM7v0lRv0q7yOCJlIwXb03nGszpU="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Lipstick_8.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"274676"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022kNc3tYZCSQpds5NBM7v0lRv0q7yOCJlIwXb03nGszpU=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 19:04:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Lipstick_8.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Lipstick_8.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-kNc3tYZCSQpds5NBM7v0lRv0q7yOCJlIwXb03nGszpU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"274676"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022kNc3tYZCSQpds5NBM7v0lRv0q7yOCJlIwXb03nGszpU=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 19:04:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Lipstick_9.1ibw06bvb1.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Lipstick_9.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1ibw06bvb1"},{"Name":"integrity","Value":"sha256-x7W6hEpwcyGWLCkOg3XfRm9Auo65cpwxbgjV3f098BI="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Lipstick_9.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"213915"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022x7W6hEpwcyGWLCkOg3XfRm9Auo65cpwxbgjV3f098BI=\u0022"},{"Name":"Last-Modified","Value":"Sat, 15 Nov 2025 21:34:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Lipstick_9.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Lipstick_9.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-x7W6hEpwcyGWLCkOg3XfRm9Auo65cpwxbgjV3f098BI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"213915"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022x7W6hEpwcyGWLCkOg3XfRm9Auo65cpwxbgjV3f098BI=\u0022"},{"Name":"Last-Modified","Value":"Sat, 15 Nov 2025 21:34:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/logo.66bg5n5hqe.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\logo.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -755,6 +1547,198 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-jg0wX91Rxmc\u002Bt36PLLZQstpft7iPJrhQoxDk/piRmVo="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"4607"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022jg0wX91Rxmc\u002Bt36PLLZQstpft7iPJrhQoxDk/piRmVo=\u0022"},{"Name":"Last-Modified","Value":"Wed, 22 Oct 2025 05:59:07 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Mascara_1.18g8euy7ml.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Mascara_1.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"18g8euy7ml"},{"Name":"integrity","Value":"sha256-IeoJR1Aj8nNtz7JXGMzz1x7wgFoir/WSd2gCNmdbgYg="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Mascara_1.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"160137"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022IeoJR1Aj8nNtz7JXGMzz1x7wgFoir/WSd2gCNmdbgYg=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 21:03:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Mascara_1.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Mascara_1.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-IeoJR1Aj8nNtz7JXGMzz1x7wgFoir/WSd2gCNmdbgYg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"160137"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022IeoJR1Aj8nNtz7JXGMzz1x7wgFoir/WSd2gCNmdbgYg=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 21:03:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Mascara_2.dhdjd5bvya.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Mascara_2.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"dhdjd5bvya"},{"Name":"integrity","Value":"sha256-AZxJMzOa5H9C7CbSrXzDqADnnraRKHZVsOXoT\u002BkrDYk="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Mascara_2.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"119030"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022AZxJMzOa5H9C7CbSrXzDqADnnraRKHZVsOXoT\u002BkrDYk=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 21:03:04 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Mascara_2.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Mascara_2.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-AZxJMzOa5H9C7CbSrXzDqADnnraRKHZVsOXoT\u002BkrDYk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"119030"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022AZxJMzOa5H9C7CbSrXzDqADnnraRKHZVsOXoT\u002BkrDYk=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 21:03:04 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Mascara_3.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Mascara_3.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-SU6bS7lJQRgYhWfotTQO8Ou5bD4kZEjMhbhEdLL0K04="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"127515"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022SU6bS7lJQRgYhWfotTQO8Ou5bD4kZEjMhbhEdLL0K04=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 21:03:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Mascara_3.tzov6yrmtd.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Mascara_3.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"tzov6yrmtd"},{"Name":"integrity","Value":"sha256-SU6bS7lJQRgYhWfotTQO8Ou5bD4kZEjMhbhEdLL0K04="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Mascara_3.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"127515"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022SU6bS7lJQRgYhWfotTQO8Ou5bD4kZEjMhbhEdLL0K04=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 21:03:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Mascara_4.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Mascara_4.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-8FcZ08W4JsKh4LCDRYwlbGREKKXTay9MF6suN3BRLA0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"105845"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00228FcZ08W4JsKh4LCDRYwlbGREKKXTay9MF6suN3BRLA0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 21:03:10 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Mascara_4.w4ueooa0vk.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Mascara_4.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"w4ueooa0vk"},{"Name":"integrity","Value":"sha256-8FcZ08W4JsKh4LCDRYwlbGREKKXTay9MF6suN3BRLA0="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Mascara_4.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"105845"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00228FcZ08W4JsKh4LCDRYwlbGREKKXTay9MF6suN3BRLA0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 21:03:10 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Mascara_5.ffklgcvy5f.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Mascara_5.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ffklgcvy5f"},{"Name":"integrity","Value":"sha256-VXVOIrjBG\u002B\u002BptGHD3VITHXHJv8vgUi2hvBYy10amjLA="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Mascara_5.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"140175"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022VXVOIrjBG\u002B\u002BptGHD3VITHXHJv8vgUi2hvBYy10amjLA=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 21:03:12 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Mascara_5.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Mascara_5.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-VXVOIrjBG\u002B\u002BptGHD3VITHXHJv8vgUi2hvBYy10amjLA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"140175"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022VXVOIrjBG\u002B\u002BptGHD3VITHXHJv8vgUi2hvBYy10amjLA=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 21:03:12 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Powder_1.dpjepe4x0y.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Powder_1.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"dpjepe4x0y"},{"Name":"integrity","Value":"sha256-QYy6sXYPwN95wrleqL7xvEYwIBTf6Img3kL8oqtmiys="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Powder_1.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"297391"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022QYy6sXYPwN95wrleqL7xvEYwIBTf6Img3kL8oqtmiys=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 20:10:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Powder_1.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Powder_1.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-QYy6sXYPwN95wrleqL7xvEYwIBTf6Img3kL8oqtmiys="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"297391"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022QYy6sXYPwN95wrleqL7xvEYwIBTf6Img3kL8oqtmiys=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 20:10:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Powder_2.99rhffbfab.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Powder_2.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"99rhffbfab"},{"Name":"integrity","Value":"sha256-PR8OPh44HvR\u002BYD3Dr5Q2FAq7l8b1HriuyRN5m5hpBWg="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Powder_2.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"94807"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022PR8OPh44HvR\u002BYD3Dr5Q2FAq7l8b1HriuyRN5m5hpBWg=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 20:10:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Powder_2.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Powder_2.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-PR8OPh44HvR\u002BYD3Dr5Q2FAq7l8b1HriuyRN5m5hpBWg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"94807"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022PR8OPh44HvR\u002BYD3Dr5Q2FAq7l8b1HriuyRN5m5hpBWg=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 20:10:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Powder_3.hla247q5fk.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Powder_3.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"hla247q5fk"},{"Name":"integrity","Value":"sha256-JYJwnTd2Aw48sae0S8iYy5Bcx4nlpNl5zymc6YAllzM="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Powder_3.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"853991"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022JYJwnTd2Aw48sae0S8iYy5Bcx4nlpNl5zymc6YAllzM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 20:10:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Powder_3.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Powder_3.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-JYJwnTd2Aw48sae0S8iYy5Bcx4nlpNl5zymc6YAllzM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"853991"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022JYJwnTd2Aw48sae0S8iYy5Bcx4nlpNl5zymc6YAllzM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 20:10:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Powder_4.oywf69enfy.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Powder_4.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"oywf69enfy"},{"Name":"integrity","Value":"sha256-YIHpy4ChS8iB06BHbQMH\u002BKNZYgV3la8MJ0jKPRoTZzg="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Powder_4.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"164769"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022YIHpy4ChS8iB06BHbQMH\u002BKNZYgV3la8MJ0jKPRoTZzg=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 20:10:40 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Powder_4.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Powder_4.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-YIHpy4ChS8iB06BHbQMH\u002BKNZYgV3la8MJ0jKPRoTZzg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"164769"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022YIHpy4ChS8iB06BHbQMH\u002BKNZYgV3la8MJ0jKPRoTZzg=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 20:10:40 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Powder_5.37kz3zr67c.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Powder_5.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"37kz3zr67c"},{"Name":"integrity","Value":"sha256-/889dgv\u002BzHk4P5mLx4v1k3jN\u002BK2X25UVCSV5yby1JW4="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Powder_5.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"684861"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022/889dgv\u002BzHk4P5mLx4v1k3jN\u002BK2X25UVCSV5yby1JW4=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 20:10:44 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Powder_5.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Powder_5.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-/889dgv\u002BzHk4P5mLx4v1k3jN\u002BK2X25UVCSV5yby1JW4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"684861"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022/889dgv\u002BzHk4P5mLx4v1k3jN\u002BK2X25UVCSV5yby1JW4=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 20:10:44 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Powder_6.170xac781l.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Powder_6.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"170xac781l"},{"Name":"integrity","Value":"sha256-Pel3qyIgfsxBsleXuBR6\u002BiAFb1CIvduBw8dyypljHvA="},{"Name":"label","Value":"_content/HairCareStore/img/Products/Powder_6.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"189432"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022Pel3qyIgfsxBsleXuBR6\u002BiAFb1CIvduBw8dyypljHvA=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 20:10:50 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/Powder_6.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\Powder_6.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Pel3qyIgfsxBsleXuBR6\u002BiAFb1CIvduBw8dyypljHvA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"189432"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022Pel3qyIgfsxBsleXuBR6\u002BiAFb1CIvduBw8dyypljHvA=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Nov 2025 20:10:50 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/primer1.fv4avier08.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\primer1.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"fv4avier08"},{"Name":"integrity","Value":"sha256-K96UKN\u002BSfipCEvfETJ8tewEJVUkMxV\u002BWr9BT3tQnJXo="},{"Name":"label","Value":"_content/HairCareStore/img/Products/primer1.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"145366"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022K96UKN\u002BSfipCEvfETJ8tewEJVUkMxV\u002BWr9BT3tQnJXo=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Nov 2025 16:45:12 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/primer1.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\primer1.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-K96UKN\u002BSfipCEvfETJ8tewEJVUkMxV\u002BWr9BT3tQnJXo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"145366"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022K96UKN\u002BSfipCEvfETJ8tewEJVUkMxV\u002BWr9BT3tQnJXo=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Nov 2025 16:45:12 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/primer2.7elv6ynrl0.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\primer2.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"7elv6ynrl0"},{"Name":"integrity","Value":"sha256-DzxKc/gh\u002B24ZEkkT9JK0rDppiIov9Mwb\u002B\u002BtyBIfs1oY="},{"Name":"label","Value":"_content/HairCareStore/img/Products/primer2.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"135459"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022DzxKc/gh\u002B24ZEkkT9JK0rDppiIov9Mwb\u002B\u002BtyBIfs1oY=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Nov 2025 16:45:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/primer2.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\primer2.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-DzxKc/gh\u002B24ZEkkT9JK0rDppiIov9Mwb\u002B\u002BtyBIfs1oY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"135459"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022DzxKc/gh\u002B24ZEkkT9JK0rDppiIov9Mwb\u002B\u002BtyBIfs1oY=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Nov 2025 16:45:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/primer3.mjhmd1hs8p.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\primer3.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"mjhmd1hs8p"},{"Name":"integrity","Value":"sha256-UuOSIoRMSpxJ7rFy3SelHhOpgsi3EaTLUq8p/L80fgU="},{"Name":"label","Value":"_content/HairCareStore/img/Products/primer3.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"301249"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022UuOSIoRMSpxJ7rFy3SelHhOpgsi3EaTLUq8p/L80fgU=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Nov 2025 16:45:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/primer3.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\primer3.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-UuOSIoRMSpxJ7rFy3SelHhOpgsi3EaTLUq8p/L80fgU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"301249"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022UuOSIoRMSpxJ7rFy3SelHhOpgsi3EaTLUq8p/L80fgU=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Nov 2025 16:45:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/primer4.jvkx8xemxn.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\primer4.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"jvkx8xemxn"},{"Name":"integrity","Value":"sha256-EYxCKPajlmT4VoM67t54z932OW\u002B0X46mvxi54AoSaII="},{"Name":"label","Value":"_content/HairCareStore/img/Products/primer4.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"140560"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022EYxCKPajlmT4VoM67t54z932OW\u002B0X46mvxi54AoSaII=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Nov 2025 16:45:22 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/primer4.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\primer4.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-EYxCKPajlmT4VoM67t54z932OW\u002B0X46mvxi54AoSaII="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"140560"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022EYxCKPajlmT4VoM67t54z932OW\u002B0X46mvxi54AoSaII=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Nov 2025 16:45:22 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/primer5.p2gznq1f8v.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\primer5.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"p2gznq1f8v"},{"Name":"integrity","Value":"sha256-ISuU0S\u002Bmm4gb7utbo9zGdCN3s\u002BaFFXm0NI0lFiKSlqY="},{"Name":"label","Value":"_content/HairCareStore/img/Products/primer5.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"275429"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022ISuU0S\u002Bmm4gb7utbo9zGdCN3s\u002BaFFXm0NI0lFiKSlqY=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Nov 2025 16:45:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/primer5.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\primer5.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ISuU0S\u002Bmm4gb7utbo9zGdCN3s\u002BaFFXm0NI0lFiKSlqY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"275429"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022ISuU0S\u002Bmm4gb7utbo9zGdCN3s\u002BaFFXm0NI0lFiKSlqY=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Nov 2025 16:45:26 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Products/repair_shampoo.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Products\repair_shampoo.jpg'))</AssetFile>
@@ -815,6 +1799,126 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-mO0b9MUDFVd/eOlYWsJDt3tDfE\u002BOcPsNkr2XwCmVox8="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"3781"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022mO0b9MUDFVd/eOlYWsJDt3tDfE\u002BOcPsNkr2XwCmVox8=\u0022"},{"Name":"Last-Modified","Value":"Wed, 22 Oct 2025 05:59:07 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Users/amanda_avatar.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Users\amanda_avatar.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-FdkWN1EcpSy5VVFTTQA7jGcB3MlAF8quL0648V2XGc0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"44208"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022FdkWN1EcpSy5VVFTTQA7jGcB3MlAF8quL0648V2XGc0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Jun 2025 01:23:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Users/amanda_avatar.n1f7zb9p2s.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Users\amanda_avatar.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"n1f7zb9p2s"},{"Name":"integrity","Value":"sha256-FdkWN1EcpSy5VVFTTQA7jGcB3MlAF8quL0648V2XGc0="},{"Name":"label","Value":"_content/HairCareStore/img/Users/amanda_avatar.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"44208"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022FdkWN1EcpSy5VVFTTQA7jGcB3MlAF8quL0648V2XGc0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Jun 2025 01:23:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Users/david_avatar.gfem84i4a9.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Users\david_avatar.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"gfem84i4a9"},{"Name":"integrity","Value":"sha256-jKoNEsc52BpiXoVkiUT\u002BE0Lu0QVEa/T//VKHkZWZj/Y="},{"Name":"label","Value":"_content/HairCareStore/img/Users/david_avatar.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"93121"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022jKoNEsc52BpiXoVkiUT\u002BE0Lu0QVEa/T//VKHkZWZj/Y=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Jun 2025 01:20:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Users/david_avatar.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Users\david_avatar.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-jKoNEsc52BpiXoVkiUT\u002BE0Lu0QVEa/T//VKHkZWZj/Y="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"93121"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022jKoNEsc52BpiXoVkiUT\u002BE0Lu0QVEa/T//VKHkZWZj/Y=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Jun 2025 01:20:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Users/emily_avatar.f80vt7za61.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Users\emily_avatar.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"f80vt7za61"},{"Name":"integrity","Value":"sha256-73vvVqCuuc0y20vNgf\u002BbLUD5rf8542wJLxVwUWCIbVE="},{"Name":"label","Value":"_content/HairCareStore/img/Users/emily_avatar.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"27438"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u002273vvVqCuuc0y20vNgf\u002BbLUD5rf8542wJLxVwUWCIbVE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Jun 2025 01:19:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Users/emily_avatar.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Users\emily_avatar.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-73vvVqCuuc0y20vNgf\u002BbLUD5rf8542wJLxVwUWCIbVE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"27438"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u002273vvVqCuuc0y20vNgf\u002BbLUD5rf8542wJLxVwUWCIbVE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Jun 2025 01:19:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Users/jennifer_avatar.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Users\jennifer_avatar.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-RxJl8YH/kfHHNG/k24yM1VpZ56LwGvCQkg7tTXgiMbE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"19141"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022RxJl8YH/kfHHNG/k24yM1VpZ56LwGvCQkg7tTXgiMbE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Jun 2025 01:21:33 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Users/jennifer_avatar.tf0u0ca1l7.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Users\jennifer_avatar.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"tf0u0ca1l7"},{"Name":"integrity","Value":"sha256-RxJl8YH/kfHHNG/k24yM1VpZ56LwGvCQkg7tTXgiMbE="},{"Name":"label","Value":"_content/HairCareStore/img/Users/jennifer_avatar.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"19141"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022RxJl8YH/kfHHNG/k24yM1VpZ56LwGvCQkg7tTXgiMbE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Jun 2025 01:21:33 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Users/john_avatar.7ncrppt93m.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Users\john_avatar.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"7ncrppt93m"},{"Name":"integrity","Value":"sha256-PbqBsDpunuuERE853yclldwYDUKDb5L3ysu/KK6tgZ8="},{"Name":"label","Value":"_content/HairCareStore/img/Users/john_avatar.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"18620"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022PbqBsDpunuuERE853yclldwYDUKDb5L3ysu/KK6tgZ8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Jun 2025 01:17:50 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Users/john_avatar.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Users\john_avatar.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-PbqBsDpunuuERE853yclldwYDUKDb5L3ysu/KK6tgZ8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"18620"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022PbqBsDpunuuERE853yclldwYDUKDb5L3ysu/KK6tgZ8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Jun 2025 01:17:50 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Users/lisa_avatar.52egi8laok.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Users\lisa_avatar.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"52egi8laok"},{"Name":"integrity","Value":"sha256-Le3QN4Gwrc5dvlH\u002BJrHzqS3wkk4LX4CXrlukZ2nKP1g="},{"Name":"label","Value":"_content/HairCareStore/img/Users/lisa_avatar.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"15805"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Le3QN4Gwrc5dvlH\u002BJrHzqS3wkk4LX4CXrlukZ2nKP1g=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Jun 2025 01:20:43 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Users/lisa_avatar.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Users\lisa_avatar.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Le3QN4Gwrc5dvlH\u002BJrHzqS3wkk4LX4CXrlukZ2nKP1g="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"15805"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022Le3QN4Gwrc5dvlH\u002BJrHzqS3wkk4LX4CXrlukZ2nKP1g=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Jun 2025 01:20:43 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Users/mike_avatar.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Users\mike_avatar.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-tDdus8KPL8RfdESN/b34utfIPK2zadKNVuqm5kpRizo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"30315"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022tDdus8KPL8RfdESN/b34utfIPK2zadKNVuqm5kpRizo=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Jun 2025 01:18:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Users/mike_avatar.wtgezu753k.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Users\mike_avatar.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"wtgezu753k"},{"Name":"integrity","Value":"sha256-tDdus8KPL8RfdESN/b34utfIPK2zadKNVuqm5kpRizo="},{"Name":"label","Value":"_content/HairCareStore/img/Users/mike_avatar.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"30315"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022tDdus8KPL8RfdESN/b34utfIPK2zadKNVuqm5kpRizo=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Jun 2025 01:18:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Users/robert_avatar.0rtujt8ocj.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Users\robert_avatar.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"0rtujt8ocj"},{"Name":"integrity","Value":"sha256-5AZohuMHT3fANNz9leUrO47K9cf6pCOJzXzuuzp/mEU="},{"Name":"label","Value":"_content/HairCareStore/img/Users/robert_avatar.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"8932"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00225AZohuMHT3fANNz9leUrO47K9cf6pCOJzXzuuzp/mEU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Jun 2025 01:21:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Users/robert_avatar.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Users\robert_avatar.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-5AZohuMHT3fANNz9leUrO47K9cf6pCOJzXzuuzp/mEU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"8932"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00225AZohuMHT3fANNz9leUrO47K9cf6pCOJzXzuuzp/mEU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Jun 2025 01:21:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Users/sarah_avatar.d3ehbpioix.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Users\sarah_avatar.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"d3ehbpioix"},{"Name":"integrity","Value":"sha256-mXALMSQF460zq63PT9ntzJvpgMW9D4SNMlsM9p70T9s="},{"Name":"label","Value":"_content/HairCareStore/img/Users/sarah_avatar.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"26202"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022mXALMSQF460zq63PT9ntzJvpgMW9D4SNMlsM9p70T9s=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Jun 2025 01:18:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Users/sarah_avatar.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Users\sarah_avatar.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-mXALMSQF460zq63PT9ntzJvpgMW9D4SNMlsM9p70T9s="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"26202"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022mXALMSQF460zq63PT9ntzJvpgMW9D4SNMlsM9p70T9s=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Jun 2025 01:18:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Users/thomas_avatar.e94ttydhc4.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Users\thomas_avatar.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"e94ttydhc4"},{"Name":"integrity","Value":"sha256-0s9XSrOW\u002BfY6cQlCsQYdtj7zU5qDCR\u002BV/eCS8bdyV6E="},{"Name":"label","Value":"_content/HairCareStore/img/Users/thomas_avatar.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"65584"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00220s9XSrOW\u002BfY6cQlCsQYdtj7zU5qDCR\u002BV/eCS8bdyV6E=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Jun 2025 01:22:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/img/Users/thomas_avatar.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Users\thomas_avatar.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-0s9XSrOW\u002BfY6cQlCsQYdtj7zU5qDCR\u002BV/eCS8bdyV6E="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"65584"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00220s9XSrOW\u002BfY6cQlCsQYdtj7zU5qDCR\u002BV/eCS8bdyV6E=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Jun 2025 01:22:20 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/HairCareStore/img/vegetable-item-1.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\vegetable-item-1.jpg'))</AssetFile>
@@ -899,6 +2003,30 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kgkrxe6v73"},{"Name":"integrity","Value":"sha256-VHltInGAi4lGKWosTKRMyj7LuXYH7moxwHZsjpkM9IQ="},{"Name":"label","Value":"_content/HairCareStore/js/main.js"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3767"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022VHltInGAi4lGKWosTKRMyj7LuXYH7moxwHZsjpkM9IQ=\u0022"},{"Name":"Last-Modified","Value":"Fri, 13 Jun 2025 14:06:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/SQLQuery2.sql">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\SQLQuery2.sql'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-0aTMHTcUaNMgRRJofRUQ5AWyOEcOolhr/DtiCDt1P7U="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"29880"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u00220aTMHTcUaNMgRRJofRUQ5AWyOEcOolhr/DtiCDt1P7U=\u0022"},{"Name":"Last-Modified","Value":"Sat, 29 Nov 2025 07:53:57 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/SQLQuery2.tx14upekjz.sql">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\SQLQuery2.sql'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"tx14upekjz"},{"Name":"integrity","Value":"sha256-0aTMHTcUaNMgRRJofRUQ5AWyOEcOolhr/DtiCDt1P7U="},{"Name":"label","Value":"_content/HairCareStore/SQLQuery2.sql"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"29880"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u00220aTMHTcUaNMgRRJofRUQ5AWyOEcOolhr/DtiCDt1P7U=\u0022"},{"Name":"Last-Modified","Value":"Sat, 29 Nov 2025 07:53:57 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/SQLQuery_add bill.lgr0j44c99.sql">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\SQLQuery_add bill.sql'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"lgr0j44c99"},{"Name":"integrity","Value":"sha256-BU4mL2\u002BdVXl7jzeK/1b9fTmZpMsQXvXcjFKMUuP5dsQ="},{"Name":"label","Value":"_content/HairCareStore/SQLQuery_add bill.sql"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"842"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022BU4mL2\u002BdVXl7jzeK/1b9fTmZpMsQXvXcjFKMUuP5dsQ=\u0022"},{"Name":"Last-Modified","Value":"Sat, 29 Nov 2025 09:10:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HairCareStore/SQLQuery_add bill.sql">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\SQLQuery_add bill.sql'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-BU4mL2\u002BdVXl7jzeK/1b9fTmZpMsQXvXcjFKMUuP5dsQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"842"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022BU4mL2\u002BdVXl7jzeK/1b9fTmZpMsQXvXcjFKMUuP5dsQ=\u0022"},{"Name":"Last-Modified","Value":"Sat, 29 Nov 2025 09:10:08 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>

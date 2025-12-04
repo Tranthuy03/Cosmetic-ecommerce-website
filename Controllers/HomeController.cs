@@ -22,13 +22,32 @@ namespace HairCareStore.Controllers
         public IActionResult Index()
         {
             var products = _context.Products.Include(p => p.Category).Include(p => p.Brand).ToList();
-            if (products == null)
-            {
-                return NotFound();
-            }
+            var topProducts = _context.OrderDetails
+               .Include(od => od.Product)
+                   .ThenInclude(p => p.Category)
+               .Include(od => od.Product.Brand)
+               .GroupBy(od => od.Product)
+               .Select(g => new
+               {
+                   Product = g.Key,
+                   TotalSold = g.Sum(x => x.Quantity)
+               })
+               .OrderByDescending(x => x.TotalSold)
+               .Take(20)
+               .Select(x => x.Product)
+               .ToList();
 
-            ViewBag.FavProducts = products;
-            ViewBag.Products = products;
+            var newProducts = _context.Products
+               .Include(p => p.Category)
+               .Include(p => p.Brand)
+               .OrderByDescending(p => p.CreatedDate)
+               .Take(8)     // nếu bạn muốn lấy top 20 sản phẩm mới
+               .ToList();
+
+
+
+            ViewBag.FavProducts = topProducts;
+            ViewBag.Products = newProducts;
 
             return View();
         }

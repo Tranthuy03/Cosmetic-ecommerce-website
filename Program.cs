@@ -19,7 +19,7 @@ builder.Services.AddAuthentication("CookieAuth")
         options.ExpireTimeSpan = TimeSpan.FromMinutes(30);
         options.SlidingExpiration = true;
     });
-
+builder.Services.AddAuthorization();
 builder.Services.AddDistributedMemoryCache();
 
 builder.Services.AddSession(options =>
@@ -43,10 +43,11 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+app.UseSession();
+app.UseAuthentication();
 
 app.UseAuthorization();
-app.UseAuthentication();
-app.UseSession();   
+
 
 app.MapControllerRoute(
     name: "default",
