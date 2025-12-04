@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\HairCareStore.75i1s9cpsj.bundle.scp.css"
     },
     {
+      "Id": "D:\\Project B\\wwwroot\\SQLQuery2.sql",
+      "PackagePath": "staticwebassets\\SQLQuery2.sql"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\SQLQuery_add bill.sql",
+      "PackagePath": "staticwebassets\\SQLQuery_add bill.sql"
+    },
+    {
       "Id": "D:\\Project B\\wwwroot\\css\\AdminStyle.css",
       "PackagePath": "staticwebassets\\css\\AdminStyle.css"
     },
@@ -125,6 +133,314 @@
       "PackagePath": "staticwebassets\\img\\Categories\\shampoo.jpg"
     },
     {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Blush_1.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Blush_1.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Blush_10.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Blush_10.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Blush_2.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Blush_2.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Blush_3.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Blush_3.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Blush_4.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Blush_4.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Blush_5.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Blush_5.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Blush_6.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Blush_6.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Blush_7.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Blush_7.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Blush_8.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Blush_8.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Blush_9.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Blush_9.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Concealer_1.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Concealer_1.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Concealer_2.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Concealer_2.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Concealer_3.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Concealer_3.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Concealer_4.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Concealer_4.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Concealer_5.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Concealer_5.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Cushion_1.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Cushion_1.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Cushion_2.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Cushion_2.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Cushion_3.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Cushion_3.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Cushion_4.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Cushion_4.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Eyebrown_1.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Eyebrown_1.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Eyebrown_2.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Eyebrown_2.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Eyebrown_3.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Eyebrown_3.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Eyebrown_4.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Eyebrown_4.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Eyebrown_5.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Eyebrown_5.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Eyebrown_6.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Eyebrown_6.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Eyeliner_1.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Eyeliner_1.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Eyeliner_2.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Eyeliner_2.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Eyeliner_3.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Eyeliner_3.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Eyeliner_4.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Eyeliner_4.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Eyeliner_5.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Eyeliner_5.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Eyeshadow_1.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Eyeshadow_1.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Eyeshadow_10.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Eyeshadow_10.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Eyeshadow_2.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Eyeshadow_2.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Eyeshadow_3.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Eyeshadow_3.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Eyeshadow_4.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Eyeshadow_4.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Eyeshadow_5.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Eyeshadow_5.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Eyeshadow_6.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Eyeshadow_6.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Eyeshadow_7.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Eyeshadow_7.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Eyeshadow_8.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Eyeshadow_8.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Eyeshadow_9.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Eyeshadow_9.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\FoundationLockSpray_1.png",
+      "PackagePath": "staticwebassets\\img\\Products\\FoundationLockSpray_1.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\FoundationLockSpray_2.png",
+      "PackagePath": "staticwebassets\\img\\Products\\FoundationLockSpray_2.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\FoundationLockSpray_3.png",
+      "PackagePath": "staticwebassets\\img\\Products\\FoundationLockSpray_3.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\FoundationLockSpray_4.png",
+      "PackagePath": "staticwebassets\\img\\Products\\FoundationLockSpray_4.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\FoundationLockSpray_5.png",
+      "PackagePath": "staticwebassets\\img\\Products\\FoundationLockSpray_5.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Foundation_1.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Foundation_1.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Foundation_2.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Foundation_2.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Foundation_3.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Foundation_3.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Lipstick_1.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Lipstick_1.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Lipstick_10.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Lipstick_10.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Lipstick_11.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Lipstick_11.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Lipstick_12.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Lipstick_12.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Lipstick_13.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Lipstick_13.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Lipstick_14.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Lipstick_14.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Lipstick_15.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Lipstick_15.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Lipstick_16.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Lipstick_16.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Lipstick_17.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Lipstick_17.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Lipstick_18.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Lipstick_18.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Lipstick_2.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Lipstick_2.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Lipstick_3.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Lipstick_3.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Lipstick_4.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Lipstick_4.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Lipstick_5.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Lipstick_5.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Lipstick_6.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Lipstick_6.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Lipstick_7.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Lipstick_7.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Lipstick_8.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Lipstick_8.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Lipstick_9.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Lipstick_9.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Mascara_1.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Mascara_1.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Mascara_2.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Mascara_2.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Mascara_3.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Mascara_3.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Mascara_4.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Mascara_4.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Mascara_5.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Mascara_5.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Powder_1.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Powder_1.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Powder_2.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Powder_2.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Powder_3.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Powder_3.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Powder_4.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Powder_4.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Powder_5.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Powder_5.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\Powder_6.png",
+      "PackagePath": "staticwebassets\\img\\Products\\Powder_6.png"
+    },
+    {
       "Id": "D:\\Project B\\wwwroot\\img\\Products\\argan_oil.jpg",
       "PackagePath": "staticwebassets\\img\\Products\\argan_oil.jpg"
     },
@@ -161,6 +477,26 @@
       "PackagePath": "staticwebassets\\img\\Products\\logo.jpg"
     },
     {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\primer1.png",
+      "PackagePath": "staticwebassets\\img\\Products\\primer1.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\primer2.png",
+      "PackagePath": "staticwebassets\\img\\Products\\primer2.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\primer3.png",
+      "PackagePath": "staticwebassets\\img\\Products\\primer3.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\primer4.png",
+      "PackagePath": "staticwebassets\\img\\Products\\primer4.png"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Products\\primer5.png",
+      "PackagePath": "staticwebassets\\img\\Products\\primer5.png"
+    },
+    {
       "Id": "D:\\Project B\\wwwroot\\img\\Products\\repair_shampoo.jpg",
       "PackagePath": "staticwebassets\\img\\Products\\repair_shampoo.jpg"
     },
@@ -171,6 +507,46 @@
     {
       "Id": "D:\\Project B\\wwwroot\\img\\Products\\smooth_conditioner.jpg",
       "PackagePath": "staticwebassets\\img\\Products\\smooth_conditioner.jpg"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Users\\amanda_avatar.jpg",
+      "PackagePath": "staticwebassets\\img\\Users\\amanda_avatar.jpg"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Users\\david_avatar.jpg",
+      "PackagePath": "staticwebassets\\img\\Users\\david_avatar.jpg"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Users\\emily_avatar.jpg",
+      "PackagePath": "staticwebassets\\img\\Users\\emily_avatar.jpg"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Users\\jennifer_avatar.jpg",
+      "PackagePath": "staticwebassets\\img\\Users\\jennifer_avatar.jpg"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Users\\john_avatar.jpg",
+      "PackagePath": "staticwebassets\\img\\Users\\john_avatar.jpg"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Users\\lisa_avatar.jpg",
+      "PackagePath": "staticwebassets\\img\\Users\\lisa_avatar.jpg"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Users\\mike_avatar.jpg",
+      "PackagePath": "staticwebassets\\img\\Users\\mike_avatar.jpg"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Users\\robert_avatar.jpg",
+      "PackagePath": "staticwebassets\\img\\Users\\robert_avatar.jpg"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Users\\sarah_avatar.jpg",
+      "PackagePath": "staticwebassets\\img\\Users\\sarah_avatar.jpg"
+    },
+    {
+      "Id": "D:\\Project B\\wwwroot\\img\\Users\\thomas_avatar.jpg",
+      "PackagePath": "staticwebassets\\img\\Users\\thomas_avatar.jpg"
     },
     {
       "Id": "D:\\Project B\\wwwroot\\img\\avatar.jpg",

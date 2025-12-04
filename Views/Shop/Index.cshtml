@@ -152,18 +152,34 @@
 
 
 
-                            <div class="col-12">
-                                <div class="pagination d-flex justify-content-center mt-5">
-                                    <a href="#" class="rounded">&laquo;</a>
-                                    <a href="#" class="active rounded">1</a>
-                                    <a href="#" class="rounded">2</a>
-                                    <a href="#" class="rounded">3</a>
-                                    <a href="#" class="rounded">4</a>
-                                    <a href="#" class="rounded">5</a>
-                                    <a href="#" class="rounded">6</a>
-                                    <a href="#" class="rounded">&raquo;</a>
-                                </div>
+                            <div class="pagination d-flex justify-content-center mt-5">
+
+                                @if (ViewBag.Page > 1)
+                                {
+                                    <a class="rounded"
+                                       href="?page=@(ViewBag.Page - 1)&pageSize=@ViewBag.PageSize&searchString=@ViewBag.CurrentSearch&id=@ViewBag.CurrentCategory?.CategoryId">
+                                        &laquo;
+                                    </a>
+                                }
+
+                                @for (int i = 1; i <= ViewBag.TotalPages; i++)
+                                {
+                                    <a class="rounded @(i == ViewBag.Page ? "active" : "")"
+                                       href="?page=@i&pageSize=@ViewBag.PageSize&searchString=@ViewBag.CurrentSearch&id=@ViewBag.CurrentCategory?.CategoryId">
+                                        @i
+                                    </a>
+                                }
+
+                                @if (ViewBag.Page < ViewBag.TotalPages)
+                                {
+                                    <a class="rounded"
+                                       href="?page=@(ViewBag.Page + 1)&pageSize=@ViewBag.PageSize&searchString=@ViewBag.CurrentSearch&id=@ViewBag.CurrentCategory?.CategoryId">
+                                        &raquo;
+                                    </a>
+                                }
+
                             </div>
+
                         </div>
                     </div>
                 </div>
