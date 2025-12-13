@@ -125,6 +125,8 @@
     font-size: 18px;
     transition: .5s;
     font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .navbar {
@@ -572,9 +574,12 @@
     border-color: #e4abb6 !important;
 }
 .menu.active {
-    border-bottom: 3px solid #b46776;
-    border-radius: 5px;
-   
+    background-color: #faedef;
+    border-radius: 20px;
+}
+.menu:hover:not(.active) {
+    background-color: #faedef;
+    border-radius: 20px;
 }
 .bg-dark {
     background-color: #faedef !important;

@@ -1,4 +1,9 @@
-﻿<!DOCTYPE html>
+﻿@{
+    var currentController = ViewContext.RouteData.Values["controller"]?.ToString();
+    var currentAction = ViewContext.RouteData.Values["action"]?.ToString();
+}
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -59,8 +64,17 @@
                 </button>
                 <div class="collapse navbar-collapse bg-white" id="navbarCollapse">
                     <div class="navbar-nav mx-auto">
-                        <a asp-controller="Home" asp-action="Index" class="nav-item nav-link menu active">Home</a>
-                        <a asp-controller="Shop" asp-action="Index" class="nav-item nav-link menu">Shop</a>
+                        <a asp-controller="Home"
+                           asp-action="Index"
+                           class="nav-item nav-link menu @(currentController == "Home" ? "active" : "")">
+                            Home
+                        </a>
+                        <a asp-controller="Shop"
+                           asp-action="Index"
+                           class="nav-item nav-link menu @(currentController == "Shop" ? "active" : "")">
+                            Shop
+                        </a>
+
 
                         @* <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
@@ -71,11 +85,15 @@
                                 <a href="404.html" class="dropdown-item">Demo</a>
                             </div>
                         </div> *@
-                        <a href="#footer-contact" class="nav-item nav-link">Contact</a>
+                        <a href="#footer-contact" class="nav-item nav-link menu">Contact</a>
 
                         @if (User.Identity.IsAuthenticated && User.FindFirst("RoleId")?.Value == "1")
                         {
-                            <a href="@Url.Action("Table","Product")" class="nav-item nav-link">Admin Page</a>
+                            <a asp-controller="Product"
+                               asp-action="Table"
+                               class="nav-item nav-link menu @(currentController == "Product" ? "active" : "")">
+                                Admin Page
+                            </a>
                         }
 
                     </div>
@@ -86,8 +104,8 @@
 
                         @if (!User.Identity.IsAuthenticated)
                         {
-                            <a class="nav-item nav-link" asp-area="" asp-controller="Account" asp-action="Login">Login</a>
-                            <a class="nav-item nav-link" asp-area="" asp-controller="Account" asp-action="Register">Register</a>
+                            <a class="nav-item nav-link menu" asp-area="" asp-controller="Account" asp-action="Login">Login</a>
+                            <a class="nav-item nav-link menu" asp-area="" asp-controller="Account" asp-action="Register">Register</a>
 
                         }
                         else
