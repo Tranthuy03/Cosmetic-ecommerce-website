@@ -23,14 +23,6 @@
       "RelativeMoniker": "D:0:0:{5C7E5CE6-EE3D-451E-9243-A31EBB461170}|HairCareStore.csproj|solutionrelative:wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C7E5CE6-EE3D-451E-9243-A31EBB461170}|HairCareStore.csproj|d:\\projectb_dotnet\\cosmetic-ecommerce-website\\views\\brand\\table.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5C7E5CE6-EE3D-451E-9243-A31EBB461170}|HairCareStore.csproj|solutionrelative:views\\brand\\table.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C7E5CE6-EE3D-451E-9243-A31EBB461170}|HairCareStore.csproj|d:\\projectb_dotnet\\cosmetic-ecommerce-website\\views\\category\\table.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5C7E5CE6-EE3D-451E-9243-A31EBB461170}|HairCareStore.csproj|solutionrelative:views\\category\\table.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5C7E5CE6-EE3D-451E-9243-A31EBB461170}|HairCareStore.csproj|d:\\projectb_dotnet\\cosmetic-ecommerce-website\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C7E5CE6-EE3D-451E-9243-A31EBB461170}|HairCareStore.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -74,20 +66,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 97,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Table.cshtml",
-              "DocumentMoniker": "D:\\ProjectB_dotnet\\Cosmetic-ecommerce-website\\Views\\Brand\\Table.cshtml",
-              "RelativeDocumentMoniker": "Views\\Brand\\Table.cshtml",
-              "ToolTip": "D:\\ProjectB_dotnet\\Cosmetic-ecommerce-website\\Views\\Brand\\Table.cshtml",
-              "RelativeToolTip": "Views\\Brand\\Table.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-13T03:42:15.069Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 4,
@@ -98,8 +78,7 @@
               "RelativeToolTip": "wwwroot\\css\\style.css",
               "ViewState": "AgIAAHcAAAAAAAAAAAAAAIAAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-12-10T04:57:43.591Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-10T04:57:43.591Z"
             },
             {
               "$type": "Document",
@@ -116,28 +95,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\ProjectB_dotnet\\Cosmetic-ecommerce-website\\Views\\Shop\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shop\\Index.cshtml",
-              "ToolTip": "D:\\ProjectB_dotnet\\Cosmetic-ecommerce-website\\Views\\Shop\\Index.cshtml",
-              "RelativeToolTip": "Views\\Shop\\Index.cshtml",
-              "ViewState": "AgIAAJgAAAAAAAAAAAAAALYAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-04T03:20:37.723Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "_AdminLayout.cshtml",
               "DocumentMoniker": "D:\\ProjectB_dotnet\\Cosmetic-ecommerce-website\\Views\\Shared\\_AdminLayout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_AdminLayout.cshtml",
               "ToolTip": "D:\\ProjectB_dotnet\\Cosmetic-ecommerce-website\\Views\\Shared\\_AdminLayout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_AdminLayout.cshtml",
-              "ViewState": "AgIAAGoAAAAAAAAAAAAAAHUAAABhAAAAAAAAAA==",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAGUAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-13T03:54:07.014Z",
+              "WhenOpened": "2025-12-13T04:39:22.742Z",
               "EditorCaption": ""
             },
             {
@@ -148,26 +114,27 @@
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\ProjectB_dotnet\\Cosmetic-ecommerce-website\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAAAGsAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAAAGYAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-29T08:57:23.763Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Table.cshtml",
-              "DocumentMoniker": "D:\\ProjectB_dotnet\\Cosmetic-ecommerce-website\\Views\\Category\\Table.cshtml",
-              "RelativeDocumentMoniker": "Views\\Category\\Table.cshtml",
-              "ToolTip": "D:\\ProjectB_dotnet\\Cosmetic-ecommerce-website\\Views\\Category\\Table.cshtml",
-              "RelativeToolTip": "Views\\Category\\Table.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ProjectB_dotnet\\Cosmetic-ecommerce-website\\Views\\Shop\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shop\\Index.cshtml",
+              "ToolTip": "D:\\ProjectB_dotnet\\Cosmetic-ecommerce-website\\Views\\Shop\\Index.cshtml",
+              "RelativeToolTip": "Views\\Shop\\Index.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAA4AAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-13T03:42:36.747Z"
+              "WhenOpened": "2025-12-04T03:20:37.723Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "AccountController.cs",
               "DocumentMoniker": "D:\\ProjectB_dotnet\\Cosmetic-ecommerce-website\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
@@ -179,7 +146,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "site.css",
               "DocumentMoniker": "D:\\ProjectB_dotnet\\Cosmetic-ecommerce-website\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
@@ -191,7 +158,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "D:\\ProjectB_dotnet\\Cosmetic-ecommerce-website\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
@@ -203,7 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 8,
               "Title": "UserController.cs",
               "DocumentMoniker": "D:\\ProjectB_dotnet\\Cosmetic-ecommerce-website\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Controllers\\UserController.cs",
@@ -215,7 +182,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 9,
               "Title": "ProductController.cs",
               "DocumentMoniker": "D:\\ProjectB_dotnet\\Cosmetic-ecommerce-website\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
@@ -227,7 +194,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 10,
               "Title": "BrandController.cs",
               "DocumentMoniker": "D:\\ProjectB_dotnet\\Cosmetic-ecommerce-website\\Controllers\\BrandController.cs",
               "RelativeDocumentMoniker": "Controllers\\BrandController.cs",
@@ -239,7 +206,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 11,
               "Title": "AdminController.cs",
               "DocumentMoniker": "D:\\ProjectB_dotnet\\Cosmetic-ecommerce-website\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
@@ -251,7 +218,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\ProjectB_dotnet\\Cosmetic-ecommerce-website\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -263,7 +230,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 13,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\ProjectB_dotnet\\Cosmetic-ecommerce-website\\Views\\Cart\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Cart\\Index.cshtml",
