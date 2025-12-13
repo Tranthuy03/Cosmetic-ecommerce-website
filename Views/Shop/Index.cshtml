@@ -10,7 +10,7 @@
 <div class="container-fluid page-header py-5">
     <h1 class="text-center text-white display-6">Shop</h1>
     <ol class="breadcrumb justify-content-center mb-0">
-        <li class="breadcrumb-item"><a href="/Index/Home">Home</a></li>
+        <li class="breadcrumb-item"><a href="/Index/Home" class="link-home">Home</a></li>
         <li class="breadcrumb-item active text-white">Shop</li>
     </ol>
 </div>
@@ -83,7 +83,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-lg-12">
+                            @* <div class="col-lg-12">
                                 <div class="mb-3">
                                     <h4 class="mb-2">Price</h4>
                                     <input type="range" class="form-range w-100" id="rangeInput" name="rangeInput" min="0" max="500" value="0" oninput="amount.value=rangeInput.value">
@@ -114,7 +114,7 @@
                                         <label for="Categories-5"> Expired</label>
                                     </div>
                                 </div>
-                            </div>
+                            </div> *@
 
 
 
@@ -136,10 +136,10 @@
                                                 <div class="fruite-img">
                                                     <img src="@Url.Content("~/img/Products/"+item.ImageUrl)" class="img-fluid w-100 rounded-top" alt="">
                                                 </div>
-                                                <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">@item.Category.Name</div>
+                                                @* <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">@item.Category.Name</div> *@
                                                 <div class="p-4 border border-secondary border-top-0 rounded-bottom">
                                                     <h4 class="product-name">@item.Name</h4>
-                                                    @* <p>@item.Description</p> *@
+                                                    <p class="product-name">@item.Description</p>
                                                     <div class="d-flex justify-content-between flex-lg-wrap">
                                                         <p class="text-dark fs-5 fw-bold mb-0">@item.Price $</p>
                                                         <a asp-action="AddToCart" asp-controller="Cart" asp-route-id="@item.ProductId" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Buy</a>
