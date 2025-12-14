@@ -108,7 +108,7 @@
               "RelativeDocumentMoniker": "Views\\Shared\\_AdminLayout.cshtml",
               "ToolTip": "D:\\Project B\\Views\\Shared\\_AdminLayout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_AdminLayout.cshtml",
-              "ViewState": "AgIAAFEAAAAAAAAAAADwv2kAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAYwGkAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-12-14T11:13:39.864Z",
               "EditorCaption": ""
@@ -123,8 +123,7 @@
               "RelativeToolTip": "Views\\Shared\\Components\\Cart\\CartPanel.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-14T11:12:05.989Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-14T11:12:05.989Z"
             },
             {
               "$type": "Document",
@@ -136,8 +135,7 @@
               "RelativeToolTip": "Models\\Order.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAUwA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T10:39:59.592Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-14T10:39:59.592Z"
             },
             {
               "$type": "Document",
@@ -149,8 +147,7 @@
               "RelativeToolTip": "Controllers\\CartController.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAQwBcAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-29T08:50:46.156Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-29T08:50:46.156Z"
             },
             {
               "$type": "Document",
@@ -162,8 +159,7 @@
               "RelativeToolTip": "ViewModels\\CheckoutViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T04:29:11.214Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-01T04:29:11.214Z"
             },
             {
               "$type": "Document",
@@ -175,8 +171,7 @@
               "RelativeToolTip": "Views\\Cart\\Checkout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-29T08:32:26.818Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-29T08:32:26.818Z"
             },
             {
               "$type": "Document",
@@ -224,8 +219,7 @@
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAEsAAAAAAAAAAADwv1QAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-29T08:57:23.763Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-29T08:57:23.763Z"
             },
             {
               "$type": "Document",
@@ -237,8 +231,7 @@
               "RelativeToolTip": "Data\\EshopContext.cs",
               "ViewState": "AgIAADcAAAAAAAAAAADwv0sAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T10:42:01.671Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-14T10:42:01.671Z"
             },
             {
               "$type": "Document",
@@ -250,8 +243,7 @@
               "RelativeToolTip": "Models\\OrderDetail.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T10:57:15.363Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-14T10:57:15.363Z"
             },
             {
               "$type": "Document",
