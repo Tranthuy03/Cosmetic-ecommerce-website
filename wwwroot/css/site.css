@@ -31,3 +31,30 @@ body {
 h4.product-name {
     height: 57.58px;
 }
+div.cosmetic-banner {
+    height: auto;
+    margin-top: 120px;
+}
+
+h1.display-6 {
+    font-family: "Cormorant Garamond", serif;
+    font-style: italic;
+    font-weight: bold;
+}
+.container-fluid {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+a {
+    color: #b46776 !important;
+}
+.imformation-web {
+    padding-right: 110px !important;
+    padding-left: 110px !important;
+}
+
+h5 {
+    color: #b46776 !important;
+}
+

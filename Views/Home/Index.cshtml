@@ -22,7 +22,7 @@ Layout = "_Layout";
 </div>
 <!-- Modal Search End -->
 <!-- Hero Start -->
-<div class="container-fluid py-5 mb-5 hero-header">
+@* <div class="container-fluid py-5 mb-5 hero-header">
     <div class="container py-5">
         <div class="row g-5 align-items-center">
             <div class="col-md-12 col-lg-7 hero-header-left">
@@ -44,6 +44,14 @@ Layout = "_Layout";
                             <img src="img/Banner/Slide2.jpg" class="img-fluid w-100 h-100 rounded" alt="Second slide">
                             <a href="#" class="btn px-4 py-2 text-white rounded">Faces</a>
                         </div>
+                        <div class="carousel-item rounded">
+                            <img src="img/Banner/Slide3.jpg" class="img-fluid w-100 h-100 rounded" alt="Second slide">
+                            <a href="#" class="btn px-4 py-2 text-white rounded">Faces</a>
+                        </div>
+                        <div class="carousel-item rounded">
+                            <img src="img/Banner/Slide4.jpg" class="img-fluid w-100 h-100 rounded" alt="Second slide">
+                            <a href="#" class="btn px-4 py-2 text-white rounded">Faces</a>
+                        </div>
 
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
@@ -58,6 +66,32 @@ Layout = "_Layout";
             </div>
         </div>
     </div>
+</div> *@
+<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner cosmetic-banner">
+        <div class="carousel-item active" data-bs-interval="10000">
+            <img src="img/Banner/Banner.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+            <img src="img/Banner/Banner1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="img/Banner/Banner2.jpg" class="d-block w-100" alt="...">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
 </div>
 <!-- Hero End -->
 
@@ -68,7 +102,7 @@ Layout = "_Layout";
         <div class="row g-4">
 
             <div class="col-lg-6 text-start">
-                <h1>Our Cosmetic Products</h1>
+                <h1>New Arrival</h1>
             </div>
 
             <div class="col-lg-6 text-end">
@@ -82,10 +116,10 @@ Layout = "_Layout";
                             <div class="fruite-img">
                                 <img src="@Url.Content("~/img/Products/"+item.ImageUrl)" class="img-fluid w-100 rounded-top" alt="">
                             </div>
-                            <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">@item.Category.Name</div>
+                            @* <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">@item.Category.Name</div> *@
                             <div class="p-4 border border-secondary border-top-0 rounded-bottom">
                                 <h4 class="product-name">@item.Name</h4>
-                                @* <p>@item.Description</p> *@
+                                <p class="product-name">@item.Description</p>
                                 <div class="d-flex justify-content-between flex-lg-wrap">
                                     <p class="text-dark fs-5 fw-bold mb-0">$ @item.Price</p>
                                     <a asp-action="AddToCart" asp-controller="Cart" asp-route-id="@item.ProductId" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"> Buy</i></a>
@@ -105,7 +139,7 @@ Layout = "_Layout";
 <!-- FavProducts Start-->
 <div class="container-fluid vesitable py-5">
     <div class="container py-5">
-        <h1 class="mb-0">Favourite Products</h1>
+        <h1 class="mb-0">Best Sellers</h1>
         <div class="owl-carousel vegetable-carousel justify-content-center">
             @foreach (var item in ViewBag.FavProducts)
             {
@@ -114,10 +148,10 @@ Layout = "_Layout";
                         <div class="vesitable-img">
                             <img src="@Url.Content("~/img/Products/"+item.ImageUrl)" class="img-fluid w-100 rounded-top" alt="">
                         </div>
-                        <div class="text-white bg-primary px-3 py-1 rounded position-absolute" style="top: 10px; right: 10px;">@item.Category.Name</div>
+                        @* <div class="text-white bg-primary px-3 py-1 rounded position-absolute" style="top: 10px; right: 10px;">@item.Category.Name</div> *@
                         <div class="p-4 rounded-bottom">
                             <h4 class="product-name">@item.Name</h4>
-                            @* <p>@item.Description</p> *@
+                            <p class="product-name">@item.Description</p>
                             <div class="d-flex justify-content-between flex-lg-wrap">
                                 <p class="text-dark fs-5 fw-bold mb-0">$ @item.Price</p>
                                 <a asp-action="AddToCart" asp-controller="Cart" asp-route-id="@item.ProductId" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"> Buy</i></a>

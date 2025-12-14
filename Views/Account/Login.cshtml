@@ -2,59 +2,103 @@
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
 @{
-    Layout = "_Layout";
+    Layout = null;
 }
-<section class="login">
-    <h2>Đăng nhập</h2>
-    <p>Chào mừng! Vui lòng nhập thông tin chi tiết của bạn.</p>
-    <form asp-action="Login" asp-controller="Account" method="post">
-        <div asp-validation-summary="All" class="text-danger"></div>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewData["Title"] - Hair Care Store</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <div class="row mb-3">
-            <div class="col-sm-12 ">
-                <i class="fa-regular fa-envelope"></i>
-                <input type="email" class="form-control" id="inputEmail" placeholder="Email" name="email">
-            </div>
-        </div>
-        <div class="row mb-3">
-            <div class="col-sm-12">
-                <i class="fa-solid fa-lock"></i>
-                <input type="password" class="form-control" id="inputPassword" placeholder="Mật khẩu" name="password">
-            </div>
-        </div>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap"
+          rel="stylesheet" />
+    <link rel="stylesheet" href="~/css/style.css" asp-append-version="true" />
 
-        <div class="row mb-3">
-            <div class="col-sm-8">
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="rememberCheck">
-                    <label class="form-check-label" for="rememberCheck">
-                        Ghi nhớ thông tin
-                    </label>
+</head>
+<body class="login">
+    <header class="login">
+
+        <nav class="navigation">
+            <a asp-controller="Home" asp-action="Index">Home</a>
+            <a asp-controller="Shop" asp-action="Index">Shop</a>
+            <a href="contact.html">Contact</a>
+            <a asp-area="" asp-controller="Account" asp-action="Login">Login</a>
+            <a asp-area="" asp-controller="Account" asp-action="Register">Register</a>
+        </nav>
+    </header>
+
+    <div class="login wrapper">
+        <!-- LOGIN FORM -->
+        <div class="form-box login">
+            <h2>Login</h2>
+            <form asp-action="Login" asp-controller="Account" method="post">
+                <div class="input-box">
+                    <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+                    <input type="email" class="form-control" id="inputEmail" name="email" required />
+                    <label>Email</label>
                 </div>
-            </div>
+                <div class="input-box">
+                    <span class="icon"><i class="fa-solid fa-lock"></i></span>
+                    <input type="password" class="form-control" id="inputPassword" name="password" required />
+                    <label>Password</label>
+                </div>
 
-            <div class="col-sm-4">
-                <a href="#">Quên mật khẩu?</a>
-            </div>
+                <div class="remember-forgot">
+                    <label><input class="form-check-input" type="checkbox" id="rememberCheck" />Remember me</label>
+                    <a href="#">Forgot Password?</a>
+                </div>
+
+                <button type="submit" class="btn-1">Login</button>
+
+                <div class="login-register">
+                    <p>Don't have an account? <a href="/Account/Register" class="register-link">Register</a></p>
+                </div>
+            </form>
         </div>
 
-        <div class="row mb-3">
-            <button type="submit" class="btn btn-primary login-btn mb-3">Đăng nhập</button>
-            <button type="submit" class="btn btn-primary active-btn"><i class="fa-solid fa-user-plus me-2"></i>Kích hoạt tài khoản</button>
-        </div>
-        <div class="row mb-3">
-            <label class="">
-                Bạn chưa là thành viên? <a href="/Account/Register">Đăng ký ngay!</a>
-            </label>
-        </div>
-    </form>
-</section>
+        <!-- REGISTER FORM -->
+        <!-- <div class="form-box register">
+            <h2>Registration</h2>
+            <form action="#">
+              <div class="input-box">
+                <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+                <input type="email" required />
+                <label>Email</label>
+              </div>
+              <div class="input-box">
+                <span class="icon"><i class="fa-solid fa-lock"></i></span>
+                <input type="password" required />
+                <label>Password</label>
+              </div>
+              <div class="remember-forgot">
+                <label><input type="checkbox" />I agree to the terms & conditions</label>
+              </div>
 
-@section Scripts {
-    @{
-        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+              <button type="submit" class="btn-1">Register</button>
 
-    }
-}
+              <div class="login-register">
+                <p>Already have an account? <a href="#" class="login-link">Login</a></p>
+              </div>
+            </form>
+          </div>
+        </div> -->
 
+        @* <script>
+            const wrapper = document.querySelector(".wrapper");
+            const loginlink = document.querySelector(".login-link");
+            const registerlink = document.querySelector(".register-link");
 
+            registerlink.addEventListener("click", () => {
+              wrapper.classList.add("active");
+            });
+
+            loginlink.addEventListener("click", () => {
+              wrapper.classList.remove("active");
+            });
+        </script> *@
+</body>
+</html>
