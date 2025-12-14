@@ -14,7 +14,11 @@ public partial class Order
     public decimal TotalAmount { get; set; }
 
     public string? Status { get; set; }
+    public string? Adress { get; set; }
 
+    public string? Phone { get; set; }
+
+    public string? Note { get; set; }
     public virtual ICollection<OrderDetail> OrderDetails { get; set; } = new List<OrderDetail>();
 
     public virtual User? User { get; set; }

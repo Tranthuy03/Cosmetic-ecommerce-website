@@ -413,7 +413,7 @@
       ]
     },
     {
-      "Route": "css/site.c2tiyv64ts.css",
+      "Route": "css/site.bcmyyqm05y.css",
       "AssetFile": "css/site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -427,7 +427,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "362"
+          "Value": "622"
         },
         {
           "Name": "Content-Type",
@@ -435,21 +435,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+          "Value": "\"mw9tJjewa7VgChzTAwK2XWwPAnJvKBOr6ydOu/j7Pts=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
+          "Value": "Thu, 04 Dec 2025 05:06:06 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "c2tiyv64ts"
+          "Value": "bcmyyqm05y"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+          "Value": "sha256-mw9tJjewa7VgChzTAwK2XWwPAnJvKBOr6ydOu/j7Pts="
         },
         {
           "Name": "label",
@@ -472,7 +472,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "362"
+          "Value": "622"
         },
         {
           "Name": "Content-Type",
@@ -480,62 +480,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+          "Value": "\"mw9tJjewa7VgChzTAwK2XWwPAnJvKBOr6ydOu/j7Pts=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
+          "Value": "Thu, 04 Dec 2025 05:06:06 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
-        }
-      ]
-    },
-    {
-      "Route": "css/style.9h8sb02b82.css",
-      "AssetFile": "css/style.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "11713"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ExvXffWbOrXIGwatnvo6XXdl2X/WM70X+wkiriZ04jc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "9h8sb02b82"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ExvXffWbOrXIGwatnvo6XXdl2X/WM70X+wkiriZ04jc="
-        },
-        {
-          "Name": "label",
-          "Value": "css/style.css"
+          "Value": "sha256-mw9tJjewa7VgChzTAwK2XWwPAnJvKBOr6ydOu/j7Pts="
         }
       ]
     },
@@ -554,7 +509,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11713"
+          "Value": "12316"
         },
         {
           "Name": "Content-Type",
@@ -562,17 +517,62 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ExvXffWbOrXIGwatnvo6XXdl2X/WM70X+wkiriZ04jc=\""
+          "Value": "\"clUTV6cgBLkjvQok4LzlUcFFzYZM3vSruW93QyK4Pps=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
+          "Value": "Thu, 04 Dec 2025 05:06:06 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ExvXffWbOrXIGwatnvo6XXdl2X/WM70X+wkiriZ04jc="
+          "Value": "sha256-clUTV6cgBLkjvQok4LzlUcFFzYZM3vSruW93QyK4Pps="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.qu2kejpme1.css",
+      "AssetFile": "css/style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12316"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"clUTV6cgBLkjvQok4LzlUcFFzYZM3vSruW93QyK4Pps=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 04 Dec 2025 05:06:06 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qu2kejpme1"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-clUTV6cgBLkjvQok4LzlUcFFzYZM3vSruW93QyK4Pps="
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
         }
       ]
     },
@@ -673,7 +673,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "31172"
+          "Value": "66177"
         },
         {
           "Name": "Content-Type",
@@ -681,22 +681,22 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Kt6Dz3wXSnNxWxtFQuOUFPiMgfTS3vxKpTwtdVLd7iE=\""
+          "Value": "\"PlTxLXbc3IaAi+PmLykEVB8lMs7z8v6RpgyLglglCzA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
+          "Value": "Thu, 04 Dec 2025 05:06:06 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Kt6Dz3wXSnNxWxtFQuOUFPiMgfTS3vxKpTwtdVLd7iE="
+          "Value": "sha256-PlTxLXbc3IaAi+PmLykEVB8lMs7z8v6RpgyLglglCzA="
         }
       ]
     },
     {
-      "Route": "img/Banner/Banner.m5eurgslz7.jpg",
+      "Route": "img/Banner/Banner.u10a95v7hx.jpg",
       "AssetFile": "img/Banner/Banner.jpg",
       "Selectors": [],
       "ResponseHeaders": [
@@ -710,7 +710,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "31172"
+          "Value": "66177"
         },
         {
           "Name": "Content-Type",
@@ -718,21 +718,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Kt6Dz3wXSnNxWxtFQuOUFPiMgfTS3vxKpTwtdVLd7iE=\""
+          "Value": "\"PlTxLXbc3IaAi+PmLykEVB8lMs7z8v6RpgyLglglCzA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
+          "Value": "Thu, 04 Dec 2025 05:06:06 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "m5eurgslz7"
+          "Value": "u10a95v7hx"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Kt6Dz3wXSnNxWxtFQuOUFPiMgfTS3vxKpTwtdVLd7iE="
+          "Value": "sha256-PlTxLXbc3IaAi+PmLykEVB8lMs7z8v6RpgyLglglCzA="
         },
         {
           "Name": "label",
@@ -755,7 +755,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "30351"
+          "Value": "632677"
         },
         {
           "Name": "Content-Type",
@@ -763,22 +763,22 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"3H49rtzh7ujAfbe1xkVWhhXC5R3ZhRs8A/DCyUR211A=\""
+          "Value": "\"znrrGN5ACSUVPGyhS5QNzBh3URK4GIFzhVGrqLOfbfw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
+          "Value": "Thu, 04 Dec 2025 05:06:06 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-3H49rtzh7ujAfbe1xkVWhhXC5R3ZhRs8A/DCyUR211A="
+          "Value": "sha256-znrrGN5ACSUVPGyhS5QNzBh3URK4GIFzhVGrqLOfbfw="
         }
       ]
     },
     {
-      "Route": "img/Banner/Slide1.kcm82zvbx5.jpg",
+      "Route": "img/Banner/Slide1.yrqp7gcf14.jpg",
       "AssetFile": "img/Banner/Slide1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
@@ -792,7 +792,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "30351"
+          "Value": "632677"
         },
         {
           "Name": "Content-Type",
@@ -800,21 +800,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"3H49rtzh7ujAfbe1xkVWhhXC5R3ZhRs8A/DCyUR211A=\""
+          "Value": "\"znrrGN5ACSUVPGyhS5QNzBh3URK4GIFzhVGrqLOfbfw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
+          "Value": "Thu, 04 Dec 2025 05:06:06 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "kcm82zvbx5"
+          "Value": "yrqp7gcf14"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-3H49rtzh7ujAfbe1xkVWhhXC5R3ZhRs8A/DCyUR211A="
+          "Value": "sha256-znrrGN5ACSUVPGyhS5QNzBh3URK4GIFzhVGrqLOfbfw="
         },
         {
           "Name": "label",
@@ -9023,744 +9023,6 @@
       ]
     },
     {
-      "Route": "img/Products/argan_oil.0i9r64bpya.jpg",
-      "AssetFile": "img/Products/argan_oil.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "47928"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"2K4rT/nerQZHU3t4FDK3Q5h4g4T6wCKG8D0mc8iUSa0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "0i9r64bpya"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-2K4rT/nerQZHU3t4FDK3Q5h4g4T6wCKG8D0mc8iUSa0="
-        },
-        {
-          "Name": "label",
-          "Value": "img/Products/argan_oil.jpg"
-        }
-      ]
-    },
-    {
-      "Route": "img/Products/argan_oil.jpg",
-      "AssetFile": "img/Products/argan_oil.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "47928"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"2K4rT/nerQZHU3t4FDK3Q5h4g4T6wCKG8D0mc8iUSa0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-2K4rT/nerQZHU3t4FDK3Q5h4g4T6wCKG8D0mc8iUSa0="
-        }
-      ]
-    },
-    {
-      "Route": "img/Products/funny-cartoon-monster-character-illustration-of-cute-and-happy-mythical-alien-creature-halloween-design-700-264462907.7v4ura9spa.jpg",
-      "AssetFile": "img/Products/funny-cartoon-monster-character-illustration-of-cute-and-happy-mythical-alien-creature-halloween-design-700-264462907.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "38468"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"3ZhUYLbmrHmtYT9iUmAyyubKBjXWJymmOIypa/GERD8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "7v4ura9spa"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-3ZhUYLbmrHmtYT9iUmAyyubKBjXWJymmOIypa/GERD8="
-        },
-        {
-          "Name": "label",
-          "Value": "img/Products/funny-cartoon-monster-character-illustration-of-cute-and-happy-mythical-alien-creature-halloween-design-700-264462907.jpg"
-        }
-      ]
-    },
-    {
-      "Route": "img/Products/funny-cartoon-monster-character-illustration-of-cute-and-happy-mythical-alien-creature-halloween-design-700-264462907.jpg",
-      "AssetFile": "img/Products/funny-cartoon-monster-character-illustration-of-cute-and-happy-mythical-alien-creature-halloween-design-700-264462907.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "38468"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"3ZhUYLbmrHmtYT9iUmAyyubKBjXWJymmOIypa/GERD8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-3ZhUYLbmrHmtYT9iUmAyyubKBjXWJymmOIypa/GERD8="
-        }
-      ]
-    },
-    {
-      "Route": "img/Products/hair_brush.jpg",
-      "AssetFile": "img/Products/hair_brush.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "103004"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"/lWx16VjLj7r4mk3QEifr6wR72YyY/kUBGNEccBtyqA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-/lWx16VjLj7r4mk3QEifr6wR72YyY/kUBGNEccBtyqA="
-        }
-      ]
-    },
-    {
-      "Route": "img/Products/hair_brush.yw2losqgjo.jpg",
-      "AssetFile": "img/Products/hair_brush.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "103004"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"/lWx16VjLj7r4mk3QEifr6wR72YyY/kUBGNEccBtyqA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "yw2losqgjo"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-/lWx16VjLj7r4mk3QEifr6wR72YyY/kUBGNEccBtyqA="
-        },
-        {
-          "Name": "label",
-          "Value": "img/Products/hair_brush.jpg"
-        }
-      ]
-    },
-    {
-      "Route": "img/Products/hair_color.hxo03pfcoj.jpg",
-      "AssetFile": "img/Products/hair_color.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "523401"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"NVWoZhJH+mManRJyZPKx7MuHLrktfrXIxDg8fOFqFE8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "hxo03pfcoj"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-NVWoZhJH+mManRJyZPKx7MuHLrktfrXIxDg8fOFqFE8="
-        },
-        {
-          "Name": "label",
-          "Value": "img/Products/hair_color.jpg"
-        }
-      ]
-    },
-    {
-      "Route": "img/Products/hair_color.jpg",
-      "AssetFile": "img/Products/hair_color.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "523401"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"NVWoZhJH+mManRJyZPKx7MuHLrktfrXIxDg8fOFqFE8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-NVWoZhJH+mManRJyZPKx7MuHLrktfrXIxDg8fOFqFE8="
-        }
-      ]
-    },
-    {
-      "Route": "img/Products/hair_dryer.fkaybwjgvl.jpg",
-      "AssetFile": "img/Products/hair_dryer.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "85153"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"AftDzSmDWBSLod5O42PDShC/zfcZF+NTokAesEfqE18=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "fkaybwjgvl"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-AftDzSmDWBSLod5O42PDShC/zfcZF+NTokAesEfqE18="
-        },
-        {
-          "Name": "label",
-          "Value": "img/Products/hair_dryer.jpg"
-        }
-      ]
-    },
-    {
-      "Route": "img/Products/hair_dryer.jpg",
-      "AssetFile": "img/Products/hair_dryer.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "85153"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"AftDzSmDWBSLod5O42PDShC/zfcZF+NTokAesEfqE18=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-AftDzSmDWBSLod5O42PDShC/zfcZF+NTokAesEfqE18="
-        }
-      ]
-    },
-    {
-      "Route": "img/Products/hair_gel.jpg",
-      "AssetFile": "img/Products/hair_gel.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "22749"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hNRGXRupWN8Cw/SM0WpWNDDnz6mVmu24WHLJiV9Zbww=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-hNRGXRupWN8Cw/SM0WpWNDDnz6mVmu24WHLJiV9Zbww="
-        }
-      ]
-    },
-    {
-      "Route": "img/Products/hair_gel.wp2v1hrq1m.jpg",
-      "AssetFile": "img/Products/hair_gel.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "22749"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hNRGXRupWN8Cw/SM0WpWNDDnz6mVmu24WHLJiV9Zbww=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "wp2v1hrq1m"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-hNRGXRupWN8Cw/SM0WpWNDDnz6mVmu24WHLJiV9Zbww="
-        },
-        {
-          "Name": "label",
-          "Value": "img/Products/hair_gel.jpg"
-        }
-      ]
-    },
-    {
-      "Route": "img/Products/hair_spray.jpg",
-      "AssetFile": "img/Products/hair_spray.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "21997"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"BxeYcWoJzKB84jsGE5XJCEiHF6be7PEIq+cvxEdYiX8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-BxeYcWoJzKB84jsGE5XJCEiHF6be7PEIq+cvxEdYiX8="
-        }
-      ]
-    },
-    {
-      "Route": "img/Products/hair_spray.jtatf32zae.jpg",
-      "AssetFile": "img/Products/hair_spray.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "21997"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"BxeYcWoJzKB84jsGE5XJCEiHF6be7PEIq+cvxEdYiX8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "jtatf32zae"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-BxeYcWoJzKB84jsGE5XJCEiHF6be7PEIq+cvxEdYiX8="
-        },
-        {
-          "Name": "label",
-          "Value": "img/Products/hair_spray.jpg"
-        }
-      ]
-    },
-    {
-      "Route": "img/Products/hydrating_mask.jpg",
-      "AssetFile": "img/Products/hydrating_mask.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "143465"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"/K/9YqvVKYrzVAUFrc+I0++DnIS6aCtTgH5HLuR8buA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-/K/9YqvVKYrzVAUFrc+I0++DnIS6aCtTgH5HLuR8buA="
-        }
-      ]
-    },
-    {
-      "Route": "img/Products/hydrating_mask.s2yec4dzb2.jpg",
-      "AssetFile": "img/Products/hydrating_mask.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "143465"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"/K/9YqvVKYrzVAUFrc+I0++DnIS6aCtTgH5HLuR8buA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "s2yec4dzb2"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-/K/9YqvVKYrzVAUFrc+I0++DnIS6aCtTgH5HLuR8buA="
-        },
-        {
-          "Name": "label",
-          "Value": "img/Products/hydrating_mask.jpg"
-        }
-      ]
-    },
-    {
-      "Route": "img/Products/logo.66bg5n5hqe.jpg",
-      "AssetFile": "img/Products/logo.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "4607"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"jg0wX91Rxmc+t36PLLZQstpft7iPJrhQoxDk/piRmVo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "66bg5n5hqe"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-jg0wX91Rxmc+t36PLLZQstpft7iPJrhQoxDk/piRmVo="
-        },
-        {
-          "Name": "label",
-          "Value": "img/Products/logo.jpg"
-        }
-      ]
-    },
-    {
-      "Route": "img/Products/logo.jpg",
-      "AssetFile": "img/Products/logo.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "4607"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"jg0wX91Rxmc+t36PLLZQstpft7iPJrhQoxDk/piRmVo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-jg0wX91Rxmc+t36PLLZQstpft7iPJrhQoxDk/piRmVo="
-        }
-      ]
-    },
-    {
       "Route": "img/Products/primer1.fv4avier08.png",
       "AssetFile": "img/Products/primer1.png",
       "Selectors": [],
@@ -10167,252 +9429,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-ISuU0S+mm4gb7utbo9zGdCN3s+aFFXm0NI0lFiKSlqY="
-        }
-      ]
-    },
-    {
-      "Route": "img/Products/repair_shampoo.jpg",
-      "AssetFile": "img/Products/repair_shampoo.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "70137"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"aR4ZEZjXhqJUkBBWQeiHoifFU7Ei/xoT25Z8LzoFE10=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-aR4ZEZjXhqJUkBBWQeiHoifFU7Ei/xoT25Z8LzoFE10="
-        }
-      ]
-    },
-    {
-      "Route": "img/Products/repair_shampoo.l5qcjr5iew.jpg",
-      "AssetFile": "img/Products/repair_shampoo.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "70137"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"aR4ZEZjXhqJUkBBWQeiHoifFU7Ei/xoT25Z8LzoFE10=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "l5qcjr5iew"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-aR4ZEZjXhqJUkBBWQeiHoifFU7Ei/xoT25Z8LzoFE10="
-        },
-        {
-          "Name": "label",
-          "Value": "img/Products/repair_shampoo.jpg"
-        }
-      ]
-    },
-    {
-      "Route": "img/Products/scrunchies.jpg",
-      "AssetFile": "img/Products/scrunchies.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "65294"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"BeLCxzUj67T0YCmarHhdNJljQ0DnENbMYbVhjcZNBV4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-BeLCxzUj67T0YCmarHhdNJljQ0DnENbMYbVhjcZNBV4="
-        }
-      ]
-    },
-    {
-      "Route": "img/Products/scrunchies.v3jx3jf981.jpg",
-      "AssetFile": "img/Products/scrunchies.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "65294"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"BeLCxzUj67T0YCmarHhdNJljQ0DnENbMYbVhjcZNBV4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "v3jx3jf981"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-BeLCxzUj67T0YCmarHhdNJljQ0DnENbMYbVhjcZNBV4="
-        },
-        {
-          "Name": "label",
-          "Value": "img/Products/scrunchies.jpg"
-        }
-      ]
-    },
-    {
-      "Route": "img/Products/smooth_conditioner.6sz409a2yi.jpg",
-      "AssetFile": "img/Products/smooth_conditioner.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "56183"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"2o1PQQHFnkSF88jw97fxJq84mWlSmCznhStLfL7FnUQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "6sz409a2yi"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-2o1PQQHFnkSF88jw97fxJq84mWlSmCznhStLfL7FnUQ="
-        },
-        {
-          "Name": "label",
-          "Value": "img/Products/smooth_conditioner.jpg"
-        }
-      ]
-    },
-    {
-      "Route": "img/Products/smooth_conditioner.jpg",
-      "AssetFile": "img/Products/smooth_conditioner.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "56183"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"2o1PQQHFnkSF88jw97fxJq84mWlSmCznhStLfL7FnUQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-2o1PQQHFnkSF88jw97fxJq84mWlSmCznhStLfL7FnUQ="
         }
       ]
     },

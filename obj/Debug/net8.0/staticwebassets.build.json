@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jqiKT8OsQ8L9X9A0xpI8LY5PIOgw8sC/nRDuVkFX31o=",
+  "Hash": "SOSl3NrFbkW2wfg3cAy0TJkwU2wPPb/rx0JNrqlLZfY=",
   "Source": "HairCareStore",
   "BasePath": "_content/HairCareStore",
   "Mode": "Default",
@@ -115,8 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "c2tiyv64ts",
-      "Integrity": "pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=",
+      "Fingerprint": "bcmyyqm05y",
+      "Integrity": "mw9tJjewa7VgChzTAwK2XWwPAnJvKBOr6ydOu/j7Pts=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -136,8 +136,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "9h8sb02b82",
-      "Integrity": "ExvXffWbOrXIGwatnvo6XXdl2X/WM70X+wkiriZ04jc=",
+      "Fingerprint": "qu2kejpme1",
+      "Integrity": "clUTV6cgBLkjvQok4LzlUcFFzYZM3vSruW93QyK4Pps=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\style.css"
@@ -220,8 +220,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "m5eurgslz7",
-      "Integrity": "Kt6Dz3wXSnNxWxtFQuOUFPiMgfTS3vxKpTwtdVLd7iE=",
+      "Fingerprint": "u10a95v7hx",
+      "Integrity": "PlTxLXbc3IaAi+PmLykEVB8lMs7z8v6RpgyLglglCzA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\Banner\\Banner.jpg"
@@ -241,8 +241,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "kcm82zvbx5",
-      "Integrity": "3H49rtzh7ujAfbe1xkVWhhXC5R3ZhRs8A/DCyUR211A=",
+      "Fingerprint": "yrqp7gcf14",
+      "Integrity": "znrrGN5ACSUVPGyhS5QNzBh3URK4GIFzhVGrqLOfbfw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\Banner\\Slide1.jpg"
@@ -1170,27 +1170,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\payment.png"
-    },
-    {
-      "Identity": "D:\\Project B\\wwwroot\\img\\Products\\argan_oil.jpg",
-      "SourceId": "HairCareStore",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project B\\wwwroot\\",
-      "BasePath": "_content/HairCareStore",
-      "RelativePath": "img/Products/argan_oil#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "0i9r64bpya",
-      "Integrity": "2K4rT/nerQZHU3t4FDK3Q5h4g4T6wCKG8D0mc8iUSa0=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\Products\\argan_oil.jpg"
     },
     {
       "Identity": "D:\\Project B\\wwwroot\\img\\Products\\Blush_1.png",
@@ -2201,153 +2180,6 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\FoundationLockSpray_5.png"
     },
     {
-      "Identity": "D:\\Project B\\wwwroot\\img\\Products\\funny-cartoon-monster-character-illustration-of-cute-and-happy-mythical-alien-creature-halloween-design-700-264462907.jpg",
-      "SourceId": "HairCareStore",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project B\\wwwroot\\",
-      "BasePath": "_content/HairCareStore",
-      "RelativePath": "img/Products/funny-cartoon-monster-character-illustration-of-cute-and-happy-mythical-alien-creature-halloween-design-700-264462907#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "7v4ura9spa",
-      "Integrity": "3ZhUYLbmrHmtYT9iUmAyyubKBjXWJymmOIypa/GERD8=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\Products\\funny-cartoon-monster-character-illustration-of-cute-and-happy-mythical-alien-creature-halloween-design-700-264462907.jpg"
-    },
-    {
-      "Identity": "D:\\Project B\\wwwroot\\img\\Products\\hair_brush.jpg",
-      "SourceId": "HairCareStore",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project B\\wwwroot\\",
-      "BasePath": "_content/HairCareStore",
-      "RelativePath": "img/Products/hair_brush#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "yw2losqgjo",
-      "Integrity": "/lWx16VjLj7r4mk3QEifr6wR72YyY/kUBGNEccBtyqA=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\Products\\hair_brush.jpg"
-    },
-    {
-      "Identity": "D:\\Project B\\wwwroot\\img\\Products\\hair_color.jpg",
-      "SourceId": "HairCareStore",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project B\\wwwroot\\",
-      "BasePath": "_content/HairCareStore",
-      "RelativePath": "img/Products/hair_color#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "hxo03pfcoj",
-      "Integrity": "NVWoZhJH+mManRJyZPKx7MuHLrktfrXIxDg8fOFqFE8=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\Products\\hair_color.jpg"
-    },
-    {
-      "Identity": "D:\\Project B\\wwwroot\\img\\Products\\hair_dryer.jpg",
-      "SourceId": "HairCareStore",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project B\\wwwroot\\",
-      "BasePath": "_content/HairCareStore",
-      "RelativePath": "img/Products/hair_dryer#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "fkaybwjgvl",
-      "Integrity": "AftDzSmDWBSLod5O42PDShC/zfcZF+NTokAesEfqE18=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\Products\\hair_dryer.jpg"
-    },
-    {
-      "Identity": "D:\\Project B\\wwwroot\\img\\Products\\hair_gel.jpg",
-      "SourceId": "HairCareStore",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project B\\wwwroot\\",
-      "BasePath": "_content/HairCareStore",
-      "RelativePath": "img/Products/hair_gel#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "wp2v1hrq1m",
-      "Integrity": "hNRGXRupWN8Cw/SM0WpWNDDnz6mVmu24WHLJiV9Zbww=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\Products\\hair_gel.jpg"
-    },
-    {
-      "Identity": "D:\\Project B\\wwwroot\\img\\Products\\hair_spray.jpg",
-      "SourceId": "HairCareStore",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project B\\wwwroot\\",
-      "BasePath": "_content/HairCareStore",
-      "RelativePath": "img/Products/hair_spray#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "jtatf32zae",
-      "Integrity": "BxeYcWoJzKB84jsGE5XJCEiHF6be7PEIq+cvxEdYiX8=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\Products\\hair_spray.jpg"
-    },
-    {
-      "Identity": "D:\\Project B\\wwwroot\\img\\Products\\hydrating_mask.jpg",
-      "SourceId": "HairCareStore",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project B\\wwwroot\\",
-      "BasePath": "_content/HairCareStore",
-      "RelativePath": "img/Products/hydrating_mask#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "s2yec4dzb2",
-      "Integrity": "/K/9YqvVKYrzVAUFrc+I0++DnIS6aCtTgH5HLuR8buA=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\Products\\hydrating_mask.jpg"
-    },
-    {
       "Identity": "D:\\Project B\\wwwroot\\img\\Products\\Lipstick_1.png",
       "SourceId": "HairCareStore",
       "SourceType": "Discovered",
@@ -2726,27 +2558,6 @@
       "OriginalItemSpec": "wwwroot\\img\\Products\\Lipstick_9.png"
     },
     {
-      "Identity": "D:\\Project B\\wwwroot\\img\\Products\\logo.jpg",
-      "SourceId": "HairCareStore",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project B\\wwwroot\\",
-      "BasePath": "_content/HairCareStore",
-      "RelativePath": "img/Products/logo#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "66bg5n5hqe",
-      "Integrity": "jg0wX91Rxmc+t36PLLZQstpft7iPJrhQoxDk/piRmVo=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\Products\\logo.jpg"
-    },
-    {
       "Identity": "D:\\Project B\\wwwroot\\img\\Products\\Mascara_1.png",
       "SourceId": "HairCareStore",
       "SourceType": "Discovered",
@@ -3081,69 +2892,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\Products\\primer5.png"
-    },
-    {
-      "Identity": "D:\\Project B\\wwwroot\\img\\Products\\repair_shampoo.jpg",
-      "SourceId": "HairCareStore",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project B\\wwwroot\\",
-      "BasePath": "_content/HairCareStore",
-      "RelativePath": "img/Products/repair_shampoo#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "l5qcjr5iew",
-      "Integrity": "aR4ZEZjXhqJUkBBWQeiHoifFU7Ei/xoT25Z8LzoFE10=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\Products\\repair_shampoo.jpg"
-    },
-    {
-      "Identity": "D:\\Project B\\wwwroot\\img\\Products\\scrunchies.jpg",
-      "SourceId": "HairCareStore",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project B\\wwwroot\\",
-      "BasePath": "_content/HairCareStore",
-      "RelativePath": "img/Products/scrunchies#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "v3jx3jf981",
-      "Integrity": "BeLCxzUj67T0YCmarHhdNJljQ0DnENbMYbVhjcZNBV4=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\Products\\scrunchies.jpg"
-    },
-    {
-      "Identity": "D:\\Project B\\wwwroot\\img\\Products\\smooth_conditioner.jpg",
-      "SourceId": "HairCareStore",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project B\\wwwroot\\",
-      "BasePath": "_content/HairCareStore",
-      "RelativePath": "img/Products/smooth_conditioner#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "6sz409a2yi",
-      "Integrity": "2o1PQQHFnkSF88jw97fxJq84mWlSmCznhStLfL7FnUQ=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\Products\\smooth_conditioner.jpg"
     },
     {
       "Identity": "D:\\Project B\\wwwroot\\img\\single-item.jpg",
@@ -3753,7 +3501,7 @@
       ]
     },
     {
-      "Route": "css/site.c2tiyv64ts.css",
+      "Route": "css/site.bcmyyqm05y.css",
       "AssetFile": "D:\\Project B\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3763,7 +3511,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "362"
+          "Value": "622"
         },
         {
           "Name": "Content-Type",
@@ -3771,11 +3519,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+          "Value": "\"mw9tJjewa7VgChzTAwK2XWwPAnJvKBOr6ydOu/j7Pts=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
+          "Value": "Thu, 04 Dec 2025 05:06:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3785,7 +3533,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "c2tiyv64ts"
+          "Value": "bcmyyqm05y"
         },
         {
           "Name": "label",
@@ -3793,7 +3541,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+          "Value": "sha256-mw9tJjewa7VgChzTAwK2XWwPAnJvKBOr6ydOu/j7Pts="
         }
       ]
     },
@@ -3808,7 +3556,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "362"
+          "Value": "622"
         },
         {
           "Name": "Content-Type",
@@ -3816,11 +3564,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+          "Value": "\"mw9tJjewa7VgChzTAwK2XWwPAnJvKBOr6ydOu/j7Pts=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
+          "Value": "Thu, 04 Dec 2025 05:06:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3830,52 +3578,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
-        }
-      ]
-    },
-    {
-      "Route": "css/style.9h8sb02b82.css",
-      "AssetFile": "D:\\Project B\\wwwroot\\css\\style.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "11713"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ExvXffWbOrXIGwatnvo6XXdl2X/WM70X+wkiriZ04jc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "9h8sb02b82"
-        },
-        {
-          "Name": "label",
-          "Value": "css/style.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ExvXffWbOrXIGwatnvo6XXdl2X/WM70X+wkiriZ04jc="
+          "Value": "sha256-mw9tJjewa7VgChzTAwK2XWwPAnJvKBOr6ydOu/j7Pts="
         }
       ]
     },
@@ -3890,7 +3593,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11713"
+          "Value": "12316"
         },
         {
           "Name": "Content-Type",
@@ -3898,11 +3601,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ExvXffWbOrXIGwatnvo6XXdl2X/WM70X+wkiriZ04jc=\""
+          "Value": "\"clUTV6cgBLkjvQok4LzlUcFFzYZM3vSruW93QyK4Pps=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
+          "Value": "Thu, 04 Dec 2025 05:06:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3912,7 +3615,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ExvXffWbOrXIGwatnvo6XXdl2X/WM70X+wkiriZ04jc="
+          "Value": "sha256-clUTV6cgBLkjvQok4LzlUcFFzYZM3vSruW93QyK4Pps="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.qu2kejpme1.css",
+      "AssetFile": "D:\\Project B\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12316"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"clUTV6cgBLkjvQok4LzlUcFFzYZM3vSruW93QyK4Pps=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 04 Dec 2025 05:06:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qu2kejpme1"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-clUTV6cgBLkjvQok4LzlUcFFzYZM3vSruW93QyK4Pps="
         }
       ]
     },
@@ -4337,7 +4085,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "31172"
+          "Value": "66177"
         },
         {
           "Name": "Content-Type",
@@ -4345,11 +4093,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Kt6Dz3wXSnNxWxtFQuOUFPiMgfTS3vxKpTwtdVLd7iE=\""
+          "Value": "\"PlTxLXbc3IaAi+PmLykEVB8lMs7z8v6RpgyLglglCzA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
+          "Value": "Thu, 04 Dec 2025 05:06:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4359,12 +4107,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Kt6Dz3wXSnNxWxtFQuOUFPiMgfTS3vxKpTwtdVLd7iE="
+          "Value": "sha256-PlTxLXbc3IaAi+PmLykEVB8lMs7z8v6RpgyLglglCzA="
         }
       ]
     },
     {
-      "Route": "img/Banner/Banner.m5eurgslz7.jpg",
+      "Route": "img/Banner/Banner.u10a95v7hx.jpg",
       "AssetFile": "D:\\Project B\\wwwroot\\img\\Banner\\Banner.jpg",
       "Selectors": [],
       "ResponseHeaders": [
@@ -4374,7 +4122,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "31172"
+          "Value": "66177"
         },
         {
           "Name": "Content-Type",
@@ -4382,11 +4130,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Kt6Dz3wXSnNxWxtFQuOUFPiMgfTS3vxKpTwtdVLd7iE=\""
+          "Value": "\"PlTxLXbc3IaAi+PmLykEVB8lMs7z8v6RpgyLglglCzA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
+          "Value": "Thu, 04 Dec 2025 05:06:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4396,7 +4144,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "m5eurgslz7"
+          "Value": "u10a95v7hx"
         },
         {
           "Name": "label",
@@ -4404,7 +4152,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Kt6Dz3wXSnNxWxtFQuOUFPiMgfTS3vxKpTwtdVLd7iE="
+          "Value": "sha256-PlTxLXbc3IaAi+PmLykEVB8lMs7z8v6RpgyLglglCzA="
         }
       ]
     },
@@ -4419,7 +4167,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "30351"
+          "Value": "632677"
         },
         {
           "Name": "Content-Type",
@@ -4427,11 +4175,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"3H49rtzh7ujAfbe1xkVWhhXC5R3ZhRs8A/DCyUR211A=\""
+          "Value": "\"znrrGN5ACSUVPGyhS5QNzBh3URK4GIFzhVGrqLOfbfw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
+          "Value": "Thu, 04 Dec 2025 05:06:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4441,12 +4189,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-3H49rtzh7ujAfbe1xkVWhhXC5R3ZhRs8A/DCyUR211A="
+          "Value": "sha256-znrrGN5ACSUVPGyhS5QNzBh3URK4GIFzhVGrqLOfbfw="
         }
       ]
     },
     {
-      "Route": "img/Banner/Slide1.kcm82zvbx5.jpg",
+      "Route": "img/Banner/Slide1.yrqp7gcf14.jpg",
       "AssetFile": "D:\\Project B\\wwwroot\\img\\Banner\\Slide1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
@@ -4456,7 +4204,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "30351"
+          "Value": "632677"
         },
         {
           "Name": "Content-Type",
@@ -4464,11 +4212,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"3H49rtzh7ujAfbe1xkVWhhXC5R3ZhRs8A/DCyUR211A=\""
+          "Value": "\"znrrGN5ACSUVPGyhS5QNzBh3URK4GIFzhVGrqLOfbfw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
+          "Value": "Thu, 04 Dec 2025 05:06:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4478,7 +4226,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "kcm82zvbx5"
+          "Value": "yrqp7gcf14"
         },
         {
           "Name": "label",
@@ -4486,7 +4234,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-3H49rtzh7ujAfbe1xkVWhhXC5R3ZhRs8A/DCyUR211A="
+          "Value": "sha256-znrrGN5ACSUVPGyhS5QNzBh3URK4GIFzhVGrqLOfbfw="
         }
       ]
     },
@@ -8095,88 +7843,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-LfzltpQv+uknQzI9JDiwWpQtjDDCAaOULCdySbuhaiw="
-        }
-      ]
-    },
-    {
-      "Route": "img/Products/argan_oil.0i9r64bpya.jpg",
-      "AssetFile": "D:\\Project B\\wwwroot\\img\\Products\\argan_oil.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "47928"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"2K4rT/nerQZHU3t4FDK3Q5h4g4T6wCKG8D0mc8iUSa0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "0i9r64bpya"
-        },
-        {
-          "Name": "label",
-          "Value": "img/Products/argan_oil.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-2K4rT/nerQZHU3t4FDK3Q5h4g4T6wCKG8D0mc8iUSa0="
-        }
-      ]
-    },
-    {
-      "Route": "img/Products/argan_oil.jpg",
-      "AssetFile": "D:\\Project B\\wwwroot\\img\\Products\\argan_oil.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "47928"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"2K4rT/nerQZHU3t4FDK3Q5h4g4T6wCKG8D0mc8iUSa0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-2K4rT/nerQZHU3t4FDK3Q5h4g4T6wCKG8D0mc8iUSa0="
         }
       ]
     },
@@ -12117,580 +11783,6 @@
       ]
     },
     {
-      "Route": "img/Products/funny-cartoon-monster-character-illustration-of-cute-and-happy-mythical-alien-creature-halloween-design-700-264462907.7v4ura9spa.jpg",
-      "AssetFile": "D:\\Project B\\wwwroot\\img\\Products\\funny-cartoon-monster-character-illustration-of-cute-and-happy-mythical-alien-creature-halloween-design-700-264462907.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "38468"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"3ZhUYLbmrHmtYT9iUmAyyubKBjXWJymmOIypa/GERD8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "7v4ura9spa"
-        },
-        {
-          "Name": "label",
-          "Value": "img/Products/funny-cartoon-monster-character-illustration-of-cute-and-happy-mythical-alien-creature-halloween-design-700-264462907.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-3ZhUYLbmrHmtYT9iUmAyyubKBjXWJymmOIypa/GERD8="
-        }
-      ]
-    },
-    {
-      "Route": "img/Products/funny-cartoon-monster-character-illustration-of-cute-and-happy-mythical-alien-creature-halloween-design-700-264462907.jpg",
-      "AssetFile": "D:\\Project B\\wwwroot\\img\\Products\\funny-cartoon-monster-character-illustration-of-cute-and-happy-mythical-alien-creature-halloween-design-700-264462907.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "38468"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"3ZhUYLbmrHmtYT9iUmAyyubKBjXWJymmOIypa/GERD8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-3ZhUYLbmrHmtYT9iUmAyyubKBjXWJymmOIypa/GERD8="
-        }
-      ]
-    },
-    {
-      "Route": "img/Products/hair_brush.jpg",
-      "AssetFile": "D:\\Project B\\wwwroot\\img\\Products\\hair_brush.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "103004"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"/lWx16VjLj7r4mk3QEifr6wR72YyY/kUBGNEccBtyqA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-/lWx16VjLj7r4mk3QEifr6wR72YyY/kUBGNEccBtyqA="
-        }
-      ]
-    },
-    {
-      "Route": "img/Products/hair_brush.yw2losqgjo.jpg",
-      "AssetFile": "D:\\Project B\\wwwroot\\img\\Products\\hair_brush.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "103004"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"/lWx16VjLj7r4mk3QEifr6wR72YyY/kUBGNEccBtyqA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "yw2losqgjo"
-        },
-        {
-          "Name": "label",
-          "Value": "img/Products/hair_brush.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-/lWx16VjLj7r4mk3QEifr6wR72YyY/kUBGNEccBtyqA="
-        }
-      ]
-    },
-    {
-      "Route": "img/Products/hair_color.hxo03pfcoj.jpg",
-      "AssetFile": "D:\\Project B\\wwwroot\\img\\Products\\hair_color.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "523401"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"NVWoZhJH+mManRJyZPKx7MuHLrktfrXIxDg8fOFqFE8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "hxo03pfcoj"
-        },
-        {
-          "Name": "label",
-          "Value": "img/Products/hair_color.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-NVWoZhJH+mManRJyZPKx7MuHLrktfrXIxDg8fOFqFE8="
-        }
-      ]
-    },
-    {
-      "Route": "img/Products/hair_color.jpg",
-      "AssetFile": "D:\\Project B\\wwwroot\\img\\Products\\hair_color.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "523401"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"NVWoZhJH+mManRJyZPKx7MuHLrktfrXIxDg8fOFqFE8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-NVWoZhJH+mManRJyZPKx7MuHLrktfrXIxDg8fOFqFE8="
-        }
-      ]
-    },
-    {
-      "Route": "img/Products/hair_dryer.fkaybwjgvl.jpg",
-      "AssetFile": "D:\\Project B\\wwwroot\\img\\Products\\hair_dryer.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "85153"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"AftDzSmDWBSLod5O42PDShC/zfcZF+NTokAesEfqE18=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "fkaybwjgvl"
-        },
-        {
-          "Name": "label",
-          "Value": "img/Products/hair_dryer.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-AftDzSmDWBSLod5O42PDShC/zfcZF+NTokAesEfqE18="
-        }
-      ]
-    },
-    {
-      "Route": "img/Products/hair_dryer.jpg",
-      "AssetFile": "D:\\Project B\\wwwroot\\img\\Products\\hair_dryer.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "85153"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"AftDzSmDWBSLod5O42PDShC/zfcZF+NTokAesEfqE18=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-AftDzSmDWBSLod5O42PDShC/zfcZF+NTokAesEfqE18="
-        }
-      ]
-    },
-    {
-      "Route": "img/Products/hair_gel.jpg",
-      "AssetFile": "D:\\Project B\\wwwroot\\img\\Products\\hair_gel.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "22749"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hNRGXRupWN8Cw/SM0WpWNDDnz6mVmu24WHLJiV9Zbww=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-hNRGXRupWN8Cw/SM0WpWNDDnz6mVmu24WHLJiV9Zbww="
-        }
-      ]
-    },
-    {
-      "Route": "img/Products/hair_gel.wp2v1hrq1m.jpg",
-      "AssetFile": "D:\\Project B\\wwwroot\\img\\Products\\hair_gel.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "22749"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hNRGXRupWN8Cw/SM0WpWNDDnz6mVmu24WHLJiV9Zbww=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "wp2v1hrq1m"
-        },
-        {
-          "Name": "label",
-          "Value": "img/Products/hair_gel.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-hNRGXRupWN8Cw/SM0WpWNDDnz6mVmu24WHLJiV9Zbww="
-        }
-      ]
-    },
-    {
-      "Route": "img/Products/hair_spray.jpg",
-      "AssetFile": "D:\\Project B\\wwwroot\\img\\Products\\hair_spray.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "21997"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"BxeYcWoJzKB84jsGE5XJCEiHF6be7PEIq+cvxEdYiX8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-BxeYcWoJzKB84jsGE5XJCEiHF6be7PEIq+cvxEdYiX8="
-        }
-      ]
-    },
-    {
-      "Route": "img/Products/hair_spray.jtatf32zae.jpg",
-      "AssetFile": "D:\\Project B\\wwwroot\\img\\Products\\hair_spray.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "21997"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"BxeYcWoJzKB84jsGE5XJCEiHF6be7PEIq+cvxEdYiX8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "jtatf32zae"
-        },
-        {
-          "Name": "label",
-          "Value": "img/Products/hair_spray.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-BxeYcWoJzKB84jsGE5XJCEiHF6be7PEIq+cvxEdYiX8="
-        }
-      ]
-    },
-    {
-      "Route": "img/Products/hydrating_mask.jpg",
-      "AssetFile": "D:\\Project B\\wwwroot\\img\\Products\\hydrating_mask.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "143465"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"/K/9YqvVKYrzVAUFrc+I0++DnIS6aCtTgH5HLuR8buA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-/K/9YqvVKYrzVAUFrc+I0++DnIS6aCtTgH5HLuR8buA="
-        }
-      ]
-    },
-    {
-      "Route": "img/Products/hydrating_mask.s2yec4dzb2.jpg",
-      "AssetFile": "D:\\Project B\\wwwroot\\img\\Products\\hydrating_mask.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "143465"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"/K/9YqvVKYrzVAUFrc+I0++DnIS6aCtTgH5HLuR8buA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "s2yec4dzb2"
-        },
-        {
-          "Name": "label",
-          "Value": "img/Products/hydrating_mask.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-/K/9YqvVKYrzVAUFrc+I0++DnIS6aCtTgH5HLuR8buA="
-        }
-      ]
-    },
-    {
       "Route": "img/Products/Lipstick_1.png",
       "AssetFile": "D:\\Project B\\wwwroot\\img\\Products\\Lipstick_1.png",
       "Selectors": [],
@@ -14167,88 +13259,6 @@
       ]
     },
     {
-      "Route": "img/Products/logo.66bg5n5hqe.jpg",
-      "AssetFile": "D:\\Project B\\wwwroot\\img\\Products\\logo.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "4607"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"jg0wX91Rxmc+t36PLLZQstpft7iPJrhQoxDk/piRmVo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "66bg5n5hqe"
-        },
-        {
-          "Name": "label",
-          "Value": "img/Products/logo.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-jg0wX91Rxmc+t36PLLZQstpft7iPJrhQoxDk/piRmVo="
-        }
-      ]
-    },
-    {
-      "Route": "img/Products/logo.jpg",
-      "AssetFile": "D:\\Project B\\wwwroot\\img\\Products\\logo.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "4607"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"jg0wX91Rxmc+t36PLLZQstpft7iPJrhQoxDk/piRmVo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-jg0wX91Rxmc+t36PLLZQstpft7iPJrhQoxDk/piRmVo="
-        }
-      ]
-    },
-    {
       "Route": "img/Products/Mascara_1.18g8euy7ml.png",
       "AssetFile": "D:\\Project B\\wwwroot\\img\\Products\\Mascara_1.png",
       "Selectors": [],
@@ -15557,252 +14567,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-ISuU0S+mm4gb7utbo9zGdCN3s+aFFXm0NI0lFiKSlqY="
-        }
-      ]
-    },
-    {
-      "Route": "img/Products/repair_shampoo.jpg",
-      "AssetFile": "D:\\Project B\\wwwroot\\img\\Products\\repair_shampoo.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "70137"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"aR4ZEZjXhqJUkBBWQeiHoifFU7Ei/xoT25Z8LzoFE10=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-aR4ZEZjXhqJUkBBWQeiHoifFU7Ei/xoT25Z8LzoFE10="
-        }
-      ]
-    },
-    {
-      "Route": "img/Products/repair_shampoo.l5qcjr5iew.jpg",
-      "AssetFile": "D:\\Project B\\wwwroot\\img\\Products\\repair_shampoo.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "70137"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"aR4ZEZjXhqJUkBBWQeiHoifFU7Ei/xoT25Z8LzoFE10=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "l5qcjr5iew"
-        },
-        {
-          "Name": "label",
-          "Value": "img/Products/repair_shampoo.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-aR4ZEZjXhqJUkBBWQeiHoifFU7Ei/xoT25Z8LzoFE10="
-        }
-      ]
-    },
-    {
-      "Route": "img/Products/scrunchies.jpg",
-      "AssetFile": "D:\\Project B\\wwwroot\\img\\Products\\scrunchies.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "65294"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"BeLCxzUj67T0YCmarHhdNJljQ0DnENbMYbVhjcZNBV4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-BeLCxzUj67T0YCmarHhdNJljQ0DnENbMYbVhjcZNBV4="
-        }
-      ]
-    },
-    {
-      "Route": "img/Products/scrunchies.v3jx3jf981.jpg",
-      "AssetFile": "D:\\Project B\\wwwroot\\img\\Products\\scrunchies.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "65294"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"BeLCxzUj67T0YCmarHhdNJljQ0DnENbMYbVhjcZNBV4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "v3jx3jf981"
-        },
-        {
-          "Name": "label",
-          "Value": "img/Products/scrunchies.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-BeLCxzUj67T0YCmarHhdNJljQ0DnENbMYbVhjcZNBV4="
-        }
-      ]
-    },
-    {
-      "Route": "img/Products/smooth_conditioner.6sz409a2yi.jpg",
-      "AssetFile": "D:\\Project B\\wwwroot\\img\\Products\\smooth_conditioner.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "56183"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"2o1PQQHFnkSF88jw97fxJq84mWlSmCznhStLfL7FnUQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "6sz409a2yi"
-        },
-        {
-          "Name": "label",
-          "Value": "img/Products/smooth_conditioner.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-2o1PQQHFnkSF88jw97fxJq84mWlSmCznhStLfL7FnUQ="
-        }
-      ]
-    },
-    {
-      "Route": "img/Products/smooth_conditioner.jpg",
-      "AssetFile": "D:\\Project B\\wwwroot\\img\\Products\\smooth_conditioner.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "56183"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"2o1PQQHFnkSF88jw97fxJq84mWlSmCznhStLfL7FnUQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 22 Oct 2025 05:59:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-2o1PQQHFnkSF88jw97fxJq84mWlSmCznhStLfL7FnUQ="
         }
       ]
     },
