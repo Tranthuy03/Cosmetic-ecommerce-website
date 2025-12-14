@@ -66,51 +66,22 @@ namespace HairCareStore.Controllers
         }
 
 
-        [HttpPost]
-        [ValidateAntiForgeryToken]
         [Authorize]
-        public IActionResult Checkout(CheckoutViewModel model)
+        public IActionResult Checkout()
         {
             int? userId = HttpContext.Session.GetInt32("UserId");
-            if (userId == null)
-                return RedirectToAction("Login", "Account");
+            if (userId == null) return RedirectToAction("Login", "Account");
 
-            if (Cart.Count == 0)
-                return Redirect("/");
+            var user = _context.Users.FirstOrDefault(u => u.UserId == userId);
+            if (Cart.Count == 0) return Redirect("/");
 
-            // Tạo Order
-            var order = new Order
+            var viewModel = new CheckoutViewModel
             {
-                UserId = userId.Value,
-                Date = DateTime.Now,
-                Adress = model.Address,
-                Phone = model.Phone,
-                TotalAmount = (decimal)model.CartItems.Sum(i => i.Price * i.Quantity)
+                CartItems = Cart,
+                User = user
             };
 
-            _context.Orders.Add(order);
-            _context.SaveChanges();
-
-            // Tạo OrderDetails
-            foreach (var item in Cart)
-            {
-                var detail = new OrderDetail
-                {
-                    OrderId = order.OrderId,
-                    ProductId = item.ProductId,
-                    Quantity = item.Quantity,
-                    UnitPrice = (decimal)item.Price
-                };
-
-                _context.OrderDetails.Add(detail);
-            }
-
-            _context.SaveChanges();
-
-            // Xóa giỏ hàng sau khi thanh toán
-            HttpContext.Session.Remove(MySetting.CART_KEY);
-
-            return RedirectToAction("OrderSuccess");
+            return View(viewModel);
         }
 
 

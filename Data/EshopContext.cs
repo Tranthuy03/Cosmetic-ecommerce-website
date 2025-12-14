@@ -66,14 +66,7 @@ public partial class EshopContext : DbContext
                 .HasMaxLength(20)
                 .HasDefaultValue("pending");
             entity.Property(e => e.TotalAmount).HasColumnType("decimal(10, 2)");
-            entity.Property(e => e.Phone)
-      .HasColumnType("nchar(20)");
 
-            entity.Property(e => e.Adress)
-                .HasColumnType("nvarchar(max)");
-
-            entity.Property(e => e.Note)
-                .HasColumnType("nvarchar(max)");
             entity.HasOne(d => d.User).WithMany(p => p.Orders)
                 .HasForeignKey(d => d.UserId)
                 .OnDelete(DeleteBehavior.SetNull)
