@@ -22,7 +22,7 @@
         
         <div class="col-md-6">
             <label for="inputBrand" class="form-label">Brand</label>
-            <select asp-for="BrandId" name="BrandId" id="inputBrand" class="form-select">
+            <select asp-for="BrandId" id="inputBrand" class="form-select">
                 <option value="" selected>--Choose Brand--</option>
                 @foreach (var item in (List<SelectListItem>)ViewBag.Brand)
                 {
@@ -33,7 +33,7 @@
         </div>
         <div class="col-md-6">
             <label for="inputCategory" class="form-label">Type</label>
-            <select asp-for="CategoryId" name="CategoryId" id="inputCategory" class="form-select">
+            <select asp-for="CategoryId" id="inputCategory" class="form-select">
                 <option value="" selected>--Choose Type--</option>
                 @foreach (var item in (List<SelectListItem>)ViewBag.Category)
                 {

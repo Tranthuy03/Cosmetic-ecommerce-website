@@ -49,7 +49,7 @@
             <div class="d-flex justify-content-between imformation-web">
                 <div class="top-info ps-2">
                     <small class="me-3"><i class="fas fa-map-marker-alt me-2 text-secondary"></i> <a href="#" class="text-white">Dx003, Phú Mỹ, Thủ Dầu Một, Bình Dương</a></small>
-                    <small class="me-3"><i class="fas fa-envelope me-2 text-secondary"></i><a href="#" class="text-white">Mellorie.com</a></small>
+                    <small class="me-3"><i class="fas fa-envelope me-2 text-secondary"></i><a href="#" class="text-white">Mellorie@gmail.com</a></small>
                 </div>
                 <div class="top-link pe-2">
                     <a href="#" class="text-white"><small class="text-white mx-2">Privacy Policy</small>/</a>
@@ -103,8 +103,8 @@
 
                         @if (!User.Identity.IsAuthenticated)
                         {
-                            <a class="nav-item nav-link" asp-area="" asp-controller="Account" asp-action="Register">Đăng ký</a>
-                            <a class="nav-item nav-link" asp-area="" asp-controller="Account" asp-action="Login">Đăng nhập</a>
+                            <a class="nav-item nav-link" asp-area="" asp-controller="Account" asp-action="Login">Login</a>
+                            <a class="nav-item nav-link" asp-area="" asp-controller="Account" asp-action="Register">Register</a>
 
                         }
                         else
