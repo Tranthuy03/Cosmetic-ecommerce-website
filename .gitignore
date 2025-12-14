@@ -1,1 +1,9 @@
 .vs/HairCareStore/FileContentIndex/34363b82-dec8-4144-ae58-1bf48012ec27.vsidx
+# Visual Studio
+.vs/
+bin/
+obj/
+
+*.user
+*.suo
+*.log
