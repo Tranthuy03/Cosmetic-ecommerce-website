@@ -36,6 +36,9 @@
     <!-- Template Stylesheet -->
     <link href="~/css/style.css" rel="stylesheet">
     <link href="~/css/AdminStyle.css" rel="stylesheet">
+
+    @RenderSection("Styles", required: false)
+    
 </head>
 <body>
 
@@ -111,7 +114,10 @@
             <div class="col-2">
                 <ul class="nav flex-column">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="@Url.Action("Table","Product")">Product Management</a>
+                        <a class="nav-link active" aria-current="page" href="@Url.Action("Dashboard","Admin")">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link "  href="@Url.Action("Table","Product")">Product Management</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="@Url.Action("Table","Category")">Category Management</a>
@@ -232,7 +238,7 @@
     @await RenderSectionAsync("Scripts", required: false)
 
     <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+    <script src="~/js/main.js"></script>
     <script>
         $(document).ready(function () {
             $(".vegetable-carousel").owlCarousel({

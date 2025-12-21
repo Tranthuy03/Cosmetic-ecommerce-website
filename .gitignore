@@ -7,3 +7,7 @@ obj/
 *.user
 *.suo
 *.log
+*.dll
+*.bin
+*.vsidx
+*.json
