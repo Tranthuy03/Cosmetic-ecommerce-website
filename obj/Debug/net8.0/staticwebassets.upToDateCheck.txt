@@ -1,6 +1,8 @@
 wwwroot\css\AdminStyle.css
 wwwroot\css\bootstrap.min.css
 wwwroot\css\dashboard.css
+wwwroot\css\orderdetail.css
+wwwroot\css\profile.css
 wwwroot\css\site.css
 wwwroot\css\style.css
 wwwroot\favicon.ico

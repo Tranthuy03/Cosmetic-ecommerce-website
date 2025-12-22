@@ -1,0 +1,131 @@
+   /* =========================
+   ORDER DETAIL – SCOPED
+========================= */
+.od-wrap{
+  --od-bg:#fdf6f8;
+  --od-pink:#e9a8b5;
+  --od-pink-soft:#fde8ee;
+  --od-pink-border:#f2b7c3;
+  --od-text:#1f2937;
+  --od-muted:#6b7280;
+  --od-success:#22c55e;
+
+  font-family:"Inter", system-ui, sans-serif;
+  color:var(--od-text);
+  margin-top: 120px;
+}
+
+/* CARD */
+.od-card{
+  max-width:640px;
+  margin:auto;
+  background:#fff;
+  border-radius:26px;
+  border:2px solid var(--od-pink-border);
+  box-shadow:0 20px 45px rgba(233,168,181,.25);
+  overflow:hidden;
+}
+
+/* HEADER */
+.od-header{
+  background:var(--od-pink-soft);
+  padding:18px 22px;
+  display:flex;
+  justify-content:space-between;
+  align-items:flex-start;
+  border-bottom:1px solid var(--od-pink-border);
+}
+
+.od-header h5{
+  margin:0;
+  font-weight:600;
+}
+
+.od-header small{
+  color:#8b3f4e;
+  font-weight:500;
+}
+
+.od-status{
+  background:#fff;
+  border:1px solid rgba(34,197,94,.4);
+  color:#15803d;
+  font-size:13px;
+  font-weight:500;
+  padding:6px 14px;
+  border-radius:999px;
+  display:flex;
+  align-items:center;
+  gap:6px;
+}
+
+.od-status::before{
+  content:"";
+  width:7px;
+  height:7px;
+  background:var(--od-success);
+  border-radius:50%;
+}
+
+/* SECTION */
+.od-section{
+  padding:16px 22px;
+}
+
+.od-section + .od-section{
+  border-top:1px dashed var(--od-pink-border);
+}
+
+.od-section h6{
+  font-weight:600;
+  margin-bottom:12px;
+  color:#a03b4f;
+}
+
+/* ITEMS */
+.od-item{
+  display:flex;
+  justify-content:space-between;
+  padding:10px 0;
+}
+
+.od-item strong{
+  color:#7a2f3f;
+}
+
+/* SUMMARY */
+.od-summary{
+  display:flex;
+  justify-content:space-between;
+  padding:8px 0;
+}
+
+.od-total{
+  font-size:18px;
+  font-weight:600;
+  color:#7a2f3f;
+}
+
+/* SHIPPING */
+.od-shipping p{
+  margin:4px 0;
+  color:var(--od-muted);
+}
+
+/* BUTTON */
+.od-btn-back{
+  background:var(--od-pink);
+  color:#fff;
+  border:none;
+  border-radius:999px;
+  padding:8px 24px;
+  font-weight:500;
+  box-shadow:0 10px 22px rgba(233,168,181,.45);
+  transition:.15s ease;
+}
+
+.od-btn-back:hover{
+  background:#e596a6;
+  transform:translateY(-1px);
+  box-shadow:0 14px 30px rgba(233,168,181,.6);
+}

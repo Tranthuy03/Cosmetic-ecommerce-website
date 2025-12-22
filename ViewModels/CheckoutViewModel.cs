@@ -2,18 +2,34 @@
 
 {
     using System.Collections.Generic;
+    using System.ComponentModel.DataAnnotations;
     using HairCareStore.Models;
     public class CheckoutViewModel
     {
-        public List<CartItem> CartItems { get; set; }
-        public User User { get; set; }
+        // Hiển thị
+        public List<CartItem> CartItems { get; set; } = new();
 
+        public User? User { get; set; }
 
-        public string? FullName { get; set; }
-        public string? Address { get; set; }
-        public string? City { get; set; }
-        public string? Country { get; set; }
-        public string? Phone { get; set; }
-        public string? Email { get; set; }
+        // Form input
+        [Required]
+        public string FullName { get; set; }
+
+        [Required]
+        public string Address { get; set; }
+
+        [Required]
+        public string City { get; set; }
+
+        [Required]
+        public string Country { get; set; }
+
+        [Required]
+        public string Phone { get; set; }
+
+        [Required, EmailAddress]
+        public string Email { get; set; }
+
+        public string? Note { get; set; }
     }
 }

@@ -1,0 +1,247 @@
+/* =========================
+   THEME VARIABLES
+========================= */
+.books-detail{
+  margin-top: 120px;
+}
+.oh-wrap{
+  --oh-primary:#c47684;
+  --oh-primary-weak: rgba(196,118,132,.14);
+  --oh-primary-soft: rgba(196,118,132,.08);
+
+  --oh-bg:#fbf7f8;
+  --oh-card:#ffffff;
+  --oh-text:#1f2937;
+  --oh-muted:#7c6b71;
+  --oh-border: rgba(31,41,55,.10);
+
+  --oh-pending:#f59e0b;
+  --oh-confirmed:#6d5bd0;
+  --oh-shipping:#0ea5e9;
+  --oh-delivered:#16a34a;
+  --oh-cancelled:#ef4444;
+
+  color:var(--oh-text);
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+}
+.oh-wrap *{ box-sizing:border-box; }
+
+/* =========================
+   LAYOUT
+========================= */
+.oh-container{
+  max-width:1100px;
+  margin:24px auto;
+  padding:0 16px;
+}
+
+.oh-header{
+  display:flex;
+  justify-content:space-between;
+  margin-bottom:14px;
+}
+
+.oh-title{
+  margin:0;
+  font-size:22px;
+  font-weight:950;
+}
+
+.oh-subtitle{
+  margin:6px 0 0;
+  color:var(--oh-muted);
+  font-size:13px;
+  font-weight:650;
+}
+
+/* =========================
+   CARD
+========================= */
+.oh-card{
+  position:relative;
+  background:#fff;
+  border-radius:18px;
+  padding:18px 18px 18px 26px;
+  box-shadow:0 16px 40px rgba(17,24,39,.08);
+  overflow:hidden;
+}
+
+
+
+/* =========================
+   TABLE
+========================= */
+.oh-table{
+  width:100%;
+  border-collapse:separate;
+  border-spacing:0;
+  border:1.5px solid rgba(196,118,132,.45); /* viền hồng */
+  border-radius:14px;
+  overflow:hidden;
+}
+
+/* ===== THEAD HỒNG ===== */
+.oh-thead{
+  background:linear-gradient(
+    180deg,
+    rgba(222,169,179,.95),
+    rgba(196,118,132,.85)
+  );
+}
+
+.oh-thead th{
+  padding:13px 10px;
+  font-size:12px;
+  text-transform:uppercase;
+  letter-spacing:.05em;
+  font-weight:950;
+  color:#fff;
+  border-right:1px solid rgba(255,255,255,.25);
+}
+
+.oh-thead th:first-child{
+  border-top-left-radius:14px;
+}
+
+.oh-thead th:last-child{
+  border-right:none;
+  border-top-right-radius:14px;
+}
+
+/* ===== TBODY ===== */
+.oh-tbody td{
+  padding:14px 10px;
+  font-size:14px;
+  font-weight:650;
+  border-bottom:1px solid rgba(31,41,55,.08);
+}
+
+.oh-tbody tr:last-child td{
+  border-bottom:none;
+}
+
+.oh-tbody tr:hover{
+  background:var(--oh-primary-soft);
+}
+
+/* alignment */
+.oh-table th:nth-child(2),
+.oh-table td:nth-child(2),
+.oh-table th:nth-child(3),
+.oh-table td:nth-child(3),
+.oh-table th:nth-child(4),
+.oh-table td:nth-child(4){
+  text-align:center;
+}
+
+/* =========================
+   STATUS BADGE
+========================= */
+.oh-badge{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  padding:7px 12px;
+  border-radius:999px;
+  font-size:12px;
+  font-weight:950;
+  background:rgba(255,255,255,.85);
+  border:1px solid rgba(31,41,55,.12);
+}
+
+.oh-dot{
+  width:8px;
+  height:8px;
+  border-radius:50%;
+}
+
+.oh-b-delivered .oh-dot{ background:var(--oh-delivered); }
+.oh-b-shipping .oh-dot{ background:var(--oh-shipping); }
+.oh-b-cancelled .oh-dot{ background:var(--oh-cancelled); }
+
+/* =========================
+   ACTION BUTTONS
+========================= */
+.oh-actions{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:10px;
+}
+
+.oh-btn{
+  width:100%;
+  padding:9px 12px;
+  border-radius:14px;
+  border:1px solid rgba(31,41,55,.12);
+  background:#fff;
+  font-size:13px;
+  font-weight:950;
+  cursor:pointer;
+  box-shadow:0 8px 20px rgba(17,24,39,.08);
+}
+
+.oh-btn--primary{
+  background:#dea9b3;
+  border-color:rgba(196,118,132,.45);
+}
+
+.oh-btn:hover{
+  transform:translateY(-1px);
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+@media (max-width:760px){
+  .oh-thead{ display:none; }
+
+  .oh-table,
+  .oh-tbody,
+  .oh-tbody tr,
+  .oh-tbody td{
+    display:block;
+    width:100%;
+  }
+
+  .oh-tbody tr{
+    border-bottom:1px solid rgba(31,41,55,.12);
+    padding:6px 0;
+  }
+
+  .oh-tbody td{
+    display:flex;
+    justify-content:space-between;
+    padding:10px 6px;
+  }
+
+  .oh-tbody td::before{
+    content:attr(data-label);
+    font-size:12px;
+    font-weight:950;
+    color:var(--oh-muted);
+  }
+
+  .oh-actions{
+    grid-template-columns:1fr;
+  }
+}
+
+/* =========================
+   BUTTON HOVER – PINK BORDER
+========================= */
+.oh-btn{
+  position:relative;
+  transition:
+    border-color .15s ease,
+    box-shadow .15s ease,
+    transform .12s ease,
+    background .15s ease;
+}
+
+.oh-btn:hover{
+  border-color: rgba(196,118,132,.75);
+  box-shadow:
+    0 10px 25px rgba(196,118,132,.22),
+    inset 0 0 0 1px rgba(196,118,132,.55);
+  transform: translateY(-1px);
+}

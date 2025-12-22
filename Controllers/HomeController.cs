@@ -2,6 +2,7 @@
 using System.Security.Claims;
 using HairCareStore.Data;
 using HairCareStore.Models;
+using HairCareStore.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -74,6 +75,20 @@ namespace HairCareStore.Controllers
                 new Claim("UserId", user.UserId.ToString()), 
             
             };
+
+            var orders = _context.Orders
+      .Where(o => o.UserId == userId)
+      .OrderByDescending(o => o.Date)
+      .Select(o => new OrderHistoryViewModel
+      {
+          OrderId = o.OrderId,
+          Date = o.Date,
+          TotalAmount = o.TotalAmount,
+          Status = o.Status
+      })
+      .ToList();
+
+            ViewBag.OrderHistory = orders;
             return View(user);
         }
 
@@ -150,5 +165,22 @@ namespace HairCareStore.Controllers
                 return View(CurrentUser);
             }
         }
+
+        public IActionResult OrderDetail(int id)
+        {
+            var order = _context.Orders
+                .Include(o => o.OrderDetails)
+                    .ThenInclude(od => od.Product)
+                .Include(o => o.User)
+                .FirstOrDefault(o => o.OrderId == id);
+
+            if (order == null)
+            {
+                return NotFound();
+            }
+
+            return View(order);
+        }
+
     }
 }

@@ -1,0 +1,93 @@
+﻿
+
+@model HairCareStore.Models.Order
+@{
+    ViewData["Title"] = "OrderDetail";
+    Layout = "_Layout";
+}
+@section Styles {
+        <link rel="stylesheet" href="~/css/orderdetail.css" />
+}
+@{
+    var subTotal = Model.OrderDetails.Sum(i => i.UnitPrice * i.Quantity);
+}
+
+<section class="container py-5  od-wrap">
+
+  <div class="od-card">
+
+    <!-- HEADER -->
+    <div class="od-header">
+      <div>
+        <h5>Order #@Model.OrderId</h5>
+        <small>Placed on @Model.Date?.ToString("dd MMM yyyy")</small>
+
+        <span class="od-status">
+            @Model.Status
+        </span>
+    </div>
+        </div>
+
+    <!-- ITEMS -->
+            <div class="od-section">
+                <h6>Items</h6>
+
+                @foreach (var item in Model.OrderDetails)
+                {
+                    <div class="od-item">
+                        <span>
+                            @item.Product.Name
+                            <small class="text-muted">(x@item.Quantity)</small>
+                        </span>
+                        <strong>
+                            @((item.UnitPrice * item.Quantity).ToString("N0")) ₫
+                        </strong>
+                    </div>
+                }
+            </div>
+
+
+    <!-- SUMMARY -->
+            <div class="od-section">
+                <h6>Summary</h6>
+
+                <div class="od-summary">
+                    <span>Subtotal</span>
+                    <span>@subTotal.ToString("N0") ₫</span>
+                </div>
+
+                <div class="od-summary">
+                    <span>Shipping</span>
+                    <span>0 ₫</span>
+                </div>
+
+                <div class="od-summary od-total">
+                    <span>Total</span>
+                    <span>@Model.TotalAmount.ToString("N0") ₫</span>
+                </div>
+            </div>
+
+
+    <!-- SHIPPING -->
+            <div class="od-section od-shipping">
+                <h6>Shipping Information</h6>
+
+                <p>
+                    @Model.User?.Fullname – @Model.Phone
+                </p>
+                <p>
+                    @Model.Adress
+                </p>
+            </div>
+
+
+    <!-- ACTION -->
+            <div class="od-section od-action">
+                <a asp-action="Profile" asp-controller="Home" class="od-btn-back">
+                    ← Back
+                </a>
+            </div>
+
+  </div>
+
+</section>

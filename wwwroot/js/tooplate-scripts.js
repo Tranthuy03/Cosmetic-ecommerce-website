@@ -10,7 +10,7 @@ function drawLineChart() {
           ticks: { beginAtZero: true },
           scaleLabel: {
             display: true,
-            labelString: "Revenue (million VND)"
+            labelString: "Revenue (USD)"
           }
         }],
         xAxes: [{
@@ -23,7 +23,7 @@ function drawLineChart() {
       tooltips: {
         callbacks: {
           label: function (tooltipItem) {
-            return `Online Revenue: ${tooltipItem.yLabel}M VND`;
+            return `Online Revenue: ${tooltipItem.yLabel} USD`;
           }
         }
       },
