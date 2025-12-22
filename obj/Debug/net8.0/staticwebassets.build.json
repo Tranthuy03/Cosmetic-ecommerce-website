@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FbuGiQw9Cned3A9hVIAXDxTOMUtJfmyYasDe8SWvqQ0=",
+  "Hash": "GeTIjLsmoZF45T91Elif3T1ixGLESFVGGMfJh5As/Fk=",
   "Source": "HairCareStore",
   "BasePath": "_content/HairCareStore",
   "Mode": "Default",
@@ -120,6 +120,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\dashboard.css"
+    },
+    {
+      "Identity": "D:\\Cosmetic-ecommerce-website\\wwwroot\\css\\orderdetail.css",
+      "SourceId": "HairCareStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Cosmetic-ecommerce-website\\wwwroot\\",
+      "BasePath": "_content/HairCareStore",
+      "RelativePath": "css/orderdetail#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rem5xdhbsn",
+      "Integrity": "s+XAfPIzCVJc8wGTaNqLzsTrz5QpGEkr2gRCz4At8gw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\orderdetail.css"
+    },
+    {
+      "Identity": "D:\\Cosmetic-ecommerce-website\\wwwroot\\css\\profile.css",
+      "SourceId": "HairCareStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Cosmetic-ecommerce-website\\wwwroot\\",
+      "BasePath": "_content/HairCareStore",
+      "RelativePath": "css/profile#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gpxhzutn8o",
+      "Integrity": "5I9xkdY8nxcIpnJKTrPUVaC6eadOzp5znjmBzmgihjw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\profile.css"
     },
     {
       "Identity": "D:\\Cosmetic-ecommerce-website\\wwwroot\\css\\site.css",
@@ -4189,8 +4231,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "dmtpws26f5",
-      "Integrity": "y+0Ic9V2fGOAl28Tb5v11GR9YBwYGdW8MPycT7q+pPw=",
+      "Fingerprint": "q73vpj227x",
+      "Integrity": "+ljZz63//LGNZXPlT/wYl7IsWmk5Wv6FCzF4cKQluC4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\tooplate-scripts.js"
@@ -4482,6 +4524,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-CqSBgrDdorrrjb0lilFtHHW/EYLGRcKhn2iIHimd6ow="
+        }
+      ]
+    },
+    {
+      "Route": "css/orderdetail.css",
+      "AssetFile": "D:\\Cosmetic-ecommerce-website\\wwwroot\\css\\orderdetail.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2234"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s+XAfPIzCVJc8wGTaNqLzsTrz5QpGEkr2gRCz4At8gw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 22 Dec 2025 11:11:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-s+XAfPIzCVJc8wGTaNqLzsTrz5QpGEkr2gRCz4At8gw="
+        }
+      ]
+    },
+    {
+      "Route": "css/orderdetail.rem5xdhbsn.css",
+      "AssetFile": "D:\\Cosmetic-ecommerce-website\\wwwroot\\css\\orderdetail.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2234"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s+XAfPIzCVJc8wGTaNqLzsTrz5QpGEkr2gRCz4At8gw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 22 Dec 2025 11:11:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rem5xdhbsn"
+        },
+        {
+          "Name": "label",
+          "Value": "css/orderdetail.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-s+XAfPIzCVJc8wGTaNqLzsTrz5QpGEkr2gRCz4At8gw="
+        }
+      ]
+    },
+    {
+      "Route": "css/profile.css",
+      "AssetFile": "D:\\Cosmetic-ecommerce-website\\wwwroot\\css\\profile.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4713"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5I9xkdY8nxcIpnJKTrPUVaC6eadOzp5znjmBzmgihjw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 21 Dec 2025 12:05:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5I9xkdY8nxcIpnJKTrPUVaC6eadOzp5znjmBzmgihjw="
+        }
+      ]
+    },
+    {
+      "Route": "css/profile.gpxhzutn8o.css",
+      "AssetFile": "D:\\Cosmetic-ecommerce-website\\wwwroot\\css\\profile.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4713"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5I9xkdY8nxcIpnJKTrPUVaC6eadOzp5znjmBzmgihjw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 21 Dec 2025 12:05:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gpxhzutn8o"
+        },
+        {
+          "Name": "label",
+          "Value": "css/profile.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5I9xkdY8nxcIpnJKTrPUVaC6eadOzp5znjmBzmgihjw="
         }
       ]
     },
@@ -20476,51 +20682,6 @@
       ]
     },
     {
-      "Route": "js/tooplate-scripts.dmtpws26f5.js",
-      "AssetFile": "D:\\Cosmetic-ecommerce-website\\wwwroot\\js\\tooplate-scripts.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3723"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"y+0Ic9V2fGOAl28Tb5v11GR9YBwYGdW8MPycT7q+pPw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 20 Dec 2025 08:37:06 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "dmtpws26f5"
-        },
-        {
-          "Name": "label",
-          "Value": "js/tooplate-scripts.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-y+0Ic9V2fGOAl28Tb5v11GR9YBwYGdW8MPycT7q+pPw="
-        }
-      ]
-    },
-    {
       "Route": "js/tooplate-scripts.js",
       "AssetFile": "D:\\Cosmetic-ecommerce-website\\wwwroot\\js\\tooplate-scripts.js",
       "Selectors": [],
@@ -20531,7 +20692,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3723"
+          "Value": "3714"
         },
         {
           "Name": "Content-Type",
@@ -20539,11 +20700,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"y+0Ic9V2fGOAl28Tb5v11GR9YBwYGdW8MPycT7q+pPw=\""
+          "Value": "\"+ljZz63//LGNZXPlT/wYl7IsWmk5Wv6FCzF4cKQluC4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 20 Dec 2025 08:37:06 GMT"
+          "Value": "Sun, 21 Dec 2025 11:56:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -20553,7 +20714,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-y+0Ic9V2fGOAl28Tb5v11GR9YBwYGdW8MPycT7q+pPw="
+          "Value": "sha256-+ljZz63//LGNZXPlT/wYl7IsWmk5Wv6FCzF4cKQluC4="
+        }
+      ]
+    },
+    {
+      "Route": "js/tooplate-scripts.q73vpj227x.js",
+      "AssetFile": "D:\\Cosmetic-ecommerce-website\\wwwroot\\js\\tooplate-scripts.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3714"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+ljZz63//LGNZXPlT/wYl7IsWmk5Wv6FCzF4cKQluC4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 21 Dec 2025 11:56:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q73vpj227x"
+        },
+        {
+          "Name": "label",
+          "Value": "js/tooplate-scripts.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+ljZz63//LGNZXPlT/wYl7IsWmk5Wv6FCzF4cKQluC4="
         }
       ]
     },

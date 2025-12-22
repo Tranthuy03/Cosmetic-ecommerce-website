@@ -79,7 +79,11 @@ namespace HairCareStore.Controllers
             var viewModel = new CheckoutViewModel
             {
                 CartItems = Cart,
-                User = user
+                User = user,
+                FullName = user?.Fullname,
+                Address = user?.Address,
+                Phone = user?.Phone,
+                Email = user?.Email
             };
 
             return View(viewModel);
@@ -95,43 +99,50 @@ namespace HairCareStore.Controllers
             if (userId == null)
                 return RedirectToAction("Login", "Account");
 
-            if (Cart.Count == 0)
+            var cart = Cart;
+            if (!cart.Any())
                 return Redirect("/");
 
-            // Tạo Order
+            if (!ModelState.IsValid)
+            {
+                model.CartItems = cart;
+                return View(model);
+            }
+
+            //  Tạo Order
             var order = new Order
             {
                 UserId = userId.Value,
                 Date = DateTime.Now,
                 Adress = model.Address,
                 Phone = model.Phone,
-                TotalAmount = (decimal)model.CartItems.Sum(i => i.Price * i.Quantity)
+                Status = "pending",
+                TotalAmount = (decimal)cart.Sum(i => i.Price * i.Quantity)
             };
 
             _context.Orders.Add(order);
             _context.SaveChanges();
 
-            // Tạo OrderDetails
-            foreach (var item in Cart)
+            //  Tạo OrderDetails
+            foreach (var item in cart)
             {
-                var detail = new OrderDetail
+                _context.OrderDetails.Add(new OrderDetail
                 {
                     OrderId = order.OrderId,
                     ProductId = item.ProductId,
                     Quantity = item.Quantity,
                     UnitPrice = (decimal)item.Price
-                };
-
-                _context.OrderDetails.Add(detail);
+                });
             }
 
             _context.SaveChanges();
 
-            // Xóa giỏ hàng sau khi thanh toán
+            // Clear cart
             HttpContext.Session.Remove(MySetting.CART_KEY);
 
             return RedirectToAction("OrderSuccess");
         }
+
 
 
     }

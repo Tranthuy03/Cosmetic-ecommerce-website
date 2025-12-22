@@ -25,6 +25,14 @@
       "PackagePath": "staticwebassets\\css\\dashboard.css"
     },
     {
+      "Id": "D:\\Cosmetic-ecommerce-website\\wwwroot\\css\\orderdetail.css",
+      "PackagePath": "staticwebassets\\css\\orderdetail.css"
+    },
+    {
+      "Id": "D:\\Cosmetic-ecommerce-website\\wwwroot\\css\\profile.css",
+      "PackagePath": "staticwebassets\\css\\profile.css"
+    },
+    {
       "Id": "D:\\Cosmetic-ecommerce-website\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

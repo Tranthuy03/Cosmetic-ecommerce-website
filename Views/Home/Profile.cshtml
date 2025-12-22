@@ -1,7 +1,10 @@
-﻿@{
+﻿@using HairCareStore.ViewModels
+@{
     ViewData["Title"] = "Profile";
 }
-
+@section Styles {
+    <link rel="stylesheet" href="~/css/profile.css" />
+}
 @model HairCareStore.Models.User
 
 
@@ -26,5 +29,82 @@
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="oh-container">
+                <div class="oh-header">
+                    <div>
+                        <h2 class="oh-title">Purchase History</h2>
+                        <p class="oh-subtitle">View and track your previous orders.</p>
+                    </div>
+                </div>
+
+                <div class="oh-card">
+                    <table class="oh-table">
+                        <thead class="oh-thead">
+                            <tr>
+                                <th>Order</th>
+                                <th>Date</th>
+                                <th>Total</th>
+                                <th>Status</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+
+                        <tbody class="oh-tbody">
+                            @{
+                                var orders = ViewBag.OrderHistory as List<OrderHistoryViewModel>;
+                            }
+
+                            @if (orders != null && orders.Any())
+                            {
+                                foreach (var order in orders)
+                                {
+                                    <tr>
+                                        <td data-label="Order">#@order.OrderId</td>
+
+                                        <td data-label="Date">
+                                            @order.Date?.ToString("dd MMM yyyy")
+                                        </td>
+
+                                        <td data-label="Total">
+                                            @String.Format("{0:N0} $", order.TotalAmount)
+                                        </td>
+
+                                        <td data-label="Status">
+                                            <span class="oh-badge @order.Status">
+                                                <span class="oh-dot"></span>@order.Status
+                                            </span>
+                                        </td>
+
+                                        <td data-label="Actions">
+                                            <div class="oh-actions">
+                                                <a class="oh-btn oh-btn--primary"
+                                                   href="@Url.Action("OrderDetail", "Order", new { id = order.OrderId })">
+                                                    View details
+                                                </a>
+
+                                                <a class="oh-btn"
+                                                   href="@Url.Action("BuyAgain", "Order", new { id = order.OrderId })">
+                                                    Buy again
+                                                </a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                }
+                            }
+                            else
+                            {
+                                <tr>
+                                    <td colspan="5" class="text-center">
+                                        You haven't placed any orders yet.
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+       
     </div>
 </section>
