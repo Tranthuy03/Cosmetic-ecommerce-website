@@ -79,12 +79,12 @@
                                         <td data-label="Actions">
                                             <div class="oh-actions">
                                                 <a class="oh-btn oh-btn--primary"
-                                                   href="@Url.Action("OrderDetail", "Order", new { id = order.OrderId })">
+                                                   href="@Url.Action("OrderDetail", "Home", new { id = order.OrderId })">
                                                     View details
                                                 </a>
 
                                                 <a class="oh-btn"
-                                                   href="@Url.Action("BuyAgain", "Order", new { id = order.OrderId })">
+                                                   href="@Url.Action("#", "Order", new { id = order.OrderId })">
                                                     Buy again
                                                 </a>
                                             </div>

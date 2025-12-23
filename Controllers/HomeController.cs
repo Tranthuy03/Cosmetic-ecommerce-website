@@ -168,6 +168,7 @@ namespace HairCareStore.Controllers
 
         public IActionResult OrderDetail(int id)
         {
+            int userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
             var order = _context.Orders
                 .Include(o => o.OrderDetails)
                     .ThenInclude(od => od.Product)

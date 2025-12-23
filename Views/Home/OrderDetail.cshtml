@@ -37,10 +37,10 @@
                     <div class="od-item">
                         <span>
                             @item.Product.Name
-                            <small class="text-muted">(x@item.Quantity)</small>
+                            <small class="text-muted">(@item.Quantity)</small>
                         </span>
                         <strong>
-                            @((item.UnitPrice * item.Quantity).ToString("N0")) ₫
+                            @((item.UnitPrice * item.Quantity).ToString("N2")) $
                         </strong>
                     </div>
                 }
@@ -53,17 +53,17 @@
 
                 <div class="od-summary">
                     <span>Subtotal</span>
-                    <span>@subTotal.ToString("N0") ₫</span>
+                    <span>@subTotal.ToString("N2") $</span>
                 </div>
 
                 <div class="od-summary">
                     <span>Shipping</span>
-                    <span>0 ₫</span>
+                    <span>0 $</span>
                 </div>
 
                 <div class="od-summary od-total">
                     <span>Total</span>
-                    <span>@Model.TotalAmount.ToString("N0") ₫</span>
+                    <span>@Model.TotalAmount.ToString("N2") $</span>
                 </div>
             </div>
 
