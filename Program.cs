@@ -1,10 +1,28 @@
-using HairCareStore.Data;
+﻿using HairCareStore.Data;
+using HairCareStore.Hubs;
+using HairCareStore.Services;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+/////////////////////////////////////////////////////
+
+builder.Services.AddSignalR();
+
+builder.Services.AddDbContext<EshopContext>(options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("EShop"));
+});
+
+
+builder.Services.AddTransient<IClaimsTransformation, RoleClaimsTransformation>();
+
+//////////////////////////////////////////////////////////////
+
 
 builder.Services.AddDbContext<EshopContext>(options =>
 {
@@ -47,6 +65,11 @@ app.UseSession();
 app.UseAuthentication();
 
 app.UseAuthorization();
+
+// 👉 MAP SIGNALR HUB Ở ĐÂY
+app.MapHub<ChatHub>("/chatHub");
+
+//////////////////////////////
 
 
 app.MapControllerRoute(

@@ -1,0 +1,448 @@
+﻿@model List<HairCareStore.Models.ChatMessage>
+
+@{
+    ViewData["Title"] = "Chat";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    var conversationId = (int?)ViewBag.ConversationId ?? 0;
+    var currentUserId = (int?)ViewBag.CurrentUserId ?? 0;
+
+    var chatWithName = (string)ViewBag.ChatWithName ?? "Support";
+    var chatWithAvatar = (string)ViewBag.ChatWithAvatar ?? "S";
+}
+
+<section class="ch-wrap">
+    <style>
+        .ch-wrap {
+            --ch-pink: #e9a8b5;
+            --ch-soft: #fde8ee;
+            --ch-border: #f2b7c3;
+            --ch-me: #e9a8b5;
+            --ch-muted: #6b7280;
+            --ch-bg: #fbf7f8;
+            font-family: "Inter", ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+            padding: 24px 16px;
+        }
+
+            .ch-wrap * {
+                box-sizing: border-box;
+            }
+
+        /* ================= CARD ================= */
+        .ch-card {
+            width: min(900px, 100%);
+            height: 600px;
+            margin: 140px auto 50px;
+            background: #fff;
+            border-radius: 28px;
+            border: 2px solid var(--ch-border);
+            box-shadow: 0 20px 40px rgba(233,168,181,.25);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+
+
+
+
+        /* ================= HEADER ================= */
+        .ch-header {
+            padding: 14px 16px;
+            background: var(--ch-soft);
+            border-bottom: 1px solid var(--ch-border);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+        }
+
+        .ch-hleft {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+            min-width: 0;
+        }
+
+        .ch-avatar {
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+            background: var(--ch-pink);
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            flex: 0 0 auto;
+        }
+
+        .ch-title {
+            font-size: 15px;
+            font-weight: 800;
+            color: #1f2937;
+            line-height: 1.1;
+            margin: 0;
+        }
+
+        .ch-sub {
+            font-size: 12px;
+            color: var(--ch-muted);
+            margin-top: 2px;
+        }
+
+        .ch-meta {
+            text-align: right;
+            font-size: 12px;
+            color: var(--ch-muted);
+            white-space: nowrap;
+        }
+
+        /* ================= BODY ================= */
+        .ch-body {
+            flex: 1;
+            padding: 16px;
+            background: var(--ch-bg);
+            overflow-y: auto;
+            display: flex; /* 🔥 thêm */
+            flex-direction: column; /* 🔥 thêm */
+        }
+
+        /* ================= MESSAGE ================= */
+        .ch-msg {
+            display: inline-flex; /* 🔥 co theo nội dung */
+            flex-direction: column;
+            width: fit-content;
+            max-width: 75%; /* giới hạn để không tràn */
+            margin-bottom: 14px;
+        }
+
+            .ch-msg.me {
+                margin-left: auto;
+                text-align: right;
+                align-items: flex-end;
+            }
+
+            .ch-msg.other {
+                margin-right: auto;
+                text-align: left;
+                align-items: flex-start;
+            }
+
+        .ch-bubble {
+            display: inline-block;
+            width: fit-content;
+            max-width: 100%;
+            padding: 10px 14px;
+            border-radius: 14px;
+            line-height: 1.35;
+            white-space: pre-wrap;
+            overflow-wrap: anywhere;
+        }
+
+        /* bubble của mình */
+        .ch-msg.me .ch-bubble {
+            background: var(--ch-me);
+            color: #fff;
+            border-radius: 14px 14px 4px 14px;
+            box-shadow: 0 10px 22px rgba(233,168,181,.22);
+        }
+
+        /* bubble người khác */
+        .ch-msg.other .ch-bubble {
+            background: #fff;
+            border: 1px solid var(--ch-border);
+            border-radius: 14px 14px 14px 4px;
+        }
+
+        .ch-msg small {
+            font-size: 11px;
+            color: var(--ch-muted);
+            margin-top: 5px;
+        }
+
+        .ch-info {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+        }
+
+        .ch-msg.me .ch-info {
+            justify-content: flex-end;
+        }
+
+        .ch-dot {
+            opacity: .7;
+        }
+
+        /* ===== DATE SEPARATOR (giữa hội thoại) ===== */
+        .ch-date {
+            align-self: center;
+            margin: 12px 0 14px;
+            padding: 6px 12px;
+            font-size: 12px;
+            color: var(--ch-muted);
+            background: rgba(255,255,255,.85);
+            border: 1px solid rgba(242,183,195,.9);
+            border-radius: 999px;
+            box-shadow: 0 6px 16px rgba(233,168,181,.10);
+        }
+
+
+        /* ================= INPUT ================= */
+        .ch-input {
+            display: flex;
+            gap: 10px;
+            padding: 12px;
+            border-top: 1px solid var(--ch-border);
+            background: #fff;
+            align-items: center;
+        }
+
+            .ch-input input {
+                flex: 1;
+                border-radius: 999px;
+                padding: 11px 16px;
+                border: 1px solid var(--ch-border);
+                outline: none;
+                background: #fff;
+            }
+
+                .ch-input input:focus {
+                    border-color: rgba(233,168,181,.95);
+                    box-shadow: 0 0 0 4px rgba(233,168,181,.20);
+                }
+
+        .ch-send {
+            width: 44px;
+            height: 44px;
+            border: none;
+            border-radius: 50%;
+            background: var(--ch-pink);
+            color: #fff;
+            font-size: 18px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: transform .06s ease, filter .15s ease;
+            flex: 0 0 auto;
+        }
+
+            .ch-send:active {
+                transform: translateY(1px) scale(.98);
+            }
+
+            .ch-send:disabled {
+                opacity: .55;
+                cursor: not-allowed;
+            }
+
+        /* ===== BACK BUTTON ===== */
+        .ch-back {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 13px;
+            font-weight: 700;
+            color: #c47684;
+            text-decoration: none;
+            padding: 6px 10px;
+            border-radius: 999px;
+            transition: background .15s ease;
+        }
+
+            .ch-back:hover {
+                background: rgba(196,118,132,.14);
+            }
+
+
+    </style>
+
+    <div class="ch-card">
+        <!-- HEADER -->
+        <!-- HEADER -->
+        <div class="ch-header">
+            <div class="ch-hleft">
+
+
+                <div class="ch-avatar">@chatWithAvatar</div>
+
+                <div style="min-width:0;">
+                    <div class="ch-title">@chatWithName</div>
+                    <div class="ch-sub">Conversation: @conversationId</div>
+                </div>
+            </div>
+            <!-- ✅ BACK BUTTON -->
+            @{
+                // Admin / Manager -> Inbox
+                // Client -> Home
+                var backUrl = User.IsInRole("Admin") || User.IsInRole("Manager")
+                ? Url.Action("Inbox", "Chat")
+                : Url.Action("Index", "Home");
+            }
+
+            <a class="ch-back" href="@backUrl">
+                ← Back
+            </a>
+
+
+        </div>
+
+        <!-- BODY -->
+
+
+        <div id="chatBox" class="ch-body">
+            @if (Model != null && Model.Count > 0)
+            {
+                DateTime? prevDate = null;
+
+                foreach (var m in Model)
+                {
+                    var curDate = m.CreatedAt.Date;
+
+                    // ✅ nếu qua ngày mới thì chèn separator
+                    if (prevDate == null || curDate != prevDate.Value)
+                    {
+                        <div class="ch-date">@m.CreatedAt.ToString("dd/MM/yyyy")</div>
+                        prevDate = curDate;
+                    }
+
+                    var isMe = (m.SenderId == currentUserId);
+
+                    <div class="ch-msg @(isMe ? "me" : "other")">
+                        <div class="ch-bubble">@m.Content</div>
+                        @* ✅ bỏ luôn info dưới mỗi tin *@
+                    </div>
+                }
+            }
+            else
+            {
+                <div style="color:#6b7280;font-size:13px;">Chưa có tin nhắn. Hãy gửi tin nhắn đầu tiên 🙂</div>
+            }
+        </div>
+
+
+        <!-- INPUT -->
+        <div class="ch-input">
+            <input id="msg" placeholder="Nhập tin nhắn..." autocomplete="off" />
+            <button id="btnSend" class="ch-send" type="button" onclick="send()">➤</button>
+        </div>
+    </div>
+</section>
+
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/7.0.5/signalr.min.js"></script>
+    <script>
+        const conversationId = @conversationId;
+        const currentUserId = @currentUserId;
+
+        const chatBox = document.getElementById("chatBox");
+        const msgInput = document.getElementById("msg");
+        const btnSend = document.getElementById("btnSend");
+
+        function scrollToBottom(){ chatBox.scrollTop = chatBox.scrollHeight; }
+
+        function escapeHtml(str){
+            return (str ?? "")
+                .replaceAll("&","&amp;")
+                .replaceAll("<","&lt;")
+                .replaceAll(">","&gt;")
+                .replaceAll('"',"&quot;")
+                .replaceAll("'","&#039;");
+        }
+        function pad2(n){ return String(n).padStart(2,"0"); }
+
+        // yyyy-MM-dd
+        function toDateKey(d){
+            const y = d.getFullYear();
+            const m = pad2(d.getMonth() + 1);
+            const day = pad2(d.getDate());
+            return `${y}-${m}-${day}`;
+        }
+
+        // dd/MM/yyyy
+        function toDateLabel(d){
+            const day = pad2(d.getDate());
+            const m = pad2(d.getMonth() + 1);
+            const y = d.getFullYear();
+            return `${day}/${m}/${y}`;
+        }
+
+        function getLastRenderedDateKey(){
+            const dates = chatBox.querySelectorAll(".ch-date[data-date]");
+            if(!dates || dates.length === 0) return null;
+            return dates[dates.length - 1].getAttribute("data-date");
+        }
+
+        function appendDateSeparatorIfNeeded(dateObj){
+            const key = toDateKey(dateObj);
+            const lastKey = getLastRenderedDateKey();
+            if(lastKey === key) return;
+
+            const sep = document.createElement("div");
+            sep.className = "ch-date";
+            sep.setAttribute("data-date", key);
+            sep.textContent = toDateLabel(dateObj);
+            chatBox.appendChild(sep);
+        }
+
+        // ✅ realtime append: KHÔNG hiện name/time dưới tin
+        function appendMessage(senderId, message, createdAt){
+            const isMe = Number(senderId) === Number(currentUserId);
+            const when = createdAt ? new Date(createdAt) : new Date();
+
+            appendDateSeparatorIfNeeded(when);
+
+            const wrap = document.createElement("div");
+            wrap.className = "ch-msg " + (isMe ? "me" : "other");
+            wrap.innerHTML = `<div class="ch-bubble">${escapeHtml(message)}</div>`;
+
+            chatBox.appendChild(wrap);
+            scrollToBottom();
+        }
+
+        const connection = new signalR.HubConnectionBuilder()
+            .withUrl("/chatHub")
+            .withAutomaticReconnect()
+            .build();
+
+        // ✅ đúng tham số: (userId, message, createdAt)
+        connection.on("ReceiveMessage", function (userId, message, createdAt) {
+            appendMessage(userId, message, createdAt);
+        });
+
+        async function start(){
+            try{
+                await connection.start();
+                await connection.invoke("JoinConversation", conversationId);
+                scrollToBottom();
+            }catch(err){
+                console.error(err);
+                btnSend.disabled = true;
+            }
+        }
+
+        async function send(){
+            const msg = (msgInput.value || "").trim();
+            if(!msg) return;
+
+            try{
+                await connection.invoke("SendMessage", conversationId, msg);
+                msgInput.value = "";
+                msgInput.focus();
+            }catch(err){
+                console.error(err);
+            }
+        }
+
+        msgInput.addEventListener("keydown", function(e){
+            if(e.key === "Enter"){
+                e.preventDefault();
+                send();
+            }
+        });
+
+        start();
+    </script>
+}

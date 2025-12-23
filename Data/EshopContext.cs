@@ -1,7 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using HairCareStore.Models;
+﻿using HairCareStore.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.VisualBasic;
+using System;
+using System.Collections.Generic;
 
 namespace HairCareStore.Data;
 
@@ -30,6 +31,8 @@ public partial class EshopContext : DbContext
     public virtual DbSet<Role> Role { get; set; }
     public virtual DbSet<UserRole> UserRole { get; set; }
 
+    public DbSet<Conversation> Conversations { get; set; }
+    public DbSet<ChatMessage> ChatMessages { get; set; }
 
 
     //    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

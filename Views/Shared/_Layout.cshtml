@@ -89,6 +89,29 @@
                         </div> *@
                         <a href="#footer-contact" class="nav-item nav-link menu">Contact</a>
 
+
+
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            @if (User.FindFirst("RoleId")?.Value == "1")
+                            {
+                                <a asp-controller="Chat"
+                                   asp-action="Inbox"
+                                   class="nav-item nav-link menu @(currentController == "Chat" ? "active" : "")">
+                                    Chat
+                                </a>
+                            }
+                            else if (User.FindFirst("RoleId")?.Value == "3")
+                            {
+                                <a asp-controller="Chat"
+                                   asp-action="Support"
+                                   class="nav-item nav-link menu @(currentController == "Chat" ? "active" : "")">
+                                     Chat
+                                </a>
+                            }
+                        }
+                        @* ......./////////////////////////////////////////////////////////////////////////////////////................... *@
+
                         @if (User.Identity.IsAuthenticated && User.FindFirst("RoleId")?.Value == "1")
                         {
                             <a asp-controller="Admin"
