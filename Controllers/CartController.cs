@@ -114,7 +114,7 @@ namespace HairCareStore.Controllers
             {
                 UserId = userId.Value,
                 Date = DateTime.Now,
-                Adress = model.Address,
+                Adress = $"{model.Address}, {model.City}, {model.Country}",
                 Phone = model.Phone,
                 Status = "pending",
                 TotalAmount = (decimal)cart.Sum(i => i.Price * i.Quantity)
@@ -140,7 +140,7 @@ namespace HairCareStore.Controllers
             // Clear cart
             HttpContext.Session.Remove(MySetting.CART_KEY);
 
-            return RedirectToAction("OrderSuccess");
+            return RedirectToAction("OrderDetail", "Home",new { id = order.OrderId });
         }
 
 
