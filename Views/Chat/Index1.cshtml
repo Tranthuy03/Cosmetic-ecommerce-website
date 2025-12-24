@@ -304,7 +304,9 @@
                     // ✅ nếu qua ngày mới thì chèn separator
                     if (prevDate == null || curDate != prevDate.Value)
                     {
-                        <div class="ch-date">@m.CreatedAt.ToString("dd/MM/yyyy")</div>
+                        <div class="ch-date" data-date="@m.CreatedAt.ToString("yyyy-MM-dd")">
+                            @m.CreatedAt.ToString("dd/MM/yyyy")
+                        </div>
                         prevDate = curDate;
                     }
 
@@ -408,8 +410,9 @@
             .build();
 
         // ✅ đúng tham số: (userId, message, createdAt)
-        connection.on("ReceiveMessage", function (userId, message, createdAt) {
-            appendMessage(userId, message, createdAt);
+              // Nhận đúng 4 tham số như Hub gửi
+        connection.on("ReceiveMessage", function (userId, senderName, message, createdAt) {
+            appendMessage(userId, message, createdAt); // bubble dùng content (message)
         });
 
         async function start(){

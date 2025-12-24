@@ -1,4 +1,4 @@
-﻿@using HairCareStore.ViewModels
+﻿@* @using HairCareStore.ViewModels
 @model DashboardViewModel
 
 @{
@@ -6,8 +6,8 @@
 }
 @section Styles {
     <link rel="stylesheet" href="~/css/dashboard.css" />
-}
-<div class="container">
+} *@
+@* <div class="container">
 
     <!-- row -->
     <div class="row tm-content-row">
@@ -225,4 +225,603 @@
             updateBarChart();
         });
     })
+</script> *@
+
+@using HairCareStore.ViewModels
+@model DashboardViewModel
+
+@{
+    Layout = "_AdminLayout";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/dashboard.css" />
+    <style>
+        /* =========================
+                   DASHBOARD EXTRA CSS
+                   (scoped)
+                ========================= */
+
+        .tm-content-row {
+            justify-content: space-between;
+            margin-left: -20px;
+            margin-right: -20px;
+        }
+
+        .tm-block-col {
+            margin-bottom: 30px;
+        }
+
+        .tm-bg-primary-dark {
+            background-color: #fff;
+        }
+
+        .tm-block {
+            padding: 40px;
+            box-shadow: 1px 1px 5px 0 #c47684;
+            min-height: 350px;
+            height: 100%;
+            max-height: 450px;
+        }
+
+        .tm-block-taller {
+            max-height: 520px;
+        }
+
+        .tm-block-overflow {
+            overflow: hidden;
+        }
+
+        .tm-block-title {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: #000;
+            margin-bottom: 30px;
+        }
+
+        .tm-small {
+            font-size: 90%;
+        }
+
+        .kpi-row .tm-block {
+            min-height: 80px;
+            padding: 14px;
+            border-radius: 14px;
+        }
+
+        .kpi-row .tm-block-title {
+            margin-bottom: 4px;
+            font-size: .9rem;
+        }
+
+        .kpi-row h2 {
+            margin: 4px 0 0;
+            font-size: 1.4rem;
+        }
+
+        .kpi-row i {
+            font-size: 1.4rem;
+            margin-bottom: 6px !important;
+        }
+
+        .tm-block-col .tm-block {
+            border-radius: 14px;
+        }
+
+        .tm-notification-items {
+            overflow-y: scroll;
+            height: 90%;
+        }
+
+        .tm-notification-item {
+            padding: 15px;
+            background-color: rgba(255, 255, 255, 0.08);
+            color: #000000;
+            font-size: 95%;
+            margin-bottom: 15px;
+            border-radius: 12px;
+            position: relative;
+        }
+
+            .tm-notification-item:not(:last-child)::after {
+                content: "";
+                position: absolute;
+                left: 12px;
+                right: 12px;
+                bottom: -7px;
+                height: 1px;
+                background: #c47684;
+                opacity: .6;
+            }
+
+        .tm-notification-link {
+            color: #f5a623;
+        }
+
+        .tm-text-color-secondary {
+            color: #bdcbd8;
+        }
+
+        .tm-gray-circle {
+            width: 80px;
+            height: 80px;
+            background-color: #aaa;
+            border-radius: 50%;
+            margin-right: 15px;
+        }
+
+        .tm-orders-scroll {
+            height: 90%;
+            overflow-y: auto;
+            overflow-x: auto;
+        }
+
+        .table {
+            background-color: #ffffff;
+            color: #000000;
+            font-size: 85%;
+            margin-bottom: 0;
+        }
+
+        thead {
+            background-color: #c47684;
+            color: #fff;
+        }
+
+        .table thead th {
+            border-bottom: 0;
+        }
+
+        .table td,
+        .table th {
+            border-top: 1px solid #c47684;
+            padding: 15px 25px;
+            vertical-align: middle;
+        }
+
+        .tm-status-circle {
+            display: inline-block;
+            margin-right: 5px;
+            vertical-align: middle;
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+            margin-top: -3px;
+        }
+
+        .moving {
+            background-color: #9be64d;
+            box-shadow: 0 0 8px #9be64d, inset 0 0 8px #9be64d;
+        }
+
+        .pending {
+            background-color: #efc54b;
+            box-shadow: 0 0 8px #efc54b, inset 0 0 8px #efc54b;
+        }
+
+        .cancelled {
+            background-color: #da534f;
+            box-shadow: 0 0 8px #da534f, inset 0 0 8px #da534f;
+        }
+
+        /* ===== KPI CARD ENHANCEMENT (CSS ONLY) ===== */
+
+        .kpi-row .tm-block {
+            position: relative;
+            border-radius: 18px;
+            background: linear-gradient(180deg, #ffffff, #fff7f9);
+            box-shadow: 0 12px 30px rgba(196, 118, 132, .22);
+            border: 1px solid rgba(196, 118, 132, .18);
+            transition: all .25s ease;
+            z-index: 1;
+        }
+
+            .kpi-row .tm-block:hover {
+                transform: translateY(-6px);
+                box-shadow: 0 20px 42px rgba(196, 118, 132, .35);
+            }
+
+        .kpi-row i {
+            font-size: 1.9rem !important;
+            padding: 14px;
+            border-radius: 16px;
+            background: rgba(196, 118, 132, .12);
+            color: #c47684;
+            margin-bottom: 10px !important;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .kpi-row .tm-block-title {
+            font-size: .85rem;
+            letter-spacing: .4px;
+            text-transform: uppercase;
+            color: #555;
+        }
+
+        .kpi-row h2 {
+            font-size: 1.4rem;
+            font-weight: 800;
+            color: #111;
+        }
+
+        .kpi-row .tm-small {
+            font-size: .78rem;
+            color: #777;
+        }
+
+        .kpi-row .tm-block::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            border-radius: 18px;
+            padding: 2px;
+            background: #c47684;
+            -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            -webkit-mask-composite: xor;
+            mask-composite: exclude;
+            pointer-events: none;
+        }
+
+        .kpi-row .col-lg-3:nth-child(1) .tm-block::before {
+            background: #c47684;
+        }
+
+        .kpi-row .col-lg-3:nth-child(2) .tm-block::before {
+            background: #4ED6B8;
+        }
+
+        .kpi-row .col-lg-3:nth-child(3) .tm-block::before {
+            background: #9D66CC;
+        }
+
+        .kpi-row .col-lg-3:nth-child(4) .tm-block::before {
+            background: #DB9C3F;
+        }
+
+        .kpi-row .col-lg-3:nth-child(1) i {
+            color: #c47684;
+            background: rgba(196, 118, 132, .14);
+        }
+
+        .kpi-row .col-lg-3:nth-child(2) i {
+            color: #4ED6B8;
+            background: rgba(78, 214, 184, .16);
+        }
+
+        .kpi-row .col-lg-3:nth-child(3) i {
+            color: #9D66CC;
+            background: rgba(157, 102, 204, .16);
+        }
+
+        .kpi-row .col-lg-3:nth-child(4) i {
+            color: #DB9C3F;
+            background: rgba(219, 156, 63, .18);
+        }
+
+        /* =========================
+                   STATUS 3 BUTTONS (frontend)
+                ========================= */
+        .tm-status-cell {
+            min-width: 240px; /* để đủ chỗ 3 nút */
+        }
+
+        .tm-status-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 8px;
+        }
+
+        .tm-status-btn {
+            border: 1.6px solid rgba(196,118,132,.55);
+            background: transparent;
+            color: #111;
+            font-weight: 700;
+            font-size: .78rem;
+            padding: 6px 10px;
+            border-radius: 999px;
+            cursor: pointer;
+            transition: all .18s ease;
+            line-height: 1;
+            user-select: none;
+        }
+
+            .tm-status-btn:hover {
+                transform: translateY(-1px);
+                border-color: rgba(196,118,132,.85);
+            }
+
+            /* active => đậm màu */
+            .tm-status-btn.is-active {
+                background: #c47684;
+                border-color: #c47684;
+                color: #fff;
+                box-shadow: 0 10px 20px rgba(196,118,132,.25);
+            }
+
+
+        /* label status phía trên */
+        .tm-status-label {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-weight: 700;
+        }
+
+        .tm-status-text {
+            font-size: .85rem;
+        }
+    </style>
+}
+
+<div class="container">
+    <div class="row tm-content-row">
+        <!-- KPI Cards Row -->
+        <div class="col-12 kpi-row">
+            <div class="row mb-4">
+
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="tm-bg-primary-dark tm-block text-center">
+                        <i class="fas fa-dollar-sign fa-2x mb-2"></i>
+                        <h3 class="tm-block-title">Total Revenue</h3>
+                        <h2>@Model.TotalRevenue.ToString("N0") USD</h2>
+                        <p class="tm-small">Since launch</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="tm-bg-primary-dark tm-block text-center">
+                        <i class="fas fa-shopping-bag fa-2x mb-2"></i>
+                        <h3 class="tm-block-title">Orders</h3>
+                        <h2>@Model.TotalOrders</h2>
+                        <p class="tm-small">Since launch</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="tm-bg-primary-dark tm-block text-center">
+                        <i class="fas fa-users fa-2x mb-2"></i>
+                        <h3 class="tm-block-title">Customers</h3>
+                        <h2>@Model.TotalCustomers</h2>
+                        <p class="tm-small">Since launch</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="tm-bg-primary-dark tm-block text-center">
+                        <i class="fas fa-box-open fa-2x mb-2"></i>
+                        <h3 class="tm-block-title">Products</h3>
+                        <h2>@Model.TotalProducts</h2>
+                        <p class="tm-small">Active</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 tm-block-col">
+            <div class="tm-bg-primary-dark tm-block">
+                <h2 class="tm-block-title">Monthly Revenue</h2>
+                <canvas id="lineChart"></canvas>
+            </div>
+        </div>
+
+        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 tm-block-col">
+            <div class="tm-bg-primary-dark tm-block">
+                <h2 class="tm-block-title">Top Selling Products</h2>
+                <canvas id="barChart"></canvas>
+            </div>
+        </div>
+
+        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 tm-block-col">
+            <div class="tm-bg-primary-dark tm-block tm-block-taller">
+                <h2 class="tm-block-title">Inventory Status</h2>
+                <div id="pieChartContainer">
+                    <canvas id="pieChart" class="chartjs-render-monitor" width="200" height="200"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 tm-block-col">
+            <div class="tm-bg-primary-dark tm-block tm-block-taller tm-block-overflow">
+                <h2 class="tm-block-title">Notification List</h2>
+                <div class="tm-notification-items">
+
+                    <div class="media tm-notification-item">
+                        <div class="tm-gray-circle">
+                            <img src="~/img/notification-01.jpg" alt="Avatar Image" class="rounded-circle">
+                        </div>
+                        <div class="media-body">
+                            <p class="mb-2"><b>Jessica Lee</b> has placed a new order.</p>
+                            <span class="tm-small tm-text-color-secondary">6h ago</span>
+                        </div>
+                    </div>
+
+                    <div class="media tm-notification-item">
+                        <div class="tm-gray-circle">
+                            <img src="~/img/notification-02.jpg" alt="Avatar Image" class="rounded-circle">
+                        </div>
+                        <div class="media-body">
+                            <p class="mb-2"><b>Oliver Smith</b> has cancelled an order.</p>
+                            <span class="tm-small tm-text-color-secondary">6h ago</span>
+                        </div>
+                    </div>
+
+                    <div class="media tm-notification-item">
+                        <div class="tm-gray-circle">
+                            <img src="~/img/notification-03.jpg" alt="Avatar Image" class="rounded-circle">
+                        </div>
+                        <div class="media-body">
+                            <p class="mb-2"><b>Emily Brown</b> has placed a new order.</p>
+                            <span class="tm-small tm-text-color-secondary">6h ago</span>
+                        </div>
+                    </div>
+
+                    <div class="media tm-notification-item">
+                        <div class="tm-gray-circle">
+                            <img src="~/img/notification-01.jpg" alt="Avatar Image" class="rounded-circle">
+                        </div>
+                        <div class="media-body">
+                            <p class="mb-2"><b>Laura Cute</b> has cancelled an order.</p>
+                            <span class="tm-small tm-text-color-secondary">6h ago</span>
+                        </div>
+                    </div>
+
+                    <div class="media tm-notification-item">
+                        <div class="tm-gray-circle">
+                            <img src="~/img/notification-02.jpg" alt="Avatar Image" class="rounded-circle">
+                        </div>
+                        <div class="media-body">
+                            <p class="mb-2"><b>Samantha</b> has placed a new order.</p>
+                            <span class="tm-small tm-text-color-secondary">6h ago</span>
+                        </div>
+                    </div>
+
+                    <div class="media tm-notification-item">
+                        <div class="tm-gray-circle">
+                            <img src="~/img/notification-03.jpg" alt="Avatar Image" class="rounded-circle">
+                        </div>
+                        <div class="media-body">
+                            <p class="mb-2"><b>Sophie</b> has cancelled an order.</p>
+                            <span class="tm-small tm-text-color-secondary">6h ago</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 tm-block-col">
+            <div class="tm-bg-primary-dark tm-block tm-block-taller tm-block-overflow">
+                <h2 class="tm-block-title">Orders List</h2>
+
+                <div class="tm-orders-scroll">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">ORDER NO</th>
+                                <th scope="col">CUSTOMER</th>
+                                <th scope="col">DATE</th>
+                                <th scope="col">ITEMS</th>
+                                <th scope="col">TOTAL</th>
+                                <th scope="col">PAYMENT</th>
+                                <th scope="col">STATUS</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            @foreach (var o in Model.RecentOrders)
+                            {
+                                // set default text (frontend): nếu null/empty => Pending
+                                var currentStatus = string.IsNullOrWhiteSpace(o.Status) ? "Pending" : o.Status;
+
+                                <tr data-order-id="@o.OrderId">
+                                    <td>#OD @o.OrderId</td>
+                                    <td>@o.User?.Fullname</td>
+                                    <td>@o.Date?.ToString("dd/MM/yyyy")</td>
+                                    <td>@o.OrderDetails.Count</td>
+                                    <td>@o.TotalAmount.ToString("N0") VND</td>
+                                    <td>COD</td>
+
+                                    <td class="tm-status-cell">
+                                        @* <div class="tm-status-label">
+                                            <div class="tm-status-circle @(currentStatus.ToLower())"></div>
+                                            <span class="tm-status-text js-status-text">@currentStatus</span>
+                                        </div> *@
+
+                                        <div class="tm-status-actions js-status-actions">
+                                            <button type="button"
+                                                    class="tm-status-btn js-status-btn"
+                                                    data-status="Pending">
+                                                Pending
+                                            </button>
+
+                                            <button type="button"
+                                                    class="tm-status-btn js-status-btn"
+                                                    data-status="Shipping">
+                                                Shipping
+                                            </button>
+
+                                            <button type="button"
+                                                    class="tm-status-btn js-status-btn"
+                                                    data-status="Delivered">
+                                                Delivered
+                                            </button>
+                                        </div>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script src="~/js/jquery-3.3.1.min.js"></script>
+<script src="~/js/moment.min.js"></script>
+<script src="~/js/Chart.min.js"></script>
+<script src="~/js/tooplate-scripts.js"></script>
+
+<script>
+    Chart.defaults.global.defaultFontColor = '#000';
+    let ctxLine,
+        ctxBar,
+        ctxPie,
+        optionsLine,
+        optionsBar,
+        optionsPie,
+        configLine,
+        configBar,
+        configPie,
+        lineChart;
+    barChart, pieChart;
+
+    $(function () {
+        drawLineChart();
+        drawBarChart();
+        drawPieChart();
+
+        $(window).resize(function () {
+            updateLineChart();
+            updateBarChart();
+        });
+
+        // ===== STATUS BUTTONS FRONTEND ONLY =====
+        function setRowStatus($row, status) {
+            // update text
+            $row.find(".js-status-text").text(status);
+
+            // set active button
+            const $btns = $row.find(".js-status-btn");
+            $btns.removeClass("is-active");
+            $btns.filter(`[data-status="${status}"]`).addClass("is-active");
+
+            // update dot class (reuse your existing tm-status-circle classes)
+            const $dot = $row.find(".tm-status-circle");
+            $dot.removeClass("pending shipping delivered moving cancelled");
+            $dot.addClass((status || "Pending").toLowerCase());
+        }
+
+        // init default active (Pending nếu trống)
+        $("tr[data-order-id]").each(function () {
+            const $row = $(this);
+            const currentText = ($row.find(".js-status-text").text() || "").trim();
+            const initStatus = currentText ? currentText : "Pending";
+            setRowStatus($row, initStatus);
+        });
+
+        // click events
+        $(document).on("click", ".js-status-btn", function () {
+            const $btn = $(this);
+            const status = $btn.data("status");
+            const $row = $btn.closest("tr[data-order-id]");
+            setRowStatus($row, status);
+        });
+    });
 </script>
