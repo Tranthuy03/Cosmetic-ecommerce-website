@@ -1,4 +1,8 @@
-﻿<!DOCTYPE html>
+﻿@{
+    var currentController = ViewContext.RouteData.Values["controller"]?.ToString();
+    var currentAction = ViewContext.RouteData.Values["action"]?.ToString();
+}
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -44,8 +48,8 @@
 
     <!-- Navbar start -->
     <div class="container-fluid fixed-top">
-        <div class="container topbar bg-primary d-none d-lg-block">
-            <div class="d-flex justify-content-between">
+        <div class="container-fluid topbar bg-primary d-none d-lg-block">
+            <div class="d-flex justify-content-between imformation-web">
                 <div class="top-info ps-2">
                     <small class="me-3"><i class="fas fa-map-marker-alt me-2 text-secondary"></i> <a href="#" class="text-white">Dx003, Phú Mỹ, Thủ Dầu Một, Bình Dương</a></small>
                     <small class="me-3"><i class="fas fa-envelope me-2 text-secondary"></i><a href="#" class="text-white">Team1@Example.com</a></small>
@@ -59,16 +63,24 @@
         </div>
         <div class="container px-0">
             <nav class="navbar navbar-light bg-white navbar-expand-xl">
-                <a asp-controller="Home" asp-action="Index" class="navbar-brand"><h1 class="text-primary display-6">HairCare</h1></a>
+                <a asp-controller="Home" asp-action="Index" class="navbar-brand"><h1 class="text-primary display-6">Mallorie Cosmetic</h1></a>
                 <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="fa fa-bars text-primary"></span>
                 </button>
                 <div class="collapse navbar-collapse bg-white" id="navbarCollapse">
                     <div class="navbar-nav mx-auto">
-                        <a asp-controller="Home" asp-action="Index" class="nav-item nav-link active">Home</a>
-                        <a href="@Url.Action("Index","Shop")" class="nav-item nav-link">Shop</a>
+                        <a asp-controller="Home"
+                           asp-action="Index"
+                           class="nav-item nav-link menu @(currentController == "Home" ? "active" : "")">
+                            Home
+                        </a>
+                        <a asp-controller="Shop"
+                           asp-action="Index"
+                           class="nav-item nav-link menu @(currentController == "Shop" ? "active" : "")">
+                            Shop
+                        </a>
 
-                        <div class="nav-item dropdown">
+                        @* <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                             <div class="dropdown-menu m-0 bg-secondary rounded-0">
                                 <a href="cart.html" class="dropdown-item">Cart</a>
@@ -76,11 +88,29 @@
                                 <a href="testimonial.html" class="dropdown-item">About</a>
                                 <a href="404.html" class="dropdown-item">Demo</a>
                             </div>
-                        </div>
-                        <a href="#footer-contact" class="nav-item nav-link">Contact</a>
+                        </div> *@
+                        <a href="#footer-contact" class="nav-item nav-link menu">Contact</a>
 
-
-                        <a href="@Url.Action("Table","Product")" class="nav-item nav-link">Admin Page</a>
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            @if (User.FindFirst("RoleId")?.Value == "1")
+                            {
+                                <a asp-controller="Chat"
+                                   asp-action="Inbox"
+                                   class="nav-item nav-link menu @(currentController == "Chat" ? "active" : "")">
+                                    Chat
+                                </a>
+                            }
+                            else if (User.FindFirst("RoleId")?.Value == "3")
+                            {
+                                <a asp-controller="Chat"
+                                   asp-action="Support"
+                                   class="nav-item nav-link menu @(currentController == "Chat" ? "active" : "")">
+                                    Chat
+                                </a>
+                            }
+                        }
+                        <a href="@Url.Action("Table", "Product")" class="nav-item nav-link menu">Admin Page</a>
                     </div>
 
                     <div class="d-flex m-3 me-0">
@@ -158,8 +188,8 @@
                 <div class="row g-4">
                     <div class="col-lg-3">
                         <a href="#">
-                            <h1 class="text-primary mb-0">Fruitables</h1>
-                            <p class="text-secondary mb-0">Fresh products</p>
+                            <h1 class="text-primary mb-0 footer-name">Mallorie</h1>
+                            <p class="text-secondary mb-0">Cosmetic products</p>
                         </a>
                     </div>
                     <div class="col-lg-6">
@@ -192,11 +222,11 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="d-flex flex-column text-start footer-item">
                         <h4 class="text-light mb-3">Shop Info</h4>
-                        <a class="btn-link" href="">About Us</a>
+                        @* <a class="btn-link" href="">About Us</a> *@
                         <a class="btn-link" href="">Contact Us</a>
                         <a class="btn-link" href="">Privacy Policy</a>
                         <a class="btn-link" href="">Terms & Condition</a>
-                        <a class="btn-link" href="">Return Policy</a>
+                        @* <a class="btn-link" href="">Return Policy</a> *@
                         <a class="btn-link" href="">FAQs & Help</a>
                     </div>
                 </div>
@@ -204,18 +234,18 @@
                     <div class="d-flex flex-column text-start footer-item">
                         <h4 class="text-light mb-3">Account</h4>
                         <a class="btn-link" href="">My Account</a>
-                        <a class="btn-link" href="">Shop details</a>
-                        <a class="btn-link" href="">Shopping Cart</a>
-                        <a class="btn-link" href="">Wishlist</a>
+                        <a class="btn-link" asp-controller="Shop" asp-action="Index">Shop details</a>
+                        <a class="btn-link" asp-controller="Cart" asp-action="CartPanel">Shopping Cart</a>
+                        @* <a class="btn-link" href="">Wishlist</a> *@
                         <a class="btn-link" href="">Order History</a>
-                        <a class="btn-link" href="">International Orders</a>
+                        @* <a class="btn-link" href="">International Orders</a> *@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="footer-item">
                         <h4 class="text-light mb-3">Contact</h4>
-                        <p>Address: 1429 Netus Rd, NY 48247</p>
-                        <p>Email: Example@gmail.com</p>
+                        <p>Address: Ho Chi Minh City</p>
+                        <p>Email: Mellorie@gmail.com</p>
                         <p>Phone: +0123 4567 8910</p>
                         <p>Payment Accepted</p>
                         <img src="img/payment.png" class="img-fluid" alt="">

@@ -10,6 +10,7 @@ wwwroot\img\arrow-down.png
 wwwroot\img\avatar.jpg
 wwwroot\img\avatar.png
 wwwroot\img\baner-1.png
+wwwroot\img\banner-fruits.jpg
 wwwroot\img\Banner\Banner.jpg
 wwwroot\img\Banner\Banner1.jpg
 wwwroot\img\Banner\Banner2.jpg
@@ -18,7 +19,6 @@ wwwroot\img\Banner\Slide1.jpg
 wwwroot\img\Banner\Slide2.jpg
 wwwroot\img\Banner\Slide3.jpg
 wwwroot\img\Banner\Slide4.jpg
-wwwroot\img\banner-fruits.jpg
 wwwroot\img\best-product-1.jpg
 wwwroot\img\best-product-2.jpg
 wwwroot\img\best-product-3.jpg
@@ -83,9 +83,9 @@ wwwroot\img\fruite-item-3.jpg
 wwwroot\img\fruite-item-4.jpg
 wwwroot\img\fruite-item-5.jpg
 wwwroot\img\fruite-item-6.jpg
-wwwroot\img\hero-img.jpg
 wwwroot\img\hero-img-1.png
 wwwroot\img\hero-img-2.jpg
+wwwroot\img\hero-img.jpg
 wwwroot\img\notification-01.jpg
 wwwroot\img\notification-02.jpg
 wwwroot\img\notification-03.jpg
@@ -131,14 +131,14 @@ wwwroot\img\Products\Eyeshadow_6.png
 wwwroot\img\Products\Eyeshadow_7.png
 wwwroot\img\Products\Eyeshadow_8.png
 wwwroot\img\Products\Eyeshadow_9.png
-wwwroot\img\Products\Foundation_1.png
-wwwroot\img\Products\Foundation_2.png
-wwwroot\img\Products\Foundation_3.png
 wwwroot\img\Products\FoundationLockSpray_1.png
 wwwroot\img\Products\FoundationLockSpray_2.png
 wwwroot\img\Products\FoundationLockSpray_3.png
 wwwroot\img\Products\FoundationLockSpray_4.png
 wwwroot\img\Products\FoundationLockSpray_5.png
+wwwroot\img\Products\Foundation_1.png
+wwwroot\img\Products\Foundation_2.png
+wwwroot\img\Products\Foundation_3.png
 wwwroot\img\Products\Lipstick_1.png
 wwwroot\img\Products\Lipstick_10.png
 wwwroot\img\Products\Lipstick_11.png
@@ -197,5 +197,5 @@ wwwroot\js\jquery-3.3.1.min.js
 wwwroot\js\main.js
 wwwroot\js\moment.min.js
 wwwroot\js\tooplate-scripts.js
-wwwroot\SQLQuery_add bill.sql
 wwwroot\SQLQuery2.sql
+wwwroot\SQLQuery_add bill.sql

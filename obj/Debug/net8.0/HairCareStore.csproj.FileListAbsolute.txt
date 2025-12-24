@@ -1381,12 +1381,6 @@ D:\Cosmetic-ecommerce-website\obj\Debug\net8.0\scopedcss\projectbundle\HairCareS
 D:\Cosmetic-ecommerce-website\obj\Debug\net8.0\staticwebassets.build.json
 D:\Cosmetic-ecommerce-website\obj\Debug\net8.0\staticwebassets.development.json
 D:\Cosmetic-ecommerce-website\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-D:\Cosmetic-ecommerce-website\obj\Debug\net8.0\staticwebassets\msbuild.HairCareStore.Microsoft.AspNetCore.StaticWebAssets.props
-D:\Cosmetic-ecommerce-website\obj\Debug\net8.0\staticwebassets\msbuild.HairCareStore.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-D:\Cosmetic-ecommerce-website\obj\Debug\net8.0\staticwebassets\msbuild.build.HairCareStore.props
-D:\Cosmetic-ecommerce-website\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.HairCareStore.props
-D:\Cosmetic-ecommerce-website\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.HairCareStore.props
-D:\Cosmetic-ecommerce-website\obj\Debug\net8.0\staticwebassets.pack.json
 D:\Cosmetic-ecommerce-website\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\Cosmetic-ecommerce-website\obj\Debug\net8.0\HairCare.7377D5DA.Up2Date
 D:\Cosmetic-ecommerce-website\obj\Debug\net8.0\HairCareStore.dll
@@ -1394,3 +1388,13 @@ D:\Cosmetic-ecommerce-website\obj\Debug\net8.0\refint\HairCareStore.dll
 D:\Cosmetic-ecommerce-website\obj\Debug\net8.0\HairCareStore.pdb
 D:\Cosmetic-ecommerce-website\obj\Debug\net8.0\HairCareStore.genruntimeconfig.cache
 D:\Cosmetic-ecommerce-website\obj\Debug\net8.0\ref\HairCareStore.dll
+D:\Cosmetic-ecommerce-website\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+D:\Cosmetic-ecommerce-website\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\Cosmetic-ecommerce-website\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+D:\Cosmetic-ecommerce-website\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Cosmetic-ecommerce-website\bin\Debug\net8.0\System.Net.WebSockets.WebSocketProtocol.dll
+D:\Cosmetic-ecommerce-website\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\Cosmetic-ecommerce-website\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\Cosmetic-ecommerce-website\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\Cosmetic-ecommerce-website\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\Cosmetic-ecommerce-website\obj\Debug\net8.0\staticwebassets.build.json.cache

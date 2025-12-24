@@ -88,6 +88,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcVGFibGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Cosmetic-ecommerce-website/Views/Chat/Inbox1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhdFxJbmJveDEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Cosmetic-ecommerce-website/Views/Chat/Index1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhdFxJbmRleDEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Cosmetic-ecommerce-website/Views/Home/EditProfile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0UHJvZmlsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

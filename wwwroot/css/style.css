@@ -846,8 +846,26 @@ body.login {
     border-color: #b46776;
 }
 .btn.btn-warning {
-    color: black !important;
+    color: #b46776 !important;
+}
+.btn-warning {
+    background-color: #fff !important;
+    border-color: #b46776 !important;
+}
+.btn-warning:hover {
+    background-color: #b46776 !important;
+    border-color: #b46776 !important;
+    color: #fff !important;
 }
 .btn.btn-danger {
+    color: #fff !important;
+}
+.btn-danger {
+    background-color: #b46776 !important;
+    border-color: #b46776 !important;
+}
+.btn-danger:hover {
+    background-color: #deb5bb !important;
+    border-color: #deb5bb !important;
     color: #fff !important;
 }
